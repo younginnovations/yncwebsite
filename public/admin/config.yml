@@ -3,75 +3,39 @@ backend:
   publish_mode: editorial_workflow
   branch: master # Branch to update (optional; defaults to master)
 
-media_folder: "" # Folder where user uploaded files should go
-public_folder: ""
+media_folder: "themes/ync/static/img" # Folder where user uploaded files should go
+public_folder: "img"
 
-collections:
-
-  - name: "posts" # Used in routes, e.g., /admin/collections/blog
-
-    label: "Post" # Used in the UI
-
-    folder: "content/post" # The path to the folder where the documents are stored
-
+collections: # A list of collections the CMS should be able to edit
+  - name: "post" # Used in routes, ie.: /admin/collections/:slug/edit
+    label: "Post" # Used in the UI, ie.: "New Post"
+    folder: "site/content/post" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
-
-    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
-
-    fields: # The fields for each document, usually in front matter
-
-      - label: "Title"
-        name: "title"
-        widget: "string"
-
-      - label: "Publish Date"
-        name: "date"
-        required: false
-        widget: "datetime"
-
-      - label: "Draft"
-        name: "draft"
-        required: false
-        widget: "boolean"
-        default: true
-
-      - label: "Categories"
-        name: "categories"
-        required: false
-        widget: "list"
-
-      - label: "Tags"
-        name: "tags"
-        required: false
-        widget: "list"
-
-      - label: "Keywords"
-        name: "keywords"
-        required: false
-        widget: "list"
-
-      - label: "Auto Thumbnail Image"
-        name: "autoThumbnailImage"
-        required: false
-        widget: "boolean"
-        default: true
-
-      - label: "Thumbnail Image Position"
-        name: "thumbnailImagePosition"
-        required: false
-        widget: "select"
-        options: ["left", "top", "right"]
-
-      - label: "Thumbnail Image"
-        name: "thumbnailImage"
-        required: false
-        widget: "image"
-
-      - label: "Cover Image"
-        name: "coverImage"
-        required: false
-        widget: "image"
-
-      - label: "Body"
-        name: "body"
-        widget: "markdown"
+    fields: # The fields each document in this collection have
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Intro Blurb", name: "description", widget: "text"}
+      - {label: "Image", name: "image", widget: "image", required: false}
+      - {label: "Body", name: "body", widget: "markdown"}
+  - name: "pages"
+    label: "Pages"
+    files:
+      - file: "content/banner/_index.md"
+        label: "Banner"
+        name: "banner"
+        fields:
+          - {label: Title, name: title, widget: string}
+          - {label: Subtitle, name: subtitle, widget: string}
+          - {label: Image, name: image, widget: image}
+          - {label: "Blurb", name: blurb, widget: object, fields: [
+          {label: "Heading", name: "heading", widget: string},
+          {label: "Text", name: "text", widget: "text"}]}
+          - {label: "Intro", name: intro, widget: object, fields: [
+          {label: "Heading", name: "heading", widget: string},
+          {label: "Text", name: "text", widget: "text"}]}
+          - {label: "Products", name: products, widget: list, fields: [
+          {label: "Image", name: "image", widget: "image"},
+          {label: "Text", name: "text", widget: "text"}]}
+          - {label: "Values", name: "values", widget: "object", fields: [
+          {label: "Heading", name: "heading", widget: string},
+          {label: "Text", name: "text", widget: "text"}]}
