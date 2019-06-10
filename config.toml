@@ -1,5 +1,5 @@
 title = "YNC Design"
-baseURL = "http://localhost:1313"
+baseURL = "https://yncdesign.netlify.com/"
 languageCode = "en-us"
 theme = "ync"
 

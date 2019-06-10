@@ -6,4 +6,3 @@ subtitle: >-
   reach their goals through design.
 image: /img/banner_illustration.svg
 ---
-
