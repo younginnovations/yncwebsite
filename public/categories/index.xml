@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on YNC Design</title>
+    <link>http://localhost:1313/categories/</link>
+    <description>Recent content in Categories on YNC Design</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 10 Oct 2015 13:07:31 +0200</lastBuildDate>
+    
+	<atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>lorem</title>
+      <link>http://localhost:1313/categories/lorem/</link>
+      <pubDate>Sat, 10 Oct 2015 13:07:31 +0200</pubDate>
+      
+      <guid>http://localhost:1313/categories/lorem/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>pseudo</title>
+      <link>http://localhost:1313/categories/pseudo/</link>
+      <pubDate>Mon, 03 Aug 2015 13:39:46 +0200</pubDate>
+      
+      <guid>http://localhost:1313/categories/pseudo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>starting</title>
+      <link>http://localhost:1313/categories/starting/</link>
+      <pubDate>Wed, 24 Jun 2015 13:50:46 +0200</pubDate>
+      
+      <guid>http://localhost:1313/categories/starting/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3b49d0da-53f4-4999-a4ff-5adc9e1dec38" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/archetypes/default.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/blog/_index.en.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/blog/creating-a-new-theme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/blog/hugo-is-for-lovers.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/blog/installation.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/blog/migrate-from-jekyll.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/contact.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/service.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/work.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/service.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/testimonial.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/work.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/config.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/blog/creating-a-new-theme/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/blog/hugo-is-for-lovers/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/blog/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/blog/index.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/blog/installation/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/blog/migrate-from-jekyll/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/blog/page/1/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/categories/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/categories/index.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/categories/lorem/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/categories/lorem/index.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/categories/lorem/page/1/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/categories/page/1/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/categories/pseudo/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/categories/pseudo/index.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/categories/pseudo/page/1/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/categories/starting/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/categories/starting/index.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/categories/starting/page/1/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/contact/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/app.min.e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/tailwind.min.6d107d20fe0850f7dfe64886a1660baf804de9d80bbb0b2c5dc8f22fd0b1a2de.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/blog/blog-post-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/blog/blog-post-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/blog/blog-post-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/blog/blog-post-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/call-to-action-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/clients/clients-logo-9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/clients/clients-logo1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/clients/clients-logo10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/clients/clients-logo2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/clients/clients-logo3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/clients/clients-logo4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/clients/clients-logo5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/clients/clients-logo6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/clients/clients-logo7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/clients/clients-logo8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/cotation.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/feature-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/feature-bg.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/item-img1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/portfolio/work1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/portfolio/work1.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/portfolio/work2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/portfolio/work2.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/portfolio/work3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/portfolio/work3.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/portfolio/work4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/portfolio/work4.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/portfolio/work5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/portfolio/work5.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/portfolio/work6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/portfolio/work6.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/slider-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/slider-bg.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/wrapper-img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/index.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/app.536172418a326e41baa25b17a90cb884789f8d62d4c9c5388099749954c30c0e.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/service/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/sitemap.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tags/golang/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tags/golang/index.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tags/golang/page/1/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tags/hugo/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tags/hugo/index.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tags/hugo/page/1/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tags/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tags/index.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tags/ipsum/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tags/ipsum/index.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tags/ipsum/page/1/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tags/page/1/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tags/programming/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tags/programming/index.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tags/programming/page/1/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tags/theme/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tags/theme/index.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tags/theme/page/1/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/work/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/_gen/assets/css/css/app.css_d11fe7b62c27961c87ecd0f2490357b9.content" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/_gen/assets/css/css/app.css_d11fe7b62c27961c87ecd0f2490357b9.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/_gen/assets/css/css/style.css_d3f53f09220d597dac26fe7840c31fc9.content" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/_gen/assets/css/css/style.css_d3f53f09220d597dac26fe7840c31fc9.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/_gen/assets/css/css/tailwind.css_d11fe7b62c27961c87ecd0f2490357b9.content" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/_gen/assets/css/css/tailwind.css_d11fe7b62c27961c87ecd0f2490357b9.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/_gen/assets/js/js/app.js_8848f55d07695b7ff7188138f23d69e3.content" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/_gen/assets/js/js/app.js_8848f55d07695b7ff7188138f23d69e3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/_gen/assets/js/js/script.js_d3f53f09220d597dac26fe7840c31fc9.content" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/_gen/assets/js/js/script.js_d3f53f09220d597dac26fe7840c31fc9.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/ync-hugo/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/ync-hugo/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/ync-hugo/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/ync-hugo/archetypes/default.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/ync-hugo/assets/css/app.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/ync-hugo/assets/css/tailwind.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/ync-hugo/assets/js/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/ync-hugo/assets/mix-manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/ync-hugo/layouts/404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/ync-hugo/layouts/_default/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/ync-hugo/layouts/_default/single.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/ync-hugo/layouts/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/ync-hugo/layouts/page/single.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/ync-hugo/layouts/partials/call-to-action.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/ync-hugo/layouts/partials/contact.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/ync-hugo/layouts/partials/favicon.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/ync-hugo/layouts/partials/feature.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/ync-hugo/layouts/partials/footer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/ync-hugo/layouts/partials/global-header.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/ync-hugo/layouts/partials/head.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/ync-hugo/layouts/partials/header.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/ync-hugo/layouts/partials/service-home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/ync-hugo/layouts/partials/service.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/ync-hugo/layouts/partials/slider.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/ync-hugo/layouts/partials/testimonial.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/ync-hugo/layouts/partials/work.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/ync-hugo/layouts/partials/wrapper.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/ync-hugo/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/ync-hugo/src/js/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/ync-hugo/src/js/tailwind.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/ync-hugo/src/sass/app.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/ync-hugo/src/sass/tailwind.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/ync-hugo/static/admin/config.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/ync-hugo/static/admin/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/ync-hugo/static/img/blog/blog-post-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/ync-hugo/static/img/blog/blog-post-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/ync-hugo/static/img/blog/blog-post-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/ync-hugo/static/img/blog/blog-post-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/ync-hugo/static/img/call-to-action-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/ync-hugo/static/img/clients/clients-logo-9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/ync-hugo/static/img/clients/clients-logo1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/ync-hugo/static/img/clients/clients-logo10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/ync-hugo/static/img/clients/clients-logo2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/ync-hugo/static/img/clients/clients-logo3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/ync-hugo/static/img/clients/clients-logo4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/ync-hugo/static/img/clients/clients-logo5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/ync-hugo/static/img/clients/clients-logo6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/ync-hugo/static/img/clients/clients-logo7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/ync-hugo/static/img/clients/clients-logo8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/ync-hugo/static/img/cotation.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/ync-hugo/static/img/feature-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/ync-hugo/static/img/feature-bg.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/ync-hugo/static/img/item-img1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/ync-hugo/static/img/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/ync-hugo/static/img/portfolio/work1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/ync-hugo/static/img/portfolio/work1.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/ync-hugo/static/img/portfolio/work2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/ync-hugo/static/img/portfolio/work2.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/ync-hugo/static/img/portfolio/work3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/ync-hugo/static/img/portfolio/work3.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/ync-hugo/static/img/portfolio/work4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/ync-hugo/static/img/portfolio/work4.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/ync-hugo/static/img/portfolio/work5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/ync-hugo/static/img/portfolio/work5.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/ync-hugo/static/img/portfolio/work6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/ync-hugo/static/img/portfolio/work6.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/ync-hugo/static/img/slider-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/ync-hugo/static/img/slider-bg.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/ync-hugo/static/img/wrapper-img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/ync-hugo/static/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/ync-hugo/theme.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/ync-hugo/webpack.mix.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/ync-hugo/yarn-error.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/ync-hugo/yarn.lock" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/themes/ync-hugo/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/themes/ync-hugo/static/manifest.json" />
+        <option value="$PROJECT_DIR$/themes/ync-hugo/.gitignore" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+    <option name="width" value="1280" />
+    <option name="height" value="800" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="yncdesign-hugo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yncdesign-hugo" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/themes/ync-hugo/static" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/themes/ync-hugo" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3b49d0da-53f4-4999-a4ff-5adc9e1dec38" name="Default Changelist" comment="" />
+      <created>1560153767863</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1560153767863</updated>
+      <workItem from="1560153770590" duration="373000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="373000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1280" height="800" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24959612" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/themes/ync-hugo/static/manifest.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/ync-hugo/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

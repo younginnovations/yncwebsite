@@ -1,0 +1,54 @@
+Arguments: 
+  /Users/nirajan/.nvm/versions/node/v11.4.0/bin/node /Users/nirajan/.nvm/versions/node/v11.4.0/bin/yarn
+
+PATH: 
+  /Users/nirajan/.nvm/versions/node/v11.4.0/bin:/Users/nirajan/.yarn/bin:/Users/nirajan/.config/yarn/global/node_modules/.bin:/Users/nirajan/.composer/vendor/bin:/usr/local/opt/php@7.1/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin
+
+Yarn version: 
+  1.13.0
+
+Node version: 
+  11.4.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  SyntaxError: /Users/nirajan/Sites/ync-web/package.json: Unexpected token } in JSON at position 649
+      at JSON.parse (<anonymous>)
+      at /Users/nirajan/.nvm/versions/node/v11.4.0/lib/node_modules/yarn/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/Users/nirajan/.nvm/versions/node/v11.4.0/lib/node_modules/yarn/lib/cli.js:304:30)
+      at /Users/nirajan/.nvm/versions/node/v11.4.0/lib/node_modules/yarn/lib/cli.js:315:13
+
+npm manifest: 
+  {
+    "private": true,
+    "name": "fauna",
+    "version": "0.0.1",
+    "scripts": {
+      "dev": "yarn development",
+      "development": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+      "watch": "yarn development --watch",
+      "prod": "yarn production",
+      "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
+    },
+    "dependencies": {
+      "jquery": "^3.3.1",
+      "tailwindcss-fluid": "^0.2.0",
+      "tailwindcss-transforms": "^1.0.2",
+    },
+    "devDependencies": {
+      "cross-env": "^5.2.0",
+      "laravel-mix": "^2.1.11",
+      "purify-css": "^1.2.5",
+      "purifycss-webpack": "^0.7.0",
+      "tailwindcss": "^1.0.2"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

@@ -1,0 +1,19 @@
+# theme.toml for the YNC Hugo theme
+
+name = "YNC Hugo"
+license = "CC BY 3.0"
+licenselink = ""
+description = ""
+homepage = ""
+tags = ["blog",'google-analytics', 'fast', 'modern', 'minimal', 'minimalistic', 'business', 'agency-template', 'white', 'light', 'multilingual', "bootstrap", "company", "portfolio", "projects", "responsive", "themefisher"]
+features = ["blog", "company", "responsive", "seo-friendly"]
+min_version = 0.1
+
+[author]
+  name = "YoungInnovation"
+  homepage = "http://younginnovations.com.np/"
+
+[original]
+  name = "YNC"
+  homepage = "/"
+  repo = ""
