@@ -1,120 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3b49d0da-53f4-4999-a4ff-5adc9e1dec38" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/static/admin/config.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/ync/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/ync/archetypes/default.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/ync/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/ync/src/js/tailwind.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/ync/src/sass/tailwind.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/ync/theme.toml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/ync/webpack.mix.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/ync/yarn.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.toml" beforeDir="false" afterPath="$PROJECT_DIR$/config.toml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/blog/_index.en.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/blog/creating-a-new-theme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/blog/hugo-is-for-lovers.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/blog/installation.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/blog/migrate-from-jekyll.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/contact.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/service.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/work.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/service.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/testimonial.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/work.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/admin/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/themes/ync/layouts/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/admin/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/blog/creating-a-new-theme/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/blog/hugo-is-for-lovers/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/blog/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/blog/index.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/blog/installation/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/blog/migrate-from-jekyll/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/blog/page/1/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/categories/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/categories/index.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/categories/lorem/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/categories/lorem/index.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/categories/lorem/page/1/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/categories/page/1/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/categories/pseudo/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/categories/pseudo/index.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/categories/pseudo/page/1/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/categories/starting/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/categories/starting/index.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/categories/starting/page/1/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/contact/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/app.min.e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css" beforeDir="false" afterPath="$PROJECT_DIR$/themes/ync/src/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/tailwind.min.6d107d20fe0850f7dfe64886a1660baf804de9d80bbb0b2c5dc8f22fd0b1a2de.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/blog/blog-post-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/blog/blog-post-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/blog/blog-post-3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/blog/blog-post-4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/call-to-action-bg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/clients/clients-logo-9.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/clients/clients-logo1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/clients/clients-logo10.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/clients/clients-logo2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/clients/clients-logo3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/clients/clients-logo4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/clients/clients-logo5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/clients/clients-logo6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/clients/clients-logo7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/clients/clients-logo8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/cotation.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/feature-bg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/feature-bg.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/item-img1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/themes/ync/static/img/logo.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/portfolio/work1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/portfolio/work1.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/portfolio/work2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/portfolio/work2.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/portfolio/work3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/portfolio/work3.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/portfolio/work4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/portfolio/work4.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/portfolio/work5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/portfolio/work5.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/portfolio/work6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/portfolio/work6.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/slider-bg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/slider-bg.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/wrapper-img.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/app.536172418a326e41baa25b17a90cb884789f8d62d4c9c5388099749954c30c0e.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/app.6079e94d815b4120353704df20eedafabc32cf87679a28ddb9e88acc39986c56.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/service/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/sitemap.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tags/golang/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tags/golang/index.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tags/golang/page/1/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tags/hugo/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tags/hugo/index.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tags/hugo/page/1/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tags/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tags/index.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tags/ipsum/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tags/ipsum/index.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tags/ipsum/page/1/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tags/page/1/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tags/programming/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tags/programming/index.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tags/programming/page/1/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tags/theme/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tags/theme/index.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tags/theme/page/1/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/work/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/ync-hugo/layouts/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/ync-hugo/layouts/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/ync-hugo/layouts/partials/slider.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/ync-hugo/layouts/partials/banner.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/ync-hugo/static/admin/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/themes/ync/src/sass/app.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/ync-hugo/static/admin/index.html" beforeDir="false" />
-    </list>
+    <list default="true" id="3b49d0da-53f4-4999-a4ff-5adc9e1dec38" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,8 +13,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/themes/ync/layouts/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="33">
-              <caret line="14" column="73" selection-start-line="14" selection-start-column="73" selection-end-line="14" selection-end-column="73" />
+            <state relative-caret-position="222">
+              <caret line="21" selection-start-line="21" selection-end-line="21" />
             </state>
           </provider>
         </entry>
@@ -189,19 +76,6 @@
               <item name="yncdesign-hugo" type="462c0819:PsiDirectoryNode" />
               <item name="themes" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="yncdesign-hugo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yncdesign-hugo" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-              <item name="ync" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yncdesign-hugo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yncdesign-hugo" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-              <item name="ync" type="462c0819:PsiDirectoryNode" />
-              <item name="layouts" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -252,16 +126,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1560153767863</updated>
-      <workItem from="1560153770590" duration="4381000" />
+      <workItem from="1560153770590" duration="4494000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4381000" />
+    <option name="totallyTimeSpent" value="4494000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1987076" />
@@ -436,8 +309,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/themes/ync/layouts/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="33">
-          <caret line="14" column="73" selection-start-line="14" selection-start-column="73" selection-end-line="14" selection-end-column="73" />
+        <state relative-caret-position="222">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
         </state>
       </provider>
     </entry>
