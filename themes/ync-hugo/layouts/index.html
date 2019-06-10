@@ -9,17 +9,19 @@
 
 {{ partial "header.html" . }}
 
-{{ partial "slider.html" . }}
+<!--{{ partial "banner.html" . }}-->
 
-{{ partial "wrapper.html" . }}
+<!--{{ partial "banner" (dict "imageUrl" .Params.image "title" .Title "subtitle" .Params.subtitle) }}-->
 
-{{ partial "feature.html" . }}
+<!--{{ partial "wrapper.html" . }}-->
 
-{{ partial "service-home.html" . }}
+<!--{{ partial "feature.html" . }}-->
 
-{{ partial "call-to-action.html" . }}
+<!--{{ partial "service-home.html" . }}-->
 
-{{ partial "testimonial.html" . }}
+<!--{{ partial "call-to-action.html" . }}-->
+
+<!--{{ partial "testimonial.html" . }}-->
 
 {{ partial "footer.html" . }}
 
