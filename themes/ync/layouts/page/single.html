@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+{{ partial "head.html" . }}
+<body>
+{{ if isset .Params "id" }}
+{{ partial .Params.id . }}
+{{ else }}
+<main>{{ .Content }}</main>
+{{ end }}
+
+</body>
+</html>

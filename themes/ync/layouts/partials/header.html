@@ -1,0 +1,23 @@
+<!-- Header Start -->
+<header class="py-6 px-4">
+    <div class="container mx-auto">
+        <div class="flex flex-wrap justify-between items-center">
+            <!-- Brand Logo -->
+            <div>
+                <a class="" href="{{ .Site.BaseURL }}">
+                    <img src="{{ .Site.BaseURL }}img/logo.svg" alt="{{ .Site.Title }} Logo">
+                </a>
+            </div>
+
+            <!-- Nav links, forms, and other content for toggling -->
+            <div>
+                <ul class="flex flex-wrap">
+                    {{ range .Site.Menus.header }}
+                    <li class="mr-4"><a class="inline-block" href="{{ .URL }}/">{{ .Name }}</a></li>
+                    {{ end }}
+                </ul>
+            </div>
+        </div>
+    </div>
+</header>
+<!-- Header End -->
