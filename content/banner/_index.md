@@ -1,5 +1,9 @@
 ---
-title: Great coffee with a conscience and nirajan
-subtitle: Support sustainable farming while enjoying a cup
-image: /img/home-jumbotron.jpg
+title: Creating Impact through design
+subtitle: >-
+  We craft usable interfaces, delightful experiences, beautiful brands &
+  identities. We are an independent studio at YoungInnovations helping companies
+  reach their goals through design.
+image: /img/banner_illustration.svg
 ---
+
