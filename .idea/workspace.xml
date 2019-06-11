@@ -2,18 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3b49d0da-53f4-4999-a4ff-5adc9e1dec38" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/data/menu/menu.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/_gen/assets/css/css/tailwind.css_d11fe7b62c27961c87ecd0f2490357b9.content" beforeDir="false" afterPath="$PROJECT_DIR$/resources/_gen/assets/css/css/tailwind.css_d11fe7b62c27961c87ecd0f2490357b9.content" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/_gen/assets/css/css/tailwind.css_d11fe7b62c27961c87ecd0f2490357b9.json" beforeDir="false" afterPath="$PROJECT_DIR$/resources/_gen/assets/css/css/tailwind.css_d11fe7b62c27961c87ecd0f2490357b9.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/_gen/assets/js/js/app.js_8848f55d07695b7ff7188138f23d69e3.content" beforeDir="false" afterPath="$PROJECT_DIR$/resources/_gen/assets/js/js/app.js_8848f55d07695b7ff7188138f23d69e3.content" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/_gen/assets/js/js/app.js_8848f55d07695b7ff7188138f23d69e3.json" beforeDir="false" afterPath="$PROJECT_DIR$/resources/_gen/assets/js/js/app.js_8848f55d07695b7ff7188138f23d69e3.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/static/admin/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/ync/assets/css/tailwind.css" beforeDir="false" afterPath="$PROJECT_DIR$/themes/ync/assets/css/tailwind.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/ync/assets/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/themes/ync/assets/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/ync/assets/mix-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/themes/ync/assets/mix-manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/ync/layouts/partials/banner.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/ync/layouts/partials/banner.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/ync/src/js/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/themes/ync/src/js/tailwind.config.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,14 +12,14 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="vertical" split-proportion="0.36675462">
+    <splitter split-orientation="vertical" split-proportion="0.31002638">
       <split-first>
         <leaf>
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/data/menu/menu.json">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="216">
-                  <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+                <state relative-caret-position="135">
+                  <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
                 </state>
               </provider>
             </entry>
@@ -41,8 +31,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/static/admin/config.yml">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="340">
-                  <caret line="55" column="60" lean-forward="true" selection-start-line="55" selection-start-column="60" selection-end-line="55" selection-end-column="60" />
+                <state relative-caret-position="334">
+                  <caret line="56" column="24" lean-forward="true" selection-start-line="56" selection-start-column="24" selection-end-line="56" selection-end-column="24" />
                   <folding>
                     <element signature="e#1632#1812#0" />
                     <element signature="e#1819#2092#0" />
@@ -216,12 +206,12 @@
       <updated>1560153767863</updated>
       <workItem from="1560153770590" duration="14775000" />
       <workItem from="1560227531169" duration="5819000" />
-      <workItem from="1560238698385" duration="5743000" />
+      <workItem from="1560238698385" duration="6265000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26337000" />
+    <option name="totallyTimeSpent" value="26859000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="6" />
@@ -404,13 +394,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/menu/menu.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/data/home/herobanner.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -426,10 +409,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/data/menu/menu.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/static/admin/config.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="55" column="60" lean-forward="true" selection-start-line="55" selection-start-column="60" selection-end-line="55" selection-end-column="60" />
+        <state relative-caret-position="334">
+          <caret line="56" column="24" lean-forward="true" selection-start-line="56" selection-start-column="24" selection-end-line="56" selection-end-column="24" />
           <folding>
             <element signature="e#1632#1812#0" />
             <element signature="e#1819#2092#0" />
