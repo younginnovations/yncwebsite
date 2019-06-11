@@ -7,6 +7,8 @@
 
 {{ partial "banner" . }}
 
+{{ partial "footer" }}
+
 <!-- Scripts -->
 {{ $scripts := resources.Get "js/app.js" | fingerprint }}
 {{ with $scripts }}
