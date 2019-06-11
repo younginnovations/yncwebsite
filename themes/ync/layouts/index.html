@@ -1,34 +1,11 @@
 <!DOCTYPE html>
 <html>
 {{ partial "head.html" . }}
-<body>
+<body class="antialiased font-body text-base-color">
 
 {{ partial "header" . }}
-{{ partial "banner" . }}
 
-<!--<section class="blog section">-->
-    <!--<div class="container">-->
-        <!--<div class="row">-->
-            <!--{{ range (.Paginator 6).Pages }}-->
-            <!--<div class="col-md-6">-->
-                <!--<article class="blog-post">-->
-                    <!--<a class="post-title" href="{{ .Permalink }}">{{ .Title }}</a>-->
-                    <!--<p>-->
-                        <!--{{ .Summary }}-->
-                    <!--</p>-->
-                    <!--{{ with .Params.coverImage }}-->
-                        <!--<img src="{{ . | absURL }}" class="img-responsive" alt="post-thumb">-->
-                    <!--{{ end }}-->
-                    <!--<a href="{{ .Permalink }}" class="btn btn-main">Read More</a>-->
-                <!--</article>-->
-            <!--</div>-->
-            <!--{{ end }}-->
-        <!--</div>-->
-        <!--<div class="col-12 text-center">-->
-            <!--{{ template "_internal/pagination.html" . }}-->
-        <!--</div>-->
-    <!--</div>-->
-<!--</section>-->
+{{ partial "banner" . }}
 
 <!-- Scripts -->
 {{ $scripts := resources.Get "js/app.js" | fingerprint }}
