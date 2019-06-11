@@ -1,7 +1,7 @@
-{{ with .Site.GetPage "/banner" }}
+{{ with .Site.Data.home.herobanner }}
 <div>
-    <h1>{{.Title}}</h1>
-    <h1>{{.Subtitle}}</h1>
-    <h1>{{.Subtitle}}</h1>
+    <h1>{{.title}}</h1>
+    <h1>{{.subtitle}}</h1>
+    <img src="{{.image}}" alt="{{.title}}">
 </div>
 {{ end }}

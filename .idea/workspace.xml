@@ -2,8 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3b49d0da-53f4-4999-a4ff-5adc9e1dec38" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/data/herobanner.md" beforeDir="false" afterPath="$PROJECT_DIR$/data/herobanner.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/home/projects.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/herobanner.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/home/herobanner.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/admin/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/public/admin/config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/static/admin/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ync/layouts/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/ync/layouts/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ync/layouts/partials/banner.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/ync/layouts/partials/banner.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,14 +18,14 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="vertical" split-proportion="0.44986808">
+    <splitter split-orientation="vertical" split-proportion="0.29155672">
       <split-first>
         <leaf>
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/static/admin/config.yml">
+            <entry file="file://$PROJECT_DIR$/themes/ync/layouts/partials/banner.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="151">
-                  <caret line="27" column="28" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
+                <state relative-caret-position="108">
+                  <caret line="4" column="9" lean-forward="true" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
                 </state>
               </provider>
             </entry>
@@ -29,13 +35,10 @@
       <split-second>
         <leaf>
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/data/herobanner.json">
-              <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-                <state split_layout="SPLIT">
-                  <first_editor relative-caret-position="162">
-                    <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
-                  </first_editor>
-                  <second_editor />
+            <entry file="file://$PROJECT_DIR$/public/admin/config.yml">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="185">
+                  <caret line="33" column="22" lean-forward="true" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
                 </state>
               </provider>
             </entry>
@@ -76,12 +79,13 @@
         <option value="$PROJECT_DIR$/config.toml" />
         <option value="$PROJECT_DIR$/data/banner.md" />
         <option value="$PROJECT_DIR$/content/banner/_index.md" />
-        <option value="$PROJECT_DIR$/themes/ync/layouts/partials/banner.html" />
         <option value="$PROJECT_DIR$/archetypes/default.md" />
-        <option value="$PROJECT_DIR$/themes/ync/layouts/index.html" />
         <option value="$PROJECT_DIR$/data/herobanner.md" />
         <option value="$PROJECT_DIR$/data/herobanner.json" />
+        <option value="$PROJECT_DIR$/themes/ync/layouts/index.html" />
+        <option value="$PROJECT_DIR$/themes/ync/layouts/partials/banner.html" />
         <option value="$PROJECT_DIR$/static/admin/config.yml" />
+        <option value="$PROJECT_DIR$/public/admin/config.yml" />
       </list>
     </option>
   </component>
@@ -89,8 +93,10 @@
     <servers />
   </component>
   <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
-    <option name="width" value="1280" />
-    <option name="height" value="800" />
+    <option name="x" value="4" />
+    <option name="y" value="23" />
+    <option name="width" value="1276" />
+    <option name="height" value="777" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -109,66 +115,13 @@
             <path>
               <item name="yncdesign-hugo" type="b2602c69:ProjectViewProjectNode" />
               <item name="yncdesign-hugo" type="462c0819:PsiDirectoryNode" />
-              <item name="archetypes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yncdesign-hugo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yncdesign-hugo" type="462c0819:PsiDirectoryNode" />
-              <item name="content" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yncdesign-hugo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yncdesign-hugo" type="462c0819:PsiDirectoryNode" />
-              <item name="content" type="462c0819:PsiDirectoryNode" />
-              <item name="banner" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yncdesign-hugo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yncdesign-hugo" type="462c0819:PsiDirectoryNode" />
-              <item name="content" type="462c0819:PsiDirectoryNode" />
-              <item name="post" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yncdesign-hugo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yncdesign-hugo" type="462c0819:PsiDirectoryNode" />
               <item name="data" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="yncdesign-hugo" type="b2602c69:ProjectViewProjectNode" />
               <item name="yncdesign-hugo" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yncdesign-hugo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yncdesign-hugo" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yncdesign-hugo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yncdesign-hugo" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yncdesign-hugo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yncdesign-hugo" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-              <item name="ync" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yncdesign-hugo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yncdesign-hugo" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-              <item name="ync" type="462c0819:PsiDirectoryNode" />
-              <item name="layouts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yncdesign-hugo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yncdesign-hugo" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-              <item name="ync" type="462c0819:PsiDirectoryNode" />
-              <item name="layouts" type="462c0819:PsiDirectoryNode" />
-              <item name="partials" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="home" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -185,18 +138,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/data" />
       <recent name="$PROJECT_DIR$/content/blog" />
       <recent name="$PROJECT_DIR$/content/news" />
       <recent name="$PROJECT_DIR$/content" />
       <recent name="$PROJECT_DIR$/themes/ync/static/img" />
-      <recent name="$PROJECT_DIR$/themes/ync" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/data/home" />
       <recent name="$PROJECT_DIR$/data" />
       <recent name="$PROJECT_DIR$/content" />
       <recent name="$PROJECT_DIR$/content/blog" />
       <recent name="$PROJECT_DIR$/content/post" />
-      <recent name="$PROJECT_DIR$/themes/ync/layouts" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -222,17 +175,18 @@
       <option name="presentableId" value="Default" />
       <updated>1560153767863</updated>
       <workItem from="1560153770590" duration="14775000" />
-      <workItem from="1560227531169" duration="1903000" />
+      <workItem from="1560227531169" duration="3995000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16678000" />
+    <option name="totallyTimeSpent" value="18770000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24878837" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18416801" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -342,13 +296,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/ync/layouts/partials/banner.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/archetypes/default.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -356,13 +303,6 @@
             <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
           </first_editor>
           <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/ync/layouts/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="79">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
@@ -383,20 +323,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/admin/config.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="27" column="28" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
+    <entry file="file://$PROJECT_DIR$/data/home/herobanner.json">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="135">
+            <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/herobanner.json">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="162">
-            <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/themes/ync/layouts/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/ync/layouts/partials/banner.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="9" lean-forward="true" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/admin/config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="29" column="19" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/admin/config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="33" column="22" lean-forward="true" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
         </state>
       </provider>
     </entry>

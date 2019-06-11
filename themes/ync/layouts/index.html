@@ -4,14 +4,7 @@
 <body>
 
 {{ partial "header" . }}
-
-{{ with .Site.GetPage "/banner" }}
-    <div>
-        <h1>{{.Title}}</h1>
-        <h1>{{.Params.subtitle}}</h1>
-        <h1>{{.Params.image}}</h1>
-    </div>
-{{ end }}
+{{ partial "banner" . }}
 
 <!--<section class="blog section">-->
     <!--<div class="container">-->
