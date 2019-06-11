@@ -20,7 +20,7 @@ collections: # A list of collections the CMS should be able to edit
   - name: "pages"
     label: "Pages"
     files:
-      - file: "content/banner/_index.md"
+      - file: "data/banner.md"
         label: "Banner"
         name: "banner"
         fields:

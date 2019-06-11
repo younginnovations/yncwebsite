@@ -3,31 +3,39 @@
 {{ partial "head.html" . }}
 <body>
 
-{{ partial "header.html" . }}
+{{ partial "header" . }}
 
-<section class="blog section">
-    <div class="container">
-        <div class="row">
-            {{ range (.Paginator 6).Pages }}
-            <div class="col-md-6">
-                <article class="blog-post">
-                    <a class="post-title" href="{{ .Permalink }}">{{ .Title }}</a>
-                    <p>
-                        {{ .Summary }}
-                    </p>
-                    {{ with .Params.coverImage }}
-                        <img src="{{ . | absURL }}" class="img-responsive" alt="post-thumb">
-                    {{ end }}
-                    <a href="{{ .Permalink }}" class="btn btn-main">Read More</a>
-                </article>
-            </div>
-            {{ end }}
-        </div>
-        <div class="col-12 text-center">
-            {{ template "_internal/pagination.html" . }}
-        </div>
+{{ with .Site.GetPage "/banner" }}
+    <div>
+        <h1>{{.Title}}</h1>
+        <h1>{{.Params.subtitle}}</h1>
+        <h1>{{.Params.image}}</h1>
     </div>
-</section>
+{{ end }}
+
+<!--<section class="blog section">-->
+    <!--<div class="container">-->
+        <!--<div class="row">-->
+            <!--{{ range (.Paginator 6).Pages }}-->
+            <!--<div class="col-md-6">-->
+                <!--<article class="blog-post">-->
+                    <!--<a class="post-title" href="{{ .Permalink }}">{{ .Title }}</a>-->
+                    <!--<p>-->
+                        <!--{{ .Summary }}-->
+                    <!--</p>-->
+                    <!--{{ with .Params.coverImage }}-->
+                        <!--<img src="{{ . | absURL }}" class="img-responsive" alt="post-thumb">-->
+                    <!--{{ end }}-->
+                    <!--<a href="{{ .Permalink }}" class="btn btn-main">Read More</a>-->
+                <!--</article>-->
+            <!--</div>-->
+            <!--{{ end }}-->
+        <!--</div>-->
+        <!--<div class="col-12 text-center">-->
+            <!--{{ template "_internal/pagination.html" . }}-->
+        <!--</div>-->
+    <!--</div>-->
+<!--</section>-->
 
 <!-- Scripts -->
 {{ $scripts := resources.Get "js/app.js" | fingerprint }}
