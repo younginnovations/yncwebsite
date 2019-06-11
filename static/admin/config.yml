@@ -44,3 +44,14 @@ collections: # A list of collections the CMS should be able to edit
           - {label: Title, name: title, widget: string}
           - {label: Subtitle, name: subtitle, widget: string}
           - {label: Image, name: image, widget: image}
+  - name: "menu"
+    label: "Menu"
+    files:
+      - file: "data/menu/menu.json"
+        label: "Menu"
+        name: "menu"
+        fields:
+          - {label: "Menu", name: menu, widget: list, fields: [
+            {label: "Text", name: "text", widget: string},
+            {label: "Link", name: "text", widget: string},
+            {label: "Custom class", name: "text", widget: string}]}

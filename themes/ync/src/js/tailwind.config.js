@@ -7,6 +7,7 @@ module.exports = {
       md: '768px',
       lg: '1024px',
       xl: '1280px',
+      xll: '1400px',
     },
     fontFamily: {
       quicksand: ['Quicksand', 'sans-serif'],

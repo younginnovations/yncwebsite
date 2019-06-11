@@ -1,0 +1,9 @@
+{
+  "menu": [
+    {
+      "text": "About",
+      "link": "#",
+      "class": "custom"
+    }
+  ]
+}
