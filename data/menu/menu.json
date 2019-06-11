@@ -2,8 +2,28 @@
   "menu": [
     {
       "text": "About",
+      "link": "/about",
+      "class": "about"
+    },
+    {
+      "text": "Works",
+      "link": "/works",
+      "class": "works"
+    },
+    {
+      "text": "Contact",
+      "link": "/contact",
+      "class": "contact"
+    },
+    {
+      "text": "Hire Us",
+      "link": "/hire-us",
+      "class": "hire-us"
+    },
+    {
+      "text": "Download Profile",
       "link": "#",
-      "class": "custom"
+      "class": "download-profile"
     }
   ]
 }
