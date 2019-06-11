@@ -3,25 +3,25 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://yncdesign.netlify.com/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/banner/</loc>
+    <loc>https://yncdesign.netlify.com/banner/</loc>
   </url>
   
   <url>
-    <loc>http://localhost:1313/post/</loc>
+    <loc>https://yncdesign.netlify.com/post/</loc>
   </url>
   
   <url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://yncdesign.netlify.com/tags/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://yncdesign.netlify.com/</loc>
     <priority>0</priority>
   </url>
   
