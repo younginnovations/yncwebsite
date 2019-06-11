@@ -51,6 +51,7 @@ collections: # A list of collections the CMS should be able to edit
         label: "Menu"
         name: "menu"
         fields:
+          - {label: "Logo", name: "logo", widget: image}
           - {label: "Menu", name: menu, widget: list, fields: [
             {label: "Text", name: "text", widget: string},
             {label: "Link", name: "link", widget: string},

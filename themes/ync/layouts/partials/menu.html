@@ -1,0 +1,6 @@
+
+<ul class="flex flex-wrap items-center">
+    {{ range .menu }}
+    <li><a class="hover:text-primary transition {{.class}}" href="{{ .link }}/">{{ .text }}</a></li>
+    {{ end }}
+</ul>

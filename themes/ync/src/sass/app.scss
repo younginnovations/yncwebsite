@@ -35,3 +35,30 @@ a {
     }
   }
 }
+
+.transition {
+  transition: all 0.2s ease-in-out;
+}
+
+//Nav Menu
+nav {
+  li {
+    margin-right: 30px;
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+
+  .download-profile {
+    display: inline-block;
+    border: 1px solid #811CF8;
+    padding: 8px 16px;
+    border-radius: 4px;
+    color: #811CF8;
+
+    &:hover, &:focus {
+      background: #811CF8;
+      color: #fff;
+    }
+  }
+}

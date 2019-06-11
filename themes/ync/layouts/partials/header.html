@@ -4,19 +4,19 @@
         <div class="flex flex-wrap justify-between items-center">
             <!-- Brand Logo -->
             <div>
+                {{ with $.Site.Data.menu.menu }}
                 <a class="" href="{{ .Site.BaseURL }}">
-                    <img src="{{ .Site.BaseURL }}img/logo.svg" alt="{{ .Site.Title }} Logo">
+                    <img class="h-12" src="{{.logo}}" alt="{{ .Site.Title }} Logo">
                 </a>
+                {{ end }}
             </div>
 
             <!-- Nav links, forms, and other content for toggling -->
-            <div>
-                <ul class="flex flex-wrap">
-                    {{ range .Site.Menus.header }}
-                    <li class="mr-4"><a class="inline-block" href="{{ .URL }}/">{{ .Name }}</a></li>
-                    {{ end }}
-                </ul>
-            </div>
+            <nav>
+                {{ with $.Site.Data.menu.menu }}
+                    {{ partial "menu.html" . }}
+                {{ end }}
+            </nav>
         </div>
     </div>
 </header>
