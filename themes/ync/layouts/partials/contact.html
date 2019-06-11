@@ -1,29 +1,51 @@
+<!--<form name="contact" method="POST" data-netlify="true">-->
+
+    <!--<div>-->
+        <!--<label for="name">Your Name</label>-->
+        <!--<input type="text" id="name" name="yourname" placeholder="Your name.." />-->
+    <!--</div>-->
+
+    <!--<div>-->
+        <!--<label for="email">Email</label>-->
+        <!--<input type="email" id="email" name="email" placeholder="Your email.." />-->
+    <!--</div>-->
+
+    <!--<div>-->
+        <!--<label for="company_name">Company Name</label>-->
+        <!--<input type="text" id="company_name" name="company-name" placeholder="Company name.."/>-->
+    <!--</div>-->
+
+    <!--<div>-->
+        <!--<label for="number">Contact number</label>-->
+        <!--<input type="number" id="number" name="contact-number" placeholder="Your contact number.."/>-->
+    <!--</div>-->
+
+    <!--<label for="message">Your Message</label>-->
+    <!--<textarea id="message" name="message" placeholder="Message.."/>-->
+
+    <!--<div>-->
+        <!--<button type="submit">Let's Start Working</button>-->
+    <!--</div>-->
+<!--</form>-->
+
+
 <form name="contact" method="POST" data-netlify="true">
-
-    <div>
-        <label for="name">Your Name</label>
-        <input type="text" id="name" name="yourname" placeholder="Your name.." />
-    </div>
-
-    <div>
-        <label for="email">Email</label>
-        <input type="email" id="email" name="email" placeholder="Your email.." />
-    </div>
-
-    <div>
-        <label for="company_name">Company Name</label>
-        <input type="text" id="company_name" name="company-name" placeholder="Company name.."/>
-    </div>
-
-    <div>
-        <label for="number">Contact number</label>
-        <input type="number" id="number" name="contact-number" placeholder="Your contact number.."/>
-    </div>
-
-    <label for="message">Your Message</label>
-    <textarea id="message" name="message" placeholder="Message.."/>
-
-    <div>
-        <button type="submit">Let's Start Working</button>
-    </div>
+    <p>
+        <label>Your Name: <input type="text" name="name" /></label>
+    </p>
+    <p>
+        <label>Your Email: <input type="email" name="email" /></label>
+    </p>
+    <p>
+        <label>Your Role: <select name="role[]" multiple>
+            <option value="leader">Leader</option>
+            <option value="follower">Follower</option>
+        </select></label>
+    </p>
+    <p>
+        <label>Message: <textarea name="message"></textarea></label>
+    </p>
+    <p>
+        <button type="submit">Send</button>
+    </p>
 </form>

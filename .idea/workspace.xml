@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3b49d0da-53f4-4999-a4ff-5adc9e1dec38" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/themes/ync/layouts/partials/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/ync/layouts/partials/contact.html" afterDir="false" />
-    </list>
+    <list default="true" id="3b49d0da-53f4-4999-a4ff-5adc9e1dec38" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -11,7 +9,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="vertical" split-proportion="0.5316623">
+    <splitter split-orientation="vertical" split-proportion="0.31926122">
       <split-first>
         <leaf>
           <file pinned="false" current-in-tab="true">
@@ -30,8 +28,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/themes/ync/layouts/partials/contact.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="31">
-                  <caret line="23" column="66" selection-start-line="23" selection-start-column="66" selection-end-line="23" selection-end-column="66" />
+                <state relative-caret-position="702">
+                  <caret line="26" column="45" selection-start-line="26" selection-start-column="45" selection-end-line="26" selection-end-column="45" />
                 </state>
               </provider>
             </entry>
@@ -217,12 +215,12 @@
       <updated>1560153767863</updated>
       <workItem from="1560153770590" duration="14775000" />
       <workItem from="1560227531169" duration="5819000" />
-      <workItem from="1560238698385" duration="8631000" />
+      <workItem from="1560238698385" duration="8782000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29225000" />
+    <option name="totallyTimeSpent" value="29376000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="6" />
@@ -453,8 +451,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/themes/ync/layouts/partials/contact.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="31">
-          <caret line="23" column="66" selection-start-line="23" selection-start-column="66" selection-end-line="23" selection-end-column="66" />
+        <state relative-caret-position="702">
+          <caret line="26" column="45" selection-start-line="26" selection-start-column="45" selection-end-line="26" selection-end-column="45" />
         </state>
       </provider>
     </entry>
