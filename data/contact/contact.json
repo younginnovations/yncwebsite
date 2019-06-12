@@ -1,10 +1,10 @@
 {
-  "title": "Hire Us One more time",
-  "subtitle": "Nirajan UI/UX Designing is the crucial part of the development of any web solution as it determines the user interaction with the developed solutions.",
-  "location_text": "",
-  "location_icon": "",
-  "phone_number": "",
-  "phone_icon": "",
-  "email": "",
-  "email_icon": ""
+  "title": "Hire Us",
+  "subtitle": "UI/UX Designing is the crucial part of the development of any web solution as it determines the user interaction with the developed solutions.",
+  "location_text": "Kumaripati, Lalitpur",
+  "location_icon": "/img/ic_location.svg",
+  "phone_number": "+977-1-5008737",
+  "phone_icon": "/img/ic_call.svg",
+  "email": "info@yipl.com.np",
+  "email_icon": "/img/ic_message.svg"
 }
