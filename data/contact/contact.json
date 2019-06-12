@@ -1,10 +1,10 @@
 {
   "title": "Hire Us One more time",
   "subtitle": "Nirajan UI/UX Designing is the crucial part of the development of any web solution as it determines the user interaction with the developed solutions.",
-  "locationText": "",
-  "locationIcon": "",
-  "phoneText": "",
-  "phoneIcon": "",
-  "emailText": "",
-  "emailIcon": ""
+  "location_text": "",
+  "location_icon": "",
+  "phone_number": "",
+  "phone_icon": "",
+  "email": "",
+  "email_icon": ""
 }
