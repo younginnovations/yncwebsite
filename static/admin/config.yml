@@ -47,14 +47,14 @@ collections: # A list of collections the CMS should be able to edit
           - {label: Subtitle, name: subtitle, widget: string}
           - {label: Image, name: image, widget: image}
       - file: "data/home/whatwedo.json"
-          label: "What we do"
-          name: "what_we_do"
-          fields:
-            - {label: "Title", name: title, widget: string}
-            - {label: "Subtitle", name: subtitle, widget: string}
-            - {label: "Features", name: feature, widget: list, fields: [
-              {label: "Title", name: "text", widget: string},
-              {label: "Icon", name: "icon", widget: string}]}
+        label: "What we do"
+        name: "what_we_do"
+        fields:
+          - {label: "Title", name: title, widget: string}
+          - {label: "Subtitle", name: subtitle, widget: string}
+          - {label: "Features", name: feature, widget: list, fields: [
+            {label: "Title", name: "text", widget: string},
+            {label: "Icon", name: "icon", widget: string}]}
   - name: "menu"
     label: "Menu"
     files:
