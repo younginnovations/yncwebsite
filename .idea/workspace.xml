@@ -2,7 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3b49d0da-53f4-4999-a4ff-5adc9e1dec38" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/static/admin/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/_gen/assets/css/css/app.css_d11fe7b62c27961c87ecd0f2490357b9.content" beforeDir="false" afterPath="$PROJECT_DIR$/resources/_gen/assets/css/css/app.css_d11fe7b62c27961c87ecd0f2490357b9.content" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/_gen/assets/css/css/app.css_d11fe7b62c27961c87ecd0f2490357b9.json" beforeDir="false" afterPath="$PROJECT_DIR$/resources/_gen/assets/css/css/app.css_d11fe7b62c27961c87ecd0f2490357b9.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/_gen/assets/js/js/app.js_8848f55d07695b7ff7188138f23d69e3.content" beforeDir="false" afterPath="$PROJECT_DIR$/resources/_gen/assets/js/js/app.js_8848f55d07695b7ff7188138f23d69e3.content" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/_gen/assets/js/js/app.js_8848f55d07695b7ff7188138f23d69e3.json" beforeDir="false" afterPath="$PROJECT_DIR$/resources/_gen/assets/js/js/app.js_8848f55d07695b7ff7188138f23d69e3.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ync/assets/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/themes/ync/assets/css/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ync/assets/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/themes/ync/assets/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ync/assets/mix-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/themes/ync/assets/mix-manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ync/src/sass/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/themes/ync/src/sass/app.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,17 +19,14 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="vertical" split-proportion="0.59102905">
+    <splitter split-orientation="vertical" split-proportion="0.33377308">
       <split-first>
         <leaf>
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/themes/ync/layouts/partials/what-we-do.html">
+            <entry file="file://$PROJECT_DIR$/themes/ync/.gitignore">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="420">
-                  <caret line="18" column="34" lean-forward="true" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
-                  <folding>
-                    <element signature="n#style#0;n#section#0;n#!!top" expanded="true" />
-                  </folding>
+                <state relative-caret-position="189">
+                  <caret line="7" column="10" lean-forward="true" selection-end-line="225" />
                 </state>
               </provider>
             </entry>
@@ -31,14 +36,10 @@
       <split-second>
         <leaf>
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/static/admin/config.yml">
+            <entry file="file://$PROJECT_DIR$/themes/ync/src/sass/app.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="153">
-                  <caret line="55" column="54" selection-start-line="55" selection-start-column="54" selection-end-line="55" selection-end-column="54" />
-                  <folding>
-                    <element signature="e#1541#1916#0" />
-                    <element signature="e#1923#2196#0" />
-                  </folding>
+                <state relative-caret-position="126">
+                  <caret line="68" column="11" lean-forward="true" selection-start-line="68" selection-start-column="11" selection-end-line="68" selection-end-column="11" />
                 </state>
               </provider>
             </entry>
@@ -99,9 +100,9 @@
         <option value="$PROJECT_DIR$/themes/ync/src/js/tailwind.config.js" />
         <option value="$PROJECT_DIR$/data/home/whatwedo.json" />
         <option value="$PROJECT_DIR$/themes/ync/layouts/index.html" />
-        <option value="$PROJECT_DIR$/themes/ync/src/sass/app.scss" />
         <option value="$PROJECT_DIR$/themes/ync/layouts/partials/what-we-do.html" />
         <option value="$PROJECT_DIR$/static/admin/config.yml" />
+        <option value="$PROJECT_DIR$/themes/ync/src/sass/app.scss" />
       </list>
     </option>
   </component>
@@ -161,32 +162,6 @@
               <item name="yncdesign-hugo" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="yncdesign-hugo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yncdesign-hugo" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yncdesign-hugo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yncdesign-hugo" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-              <item name="ync" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yncdesign-hugo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yncdesign-hugo" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-              <item name="ync" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yncdesign-hugo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yncdesign-hugo" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-              <item name="ync" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -241,12 +216,12 @@
       <workItem from="1560153770590" duration="14775000" />
       <workItem from="1560227531169" duration="5819000" />
       <workItem from="1560238698385" duration="9982000" />
-      <workItem from="1560313560282" duration="8626000" />
+      <workItem from="1560313560282" duration="9419000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39202000" />
+    <option name="totallyTimeSpent" value="39995000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -277,7 +252,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/themes/ync-hugo/.gitignore" />
     <entry file="file://$PROJECT_DIR$/content/service.md" />
     <entry file="file://$PROJECT_DIR$/content/work.md" />
     <entry file="file://$PROJECT_DIR$/themes/ync-hugo/layouts/partials/banner.html" />
@@ -424,13 +398,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/ync/layouts/partials/footer.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="37">
-          <caret line="7" column="42" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/themes/ync/layouts/partials/menu.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="81">
@@ -488,31 +455,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/ync/src/sass/app.scss">
+    <entry file="file://$PROJECT_DIR$/static/admin/config.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="109" column="6" lean-forward="true" selection-start-line="109" selection-start-column="6" selection-end-line="109" selection-end-column="6" />
+        <state relative-caret-position="99">
+          <caret line="53" column="15" lean-forward="true" selection-start-line="53" selection-start-column="15" selection-end-line="53" selection-end-column="15" />
+          <folding>
+            <element signature="e#1541#1916#0" />
+            <element signature="e#1923#2196#0" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/themes/ync/layouts/partials/what-we-do.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="18" column="34" lean-forward="true" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
+        <state relative-caret-position="162">
+          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
           <folding>
             <element signature="n#style#0;n#section#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/admin/config.yml">
+    <entry file="file://$PROJECT_DIR$/themes/ync/layouts/partials/footer.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="55" column="54" selection-start-line="55" selection-start-column="54" selection-end-line="55" selection-end-column="54" />
-          <folding>
-            <element signature="e#1541#1916#0" />
-            <element signature="e#1923#2196#0" />
-          </folding>
+        <state relative-caret-position="172">
+          <caret line="12" column="3" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/ync/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" column="10" lean-forward="true" selection-end-line="225" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/ync/src/sass/app.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="68" column="11" lean-forward="true" selection-start-line="68" selection-start-column="11" selection-end-line="68" selection-end-column="11" />
         </state>
       </provider>
     </entry>
