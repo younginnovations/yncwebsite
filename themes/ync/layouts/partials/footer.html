@@ -2,28 +2,49 @@
     <div class="container mx-auto">
         <div class="flex flex-wrap -mx-4 -mb-10">
             <div class="w-full lg:w-1/2 px-4">
+                {{ with .Site.Data.contact.contact }}
                 <div>
                     <div>
-                        {{ with .Site.Data.contact.contact }}
                         <h2 class="font-black font-bold font-quicksand text-4xl">{{.title}}</h2>
                         <p class="mt-4 text-2xl">{{.subtitle}}</p>
-                        {{ end }}
                     </div>
 
-                    {{ with $.Site.Data.contact.contact }}
-                        {{ partial "address.html" . }}
-                    {{ end }}
+                    <address class="mt-10 text-black not-italic">
+                        <ul class="m-0 p-0">
+                            <li class="mb-4 flex flex-wrap items-center">
+                                <span class="inline-block mr-4"><img class="inline-block w-6" src="{{.locationIcon}}" alt="{{.text}}"></span>
+                                <span>{{.locationText}}</span>
+                            </li>
 
-                    <nav class="mt-16">
-                        {{ with $.Site.Data.menu.menu }}
-                            {{ partial "menu.html" . }}
-                        {{ end }}
-                    </nav>
+                            <ul>
+                                <li class="mb-4 flex flex-wrap items-center">
+                                    <span class="inline-block mr-4"><img class="inline-block w-6" src="{{.phoneIcon}}" alt=""></span>
+                                    <span>
+                                        <a class="transition hover:text-primary" href="tel:{{.phoneText}}">{{.phoneText}}</a>
+                                    </span>
+                                </li>
+                                <li class="mb-4 flex flex-wrap items-center">
+                                    <span class="inline-block mr-4"><img class="inline-block w-6" src="{{.emailIcon}}" alt=""></span>
+                                    <span>
+                                        <a class="transition hover:text-primary" href="mailto:{{.emailText}}">{{.emailText}}</a>
+                                    </span>
+                                </li>
+                            </ul>
+                        </ul>
+                    </address>
                 </div>
+                {{ end }}
+
+                <nav class="mt-16">
+                    {{ with $.Site.Data.menu.menu }}
+                    {{ partial "menu.html" . }}
+                    {{ end }}
+                </nav>
             </div>
             <div class="w-full lg:w-1/2 px-4">
                 {{ partial "contact" }}
             </div>
         </div>
+    </div>
     </div>
 </footer>

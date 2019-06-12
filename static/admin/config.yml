@@ -67,6 +67,8 @@ collections: # A list of collections the CMS should be able to edit
         fields:
           - {label: "Title", name: "title", widget: string}
           - {label: "Subtitle", name: "subtitle", widget: string}
-          - {label: "Address", name: "address", widget: list, fields: [
-          {label: "Image", name: "image", widget: image},
-          {label: "Text", name: "text", widget: string}]}
+          - {label: "Location Title", name: "location_title", widget: string}
+          - {label: "Location Icon", name: "location_icon", widget: string}
+          - {label: "Social Info", name: "social_info", widget: list, fields: [
+          {label: "Text", name: "text", widget: string},
+          {label: "Icon", name: "Icon", widget: image}]}
