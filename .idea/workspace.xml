@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3b49d0da-53f4-4999-a4ff-5adc9e1dec38" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/data/contact/contact.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/contact/contact.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/admin/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/config.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/themes/ync/layouts/partials/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/ync/layouts/partials/footer.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,8 +30,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/themes/ync/layouts/partials/footer.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="610">
-                  <caret line="27" column="42" selection-start-line="27" selection-start-column="42" selection-end-line="27" selection-end-column="42" />
+                <state relative-caret-position="316">
+                  <caret line="26" column="134" lean-forward="true" selection-start-line="26" selection-start-column="134" selection-end-line="26" selection-end-column="134" />
                 </state>
               </provider>
             </entry>
@@ -92,9 +90,9 @@
         <option value="$PROJECT_DIR$/themes/ync/src/sass/app.scss" />
         <option value="$PROJECT_DIR$/data/home/address.json" />
         <option value="$PROJECT_DIR$/themes/ync/layouts/partials/address.html" />
-        <option value="$PROJECT_DIR$/themes/ync/layouts/partials/footer.html" />
         <option value="$PROJECT_DIR$/data/contact/contact.json" />
         <option value="$PROJECT_DIR$/static/admin/config.yml" />
+        <option value="$PROJECT_DIR$/themes/ync/layouts/partials/footer.html" />
       </list>
     </option>
   </component>
@@ -223,12 +221,12 @@
       <workItem from="1560153770590" duration="14775000" />
       <workItem from="1560227531169" duration="5819000" />
       <workItem from="1560238698385" duration="9982000" />
-      <workItem from="1560313560282" duration="5879000" />
+      <workItem from="1560313560282" duration="5969000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36455000" />
+    <option name="totallyTimeSpent" value="36545000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -477,8 +475,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/themes/ync/layouts/partials/footer.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="610">
-          <caret line="27" column="42" selection-start-line="27" selection-start-column="42" selection-end-line="27" selection-end-column="42" />
+        <state relative-caret-position="316">
+          <caret line="26" column="134" lean-forward="true" selection-start-line="26" selection-start-column="134" selection-end-line="26" selection-end-column="134" />
         </state>
       </provider>
     </entry>
