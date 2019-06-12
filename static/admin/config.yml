@@ -54,7 +54,7 @@ collections: # A list of collections the CMS should be able to edit
           - {label: "Subtitle", name: subtitle, widget: string}
           - {label: "Features", name: feature, widget: list, fields: [
             {label: "Title", name: "text", widget: string},
-            {label: "Icon", name: "icon", widget: string}]}
+            {label: "Icon", name: "icon", widget: image}]}
   - name: "menu"
     label: "Menu"
     files:
