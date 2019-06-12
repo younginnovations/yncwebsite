@@ -1,10 +1,34 @@
 {
-  "title": "What we do",
-  "subtitle": "We treat each project and brand like it was our own. Every detail is carefully crafted finding the sweet spot between conversions and creative.",
+  "title": "Nirajan What we do",
+  "subtitle": "Nirajan We treat each project and brand like it was our own. Every detail is carefully crafted finding the sweet spot between conversions and creative.",
   "feature": [
     {
       "text": "UI/UX Design",
       "icon": "/img/ic_ux.svg"
+    },
+    {
+      "text": "Mobile app design",
+      "icon": "/img/ic_mobile-app.svg"
+    },
+    {
+      "text": "Graphic design",
+      "icon": "/img/ic_graphic-design.svg"
+    },
+    {
+      "text": "Illustration",
+      "icon": "/img/ic_illustraiton.svg"
+    },
+    {
+      "text": "Brand identity",
+      "icon": "/img/ic_brand.svg"
+    },
+    {
+      "text": "Videography",
+      "icon": "/img/ic_video.svg"
+    },
+    {
+      "text": "Photography",
+      "icon": "/img/ic_photography.svg"
     }
   ]
 }
