@@ -38,7 +38,7 @@ collections: # A list of collections the CMS should be able to edit
           - {label: Subtitle, name: subtitle, widget: string}
           - {label: Image, name: image, widget: image}
           - {label: CTA, name: cta, widget: string}
-          - {label: url, name: url, widget: string}
+          - {label: URL, name: url, widget: string}
       - file: "data/home/projects.json"
         label: "Projects"
         name: "projects"
@@ -58,3 +58,15 @@ collections: # A list of collections the CMS should be able to edit
             {label: "Text", name: "text", widget: string},
             {label: "Link", name: "link", widget: string},
             {label: "Custom class", name: "class", widget: string}]}
+  - name: "contact"
+    label: "Contact"
+    files:
+      - file: "data/contact/contact.json"
+        label: "Contact"
+        name: "contact"
+        fields:
+          - {label: "Title", name: "title", widget: string}
+          - {label: "Subtitle", name: "subtitle", widget: string}
+          - {label: "Address", name: "address", widget: list, fields: [
+          {label: "Image", name: "image", widget: string},
+          {label: "Text", name: "text", widget: string}]}

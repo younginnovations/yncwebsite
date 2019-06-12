@@ -62,3 +62,46 @@ nav {
     }
   }
 }
+
+footer {
+  .download-profile {
+    display: none;
+  }
+}
+
+//Contact form
+.contact-form-wrap {
+  border-radius: 4px;
+  background-color: #FFFFFF;
+  box-shadow: 10px 15px 40px 0 rgba(0,0,0,0.2);
+
+  label {
+    color: #9b9b9b;
+  }
+
+  input, textarea {
+    border-color: #E5E5E5;
+    transition: 0.2s ease-in-out;;
+
+    &:focus {
+      border-color: #801cf8;
+    }
+  }
+
+  button {
+    color: #fff;
+    background: #801cf8;
+    border-radius: 8px;
+    outline: none;
+    padding: 15px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    transition: 0.2s ease-in-out;
+
+    &:hover, &:focus {
+      transform: translateY(-2px);
+      box-shadow: 10px 15px 40px 0 rgba(127, 27, 248, 0.2);
+    }
+  }
+}

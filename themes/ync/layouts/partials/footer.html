@@ -1,1 +1,29 @@
-{{ partial "contact" }}
+<footer class="py-20 px-4">
+    <div class="container mx-auto">
+        <div class="flex flex-wrap -mx-4 -mb-10">
+            <div class="w-full lg:w-1/2 px-4">
+                <div>
+                    <div>
+                        {{ with .Site.Data.contact.contact }}
+                        <h2 class="font-black font-bold font-quicksand text-4xl">{{.title}}</h2>
+                        <p class="mt-4 text-2xl">{{.subtitle}}</p>
+                        {{ end }}
+                    </div>
+
+                    {{ with $.Site.Data.contact.contact }}
+                        {{ partial "address.html" . }}
+                    {{ end }}
+
+                    <nav class="mt-16">
+                        {{ with $.Site.Data.menu.menu }}
+                            {{ partial "menu.html" . }}
+                        {{ end }}
+                    </nav>
+                </div>
+            </div>
+            <div class="w-full lg:w-1/2 px-4">
+                {{ partial "contact" }}
+            </div>
+        </div>
+    </div>
+</footer>

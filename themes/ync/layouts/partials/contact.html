@@ -1,51 +1,52 @@
-<!--<form name="contact" method="POST" data-netlify="true">-->
+<div class="contact-form-wrap p-10">
+    <div>
+        <form name="contact" method="POST" data-netlify="true">
+            <div class="form-group mb-6">
+                <label class="font-bold font-quicksand text-sm uppercase">Your Name</label>
+                <div class="mt-3">
+                    <input class="outline-none border rounded w-full py-3 px-4 text-black" type="text" name="name" />
+                </div>
+            </div>
 
-    <!--<div>-->
-        <!--<label for="name">Your Name</label>-->
-        <!--<input type="text" id="name" name="yourname" placeholder="Your name.." />-->
-    <!--</div>-->
+            <div class="form-group mb-6">
+                <label class="font-bold font-quicksand text-sm uppercase">Your Email</label>
+                <div class="mt-3">
+                    <input class="outline-none border rounded w-full py-3 px-4 text-black" type="email" name="email" />
+                </div>
+            </div>
 
-    <!--<div>-->
-        <!--<label for="email">Email</label>-->
-        <!--<input type="email" id="email" name="email" placeholder="Your email.." />-->
-    <!--</div>-->
-
-    <!--<div>-->
-        <!--<label for="company_name">Company Name</label>-->
-        <!--<input type="text" id="company_name" name="company-name" placeholder="Company name.."/>-->
-    <!--</div>-->
-
-    <!--<div>-->
-        <!--<label for="number">Contact number</label>-->
-        <!--<input type="number" id="number" name="contact-number" placeholder="Your contact number.."/>-->
-    <!--</div>-->
-
-    <!--<label for="message">Your Message</label>-->
-    <!--<textarea id="message" name="message" placeholder="Message.."/>-->
-
-    <!--<div>-->
-        <!--<button type="submit">Let's Start Working</button>-->
-    <!--</div>-->
-<!--</form>-->
-
-
-<form name="contact" method="POST" data-netlify="true">
-    <p>
-        <label>Your Name: <input type="text" name="name" /></label>
-    </p>
-    <p>
-        <label>Your Email: <input type="email" name="email" /></label>
-    </p>
-    <p>
-        <label>Your Role: <select name="role[]" multiple>
-            <option value="leader">Leader</option>
-            <option value="follower">Follower</option>
-        </select></label>
-    </p>
-    <p>
-        <label>Message: <textarea name="message"></textarea></label>
-    </p>
-    <p>
-        <button type="submit">Send</button>
-    </p>
-</form>
+            <div class="flex flex-wrap -mx-4 mb-6">
+                <div class="w-full md:w-1/2 px-4 mb-6">
+                    <div>
+                        <label class="font-bold font-quicksand text-sm uppercase">Company Name</label>
+                        <div class="mt-3">
+                            <input class="outline-none border rounded w-full py-3 px-4 text-black" type="text" name="company_name" />
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full md:w-1/2 px-4 mb-6">
+                    <div>
+                        <label class="font-bold font-quicksand text-sm uppercase">Contact number</label>
+                        <div class="mt-3">
+                            <input class="outline-none border rounded w-full py-3 px-4 text-black" type="number" name="contact_number" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group mb-6">
+                <label class="font-bold font-quicksand text-sm uppercase">Message</label>
+                <div class="mt-3">
+                    <textarea class="resize-y outline-none border rounded w-full py-3 px-4 text-black h-32" name="message"></textarea>
+                </div>
+            </div>
+            <div>
+                <button type="submit">
+                    <span class="inline-block mr-3">
+                        <img class="inline-block w-6" src="/img/ic_plane.svg" alt="">
+                    </span>
+                    <span>Let's Start Working</span>
+                </button>
+            </div>
+        </form>
+    </div>
+</div>
