@@ -9,7 +9,7 @@ public_folder: "img"
 collections: # A list of collections the CMS should be able to edit
   - name: "post" # Used in routes, ie.: /admin/collections/:slug/edit
     label: "Post" # Used in the UI, ie.: "New Post"
-    folder: "site/content/post" # The path to the folder where the documents are stored
+    folder: "content/post" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     fields:
       - {label: Title, name: title, widget: string}
@@ -27,14 +27,28 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Values", name: "values", widget: "object", fields: [
       {label: "Heading", name: "heading", widget: string},
       {label: "Text", name: "text", widget: "text"}]}
+
   - name: "projects" # Used in routes, ie.: /admin/collections/:slug/edit
     label: "Projects" # Used in the UI, ie.: "New Post"
-    folder: "site/content/projects" # The path to the folder where the documents are stored
+    folder: "content/projects" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     fields:
       - {label: Title, name: title, widget: string}
       - {label: Subtitle, name: subtitle, widget: string}
       - {label: Image, name: image, widget: image}
+      - {label: "Published date", name: published_date, widget: date}
+      - {label: "Services Provided", name: services_provided, widget: select, multiple: true,
+         options: ["UI/UX Design", "Mobile App Design", "Graphic Design", "Illustration", "Brand Identity", "Videography", "Photography"], default: ["UI/UX Design"]}
+      - {label: Website, name: website, widget: string}
+      - {label: "Case Study", name: case_study, widget: string}
+      - {label: "Description", name: description, widget: list, fields: [
+        {label: "Title", name: "text", widget: string},
+        {label: "Content", name: "content", widget: string}]}
+      - {label: "Image List", name: image_list, widget: list, fields: [
+        {label: "Image", name: "image", widget: image, media_library: [
+          config: multiple: true
+        ]}]}
+
   - name: "home-section"
     label: "Homepage"
     files:

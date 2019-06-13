@@ -107,6 +107,39 @@ footer {
   }
 }
 
+.project-detail {
+  .services {
+    li {
+      margin-right: 10px;
+      margin-bottom: 8px;
+      background: #eee;
+      border-radius: 4px;
+      color: #9b9b9b;
+      display: inline-block;
+      padding: 5px 8px;
+
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+  }
+}
+
+.project-detail-banner {
+  height: calc(100vh - 96px);
+}
+
+
+
+.project-detail-image {
+  height: calc(100vh - 96px);
+
+  img {
+    height: 100%;
+    object-position: 0 0;
+  }
+}
+
 //Contact form
 .contact-form-wrap {
   border-radius: 4px;

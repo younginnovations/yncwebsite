@@ -18,8 +18,7 @@ description:
       setup and easy to use. Y&C took on the challenge to design the visual
       identity and themes for this tool.
     text: Challenge/ Problem
-  - content: >-
-      The idea started with playing around the letters N, G and O. Fiddling
+  - content: The idea started with playing around the letters N, G and O. Fiddling
       around this idea gave birth to a mark that looked like a fingerprint. This
       also matched with our mission of building a tool that would help NGOs to
       create a website with simple taps of their fingertips.   For the landing
@@ -32,4 +31,3 @@ image_list:
   - image: /img/analysis-analytics-charts-669610.jpg
   - image: /img/blond-hair-coffee-contemporary-1210531.jpg
 ---
-

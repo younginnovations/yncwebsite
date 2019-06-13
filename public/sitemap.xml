@@ -3,13 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://yncdesign.netlify.com/works/</loc>
-    <lastmod>2019-06-12T17:29:09+05:45</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yncdesign.netlify.com/</loc>
-    <lastmod>2019-06-12T17:29:09+05:45</lastmod>
+    <loc>https://yncdesign.netlify.com/post/</loc>
     <priority>0</priority>
   </url>
   
@@ -27,11 +21,25 @@
   </url>
   
   <url>
-    <loc>https://yncdesign.netlify.com/post/</loc>
+    <loc>https://yncdesign.netlify.com/projects/ngo-distro/</loc>
+  </url>
+  
+  <url>
+    <loc>https://yncdesign.netlify.com/projects/</loc>
+    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://yncdesign.netlify.com/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://yncdesign.netlify.com/works/</loc>
+  </url>
+  
+  <url>
+    <loc>https://yncdesign.netlify.com/</loc>
     <priority>0</priority>
   </url>
   
