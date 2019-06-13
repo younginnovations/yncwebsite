@@ -63,6 +63,30 @@ nav {
   }
 }
 
+.section-projects {
+  ul {
+    img {
+      width: 215px;
+      height: 100%;
+      object-position: top;
+      box-shadow: 1px 1px 5px 1px rgba(39, 39, 39, 0.5);
+      transition: 0.32s ease-in-out;
+    }
+
+    a {
+      height: 100%;
+      transition: 0.32s ease-in-out;
+
+      &:hover {
+          transform: scale(1.2);
+          img {
+            box-shadow: 0 25px 50px -12px rgba(0,0,0,.25);
+          }
+      }
+    }
+  }
+}
+
 footer {
   position: relative;
 

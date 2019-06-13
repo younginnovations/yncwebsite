@@ -8,3 +8,7 @@ bg.addEventListener('mousemove', (e) => {
   
   bg.style.transform = `translate3d(-${mouseX}%, -${mouseY}%, 0)`;
 });
+
+// $(document).ready(function(){
+//   $(".owl-carousel").owlCarousel();
+// });

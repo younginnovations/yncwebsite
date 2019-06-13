@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+{{ partial "head.html" . }}
+
+<body class="antialiased font-body text-base-color">
+
+{{ partial "header" . }}
+
+{{ block "main" . }} {{end}}
+
+{{ partial "footer" . }}
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/core.js"></script>
+
+<!-- Scripts -->
+{{ $vendor_scripts := resources.Get "js/vendor.js" | fingerprint }}
+{{ with $vendor_scripts }}
+<script type="text/javascript" src="{{ .Permalink | relURL }}" integrity="{{ .Data.Integrity }}" crossorigin="anonymous" defer></script>
+{{ $.Scratch.Set "$vendor_scripts" . }}
+{{ end }}
+
+{{ $scripts := resources.Get "js/app.js" | fingerprint }}
+{{ with $scripts }}
+<script type="text/javascript" src="{{ .Permalink | relURL }}" integrity="{{ .Data.Integrity }}" crossorigin="anonymous" defer></script>
+{{ $.Scratch.Set "scripts" . }}
+{{ end }}
+</body>
+
+</html>

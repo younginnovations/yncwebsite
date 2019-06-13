@@ -1,24 +1,13 @@
-<!DOCTYPE html>
-<html>
-{{ partial "head.html" . }}
-<body class="antialiased font-body text-base-color">
 
-{{ partial "header" . }}
+
+{{ define "main" }}
 
 {{ partial "banner" . }}
 
+{{ partial "projects" . }}
+
 {{ partial "what-we-do" . }}
 
-{{ partial "footer" . }}
-
-<!-- Scripts -->
-{{ $scripts := resources.Get "js/app.js" | fingerprint }}
-{{ with $scripts }}
-<script type="text/javascript" src="{{ .Permalink | relURL }}" integrity="{{ .Data.Integrity }}" crossorigin="anonymous" defer></script>
-{{ $.Scratch.Set "scripts" . }}
 {{ end }}
 
 
-</body>
-
-</html>

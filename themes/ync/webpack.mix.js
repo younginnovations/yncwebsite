@@ -42,6 +42,7 @@ mix.webpackConfig({
 })
 
 mix.js("src/js/app.js", "js/app.js").version()
+mix.js("src/js/owl-carousel/owl.carousel.js", "js/vendor.js").version()
 
 // mix.extract([])
 

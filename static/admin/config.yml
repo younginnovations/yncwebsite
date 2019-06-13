@@ -27,6 +27,14 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Values", name: "values", widget: "object", fields: [
       {label: "Heading", name: "heading", widget: string},
       {label: "Text", name: "text", widget: "text"}]}
+  - name: "projects" # Used in routes, ie.: /admin/collections/:slug/edit
+    label: "Projects" # Used in the UI, ie.: "New Post"
+    folder: "site/content/projects" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    fields:
+      - {label: Title, name: title, widget: string}
+      - {label: Subtitle, name: subtitle, widget: string}
+      - {label: Image, name: image, widget: image}
   - name: "home-section"
     label: "Homepage"
     files:
@@ -45,7 +53,8 @@ collections: # A list of collections the CMS should be able to edit
         fields:
           - {label: Title, name: title, widget: string}
           - {label: Subtitle, name: subtitle, widget: string}
-          - {label: Image, name: image, widget: image}
+          - {label: CTA, name: cta, widget: string}
+          - {label: URL, name: url, widget: string}
       - file: "data/home/whatwedo.json"
         label: "What we do"
         name: "what_we_do"

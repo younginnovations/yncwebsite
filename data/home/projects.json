@@ -1,5 +1,6 @@
 {
-  "title": "Projects Title",
+  "title": "Projects",
   "subtitle": "Projects Description",
-  "image": "/img/logo.svg"
+  "cta": "Explore all projects",
+  "url": "/works"
 }
