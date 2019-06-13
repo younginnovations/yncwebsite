@@ -1,50 +1,30 @@
-{{ with .Site.Data.home.projects }}
+
 <section class="section-projects py-24 px-4">
     <div class="container mx-auto">
         <div class="flex flex-wrap -mx-4">
             <div class="w-1/4 px-4">
+                {{ with .Site.Data.home.projects }}
                 <div>
                     <h2 class="text-black font-bold font-quicksand leading-tight text-5xl xll:text-6xl">{{.title}}</h2>
                     <div class="mt-6">
                         <a class="dash inline-block text-secondary" href="{{.url}}">{{.cta}}</a>
                     </div>
                 </div>
+                {{end}}
             </div>
             <div class="w-3/4 px-4">
                 <ul class="flex -mx-4">
-                    <li class="px-4">
-                        <a href="#" class="inline-block">
-                            <img  class="object-cover inline-block rounded" src="/img/acrylic-art-artistic-1083618.jpg" alt="">
-                        </a>
-                    </li>
-                    <li class="px-4">
-                        <a href="#" class="inline-block">
-                            <img  class="object-cover inline-block rounded" src="/img/adult-backpack-denim-936023.jpg" alt="">
-                        </a>
-                    </li>
-                    <li class="px-4">
-                        <a href="#" class="inline-block">
-                            <img  class="object-cover inline-block rounded" src="/img/blond-hair-coffee-contemporary-1210531.jpg" alt="">
-                        </a>
-                    </li>
-                    <li class="px-4">
-                        <a href="#" class="inline-block">
-                            <img  class="object-cover inline-block rounded" src="/img/businessman-cellphones-cellular-telephone-1927509.jpg" alt="">
-                        </a>
-                    </li>
-                    <li class="px-4">
-                        <a href="#" class="inline-block">
-                            <img  class="object-cover inline-block rounded" src="/img/chart-charts-contemporary-1851446.jpg" alt="">
-                        </a>
-                    </li>
-                    <li class="px-4">
-                        <a href="#" class="inline-block">
-                            <img  class="object-cover inline-block rounded" src="/img/dark-electronics-graphics-758532.jpg" alt="">
-                        </a>
-                    </li>
+                    {{ with .Site.GetPage "/projects" }}
+                        {{ range .Pages }}
+                            <li class="px-4">
+                                <a href="{{.RelPermalink}}" class="inline-block">
+                                    <img  class="object-cover inline-block rounded" src="{{.Params.Image}}" alt="">
+                                </a>
+                            </li>
+                        {{ end }}
+                    {{ end }}
                 </ul>
             </div>
         </div>
     </div>
 </section>
-{{ end }}
