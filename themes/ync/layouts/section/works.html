@@ -1,5 +1,32 @@
 {{ define "main" }}
 
-{{ .Content }}
+<section class="py-10">
+    <div class="container mx-auto">
+        <div>
+            <h1 class="text-4xl font-bold text-black font-quicksand mb-12">Y&C Works</h1>
+        </div>
+        <div class="-mx-4 overflow-hidden">
+            {{ with .Site.GetPage "/projects" }}
+                {{ range .Pages }}
+                    <div class="inline-block w-1/2 px-4 mb-10 float-left">
+                        <div class="mb-8">
+                            <img  class="object-cover inline-block shadow-2xl" src="{{.Params.Image}}" alt="{{.Title}}">
+                        </div>
+                        <span class="inline-block mb-4">{{.Params.published_date}}</span>
+                        <ul class="mb-4 services flex flex-wrap">
+                            {{ range .Params.services_provided}}
+                            <li>{{.}}</li>
+                            {{end}}
+                        </ul>
+                        <div class="text-2xl">
+                            <h2 class="font-bold">{{.Title}}</h2>
+                            <span class="inline-block">{{.Params.subtitle}}</span>
+                        </div>
+                    </div>
+                {{ end }}
+            {{ end }}
+        </div>
+    </div>
+</section>
 
 {{ end }}
