@@ -12,7 +12,7 @@ services_provided:
   - Photography
 website: 'https://bucsbin.org'
 case_study: 'https://bucsbin.org/about-us'
-description:
+block:
   - content: >-
       In response to the increasing involvement of universities in the applied
       activities of business incubation globally, the objective of this project

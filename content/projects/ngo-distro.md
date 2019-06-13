@@ -9,7 +9,7 @@ services_provided:
   - Videography
 website: 'http://ngodistro.com'
 case_study: 'https://www.behance.net/gallery/74844109/NGO-Distro-Case-Study'
-description:
+block:
   - content: NGO Distro is a Content Management System (CMS) targeted towards the NGOs
       (Non Government Organizations) of Nepal. Most of the NGOs in Nepal don’t
       have capacity and resources to create and maintain website. To fill this
