@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3b49d0da-53f4-4999-a4ff-5adc9e1dec38" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.toml" beforeDir="false" afterPath="$PROJECT_DIR$/config.toml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/post/_index.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/post/_index.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/works.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/works/_index.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/content/projects/ngo-distro.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/static/admin/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/admin/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,17 +11,17 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="vertical" split-proportion="0.8870748">
+    <splitter split-orientation="vertical" split-proportion="0.4367347">
       <split-first>
         <leaf>
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/static/admin/config.yml">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="443">
-                  <caret line="41" column="24" lean-forward="true" selection-start-line="41" selection-start-column="24" selection-end-line="41" selection-end-column="24" />
-                  <folding>
-                    <element signature="e#588#1471#0" />
-                  </folding>
+            <entry file="file://$PROJECT_DIR$/content/projects/ngo-distro.md">
+              <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+                <state split_layout="SPLIT">
+                  <first_editor relative-caret-position="133">
+                    <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+                  </first_editor>
+                  <second_editor />
                 </state>
               </provider>
             </entry>
@@ -37,12 +31,12 @@
       <split-second>
         <leaf>
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/themes/ync/layouts/partials/what-we-do.html">
+            <entry file="file://$PROJECT_DIR$/static/admin/config.yml">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="18">
-                  <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+                <state relative-caret-position="239">
+                  <caret line="45" column="58" selection-start-line="45" selection-start-column="58" selection-end-line="45" selection-end-column="58" />
                   <folding>
-                    <element signature="n#style#0;n#section#0;n#!!top" expanded="true" />
+                    <element signature="e#588#1471#0" />
                   </folding>
                 </state>
               </provider>
@@ -151,6 +145,12 @@
             <path>
               <item name="yncdesign-hugo" type="b2602c69:ProjectViewProjectNode" />
               <item name="yncdesign-hugo" type="462c0819:PsiDirectoryNode" />
+              <item name="content" type="462c0819:PsiDirectoryNode" />
+              <item name="projects" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yncdesign-hugo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yncdesign-hugo" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -214,12 +214,12 @@
       <workItem from="1560227531169" duration="5819000" />
       <workItem from="1560238698385" duration="9982000" />
       <workItem from="1560313560282" duration="11675000" />
-      <workItem from="1560400613905" duration="4459000" />
+      <workItem from="1560400613905" duration="5220000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46710000" />
+    <option name="totallyTimeSpent" value="47471000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="4" y="23" width="1276" height="777" extended-state="0" />
@@ -250,7 +250,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/themes/ync-hugo/layouts/partials/head.html" />
     <entry file="file://$PROJECT_DIR$/themes/ync-hugo/layouts/partials/favicon.html" />
     <entry file="file://$PROJECT_DIR$/themes/ync-hugo/package.json" />
     <entry file="file://$PROJECT_DIR$/themes/ync/layouts/_default/1single.html" />
@@ -321,13 +320,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="163">
           <caret line="4153" column="13" lean-forward="true" selection-start-line="4153" selection-start-column="13" selection-end-line="4153" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/ync/layouts/partials/contact.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="6" column="117" lean-forward="true" selection-start-line="6" selection-start-column="117" selection-end-line="6" selection-end-column="117" />
         </state>
       </provider>
     </entry>
@@ -508,16 +500,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/ync/layouts/partials/what-we-do.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
-          <folding>
-            <element signature="n#style#0;n#section#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config.toml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
@@ -542,10 +524,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/content/projects/ngo-distro.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="133">
+            <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/ync/layouts/partials/what-we-do.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+          <folding>
+            <element signature="n#style#0;n#section#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/ync/layouts/partials/contact.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="14" column="22" lean-forward="true" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/static/admin/config.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="443">
-          <caret line="41" column="24" lean-forward="true" selection-start-line="41" selection-start-column="24" selection-end-line="41" selection-end-column="24" />
+        <state relative-caret-position="239">
+          <caret line="45" column="58" selection-start-line="45" selection-start-column="58" selection-end-line="45" selection-end-column="58" />
           <folding>
             <element signature="e#588#1471#0" />
           </folding>
