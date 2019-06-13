@@ -3,7 +3,7 @@ title: Bucsbin
 subtitle: >-
   An inspired way of learning new competencies, developing, supporting &
   creating business and innovative solutions.
-image: /img/dark-electronics-graphics-758532.jpg
+image: /img/screen-shot-2019-06-13-at-5.11.12-pm.png
 published_date: 2019-06-13T09:42:46.261Z
 services_provided:
   - UI/UX Design
