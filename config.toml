@@ -2,30 +2,3 @@ title = "YNC Design"
 baseURL = "https://yncdesign.netlify.com/"
 languageCode = "en-us"
 theme = "ync"
-
-# The site's parameters
-[params]
-
-  [menu]
-
-    [[menu.header]]
-      weight = 2
-      name = "About"
-      url = "#"
-    [[menu.header]]
-      weight = 3
-      name = "Works"
-      url = "/work"
-    [[menu.header]]
-      weight = 4
-      name = "Contact"
-      url = "/contact"
-    [[menu.header]]
-      weight = 3
-      name = "Hire"
-      url = "/hire"
-    [[menu.header]]
-      weight = 4
-      name = "Download Profile"
-      url = "#"
-

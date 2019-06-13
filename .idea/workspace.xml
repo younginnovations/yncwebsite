@@ -2,52 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3b49d0da-53f4-4999-a4ff-5adc9e1dec38" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/content/works.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/ync/layouts/_default/baseof.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/ync/layouts/partials/projects.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/ync/layouts/section/about.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/ync/src/js/owl-carousel/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/ync/src/js/owl-carousel/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/ync/src/js/owl-carousel/assets/ajax-loader.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/ync/src/js/owl-carousel/assets/owl.carousel.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/ync/src/js/owl-carousel/assets/owl.carousel.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/ync/src/js/owl-carousel/assets/owl.theme.default.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/ync/src/js/owl-carousel/assets/owl.theme.default.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/ync/src/js/owl-carousel/assets/owl.theme.green.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/ync/src/js/owl-carousel/assets/owl.theme.green.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/ync/src/js/owl-carousel/assets/owl.video.play.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/ync/src/js/owl-carousel/owl.carousel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/ync/src/js/owl-carousel/owl.carousel.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/ync/static/img/acrylic-art-artistic-1083618.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/ync/static/img/adult-backpack-denim-936023.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/ync/static/img/analysis-analytics-charts-669610.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/ync/static/img/blond-hair-coffee-contemporary-1210531.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/ync/static/img/businessman-cellphones-cellular-telephone-1927509.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/ync/static/img/chart-charts-contemporary-1851446.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/ync/static/img/dark-electronics-graphics-758532.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/29749745_1745756458837342_176013426341832911_o.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/home/projects.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/home/projects.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/admin/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/public/admin/config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/sitemap.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/sitemap.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/_gen/assets/css/css/app.css_d11fe7b62c27961c87ecd0f2490357b9.content" beforeDir="false" afterPath="$PROJECT_DIR$/resources/_gen/assets/css/css/app.css_d11fe7b62c27961c87ecd0f2490357b9.content" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/_gen/assets/css/css/app.css_d11fe7b62c27961c87ecd0f2490357b9.json" beforeDir="false" afterPath="$PROJECT_DIR$/resources/_gen/assets/css/css/app.css_d11fe7b62c27961c87ecd0f2490357b9.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/_gen/assets/js/js/app.js_8848f55d07695b7ff7188138f23d69e3.content" beforeDir="false" afterPath="$PROJECT_DIR$/resources/_gen/assets/js/js/app.js_8848f55d07695b7ff7188138f23d69e3.content" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/_gen/assets/js/js/app.js_8848f55d07695b7ff7188138f23d69e3.json" beforeDir="false" afterPath="$PROJECT_DIR$/resources/_gen/assets/js/js/app.js_8848f55d07695b7ff7188138f23d69e3.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.toml" beforeDir="false" afterPath="$PROJECT_DIR$/config.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/post/_index.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/post/_index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/works.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/works/_index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/content/projects/ngo-distro.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/static/admin/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/ync/assets/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/themes/ync/assets/css/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/ync/assets/css/tailwind.css" beforeDir="false" afterPath="$PROJECT_DIR$/themes/ync/assets/css/tailwind.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/ync/assets/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/themes/ync/assets/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/ync/assets/mix-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/themes/ync/assets/mix-manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/ync/layouts/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/ync/layouts/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/ync/layouts/page/single.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/ync/layouts/_default/single.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/ync/layouts/partials/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/ync/layouts/partials/header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/ync/layouts/partials/what-we-do.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/ync/layouts/partials/what-we-do.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/ync/src/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/themes/ync/src/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/ync/src/sass/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/themes/ync/src/sass/app.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/ync/webpack.mix.js" beforeDir="false" afterPath="$PROJECT_DIR$/themes/ync/webpack.mix.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -62,10 +23,10 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/static/admin/config.yml">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="460">
-                  <caret line="46" column="54" lean-forward="true" selection-start-line="46" selection-start-column="54" selection-end-line="46" selection-end-column="54" />
+                <state relative-caret-position="443">
+                  <caret line="41" column="24" lean-forward="true" selection-start-line="41" selection-start-column="24" selection-end-line="41" selection-end-column="24" />
                   <folding>
-                    <element signature="e#593#1476#0" />
+                    <element signature="e#588#1471#0" />
                   </folding>
                 </state>
               </provider>
@@ -79,7 +40,7 @@
             <entry file="file://$PROJECT_DIR$/themes/ync/layouts/partials/what-we-do.html">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="18">
-                  <caret line="6" column="14" lean-forward="true" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+                  <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
                   <folding>
                     <element signature="n#style#0;n#section#0;n#!!top" expanded="true" />
                   </folding>
@@ -113,15 +74,12 @@
         <option value="$PROJECT_DIR$/themes/ync-hugo/static/admin/config.yml" />
         <option value="$PROJECT_DIR$/themes/ync-hugo/layouts/partials/banner.html" />
         <option value="$PROJECT_DIR$/themes/ync-hugo/layouts/index.html" />
-        <option value="$PROJECT_DIR$/static/admin/index.html" />
         <option value="$PROJECT_DIR$/themes/ync/layouts/pages/single.html" />
         <option value="$PROJECT_DIR$/themes/ync/layouts/_default/single.html" />
         <option value="$PROJECT_DIR$/themes/ync/layouts/_default/list.html" />
         <option value="$PROJECT_DIR$/content/post/test-1.md" />
         <option value="$PROJECT_DIR$/content/news/_index.md" />
         <option value="$PROJECT_DIR$/content/blog/test-1.md" />
-        <option value="$PROJECT_DIR$/content/post/_index.md" />
-        <option value="$PROJECT_DIR$/config.toml" />
         <option value="$PROJECT_DIR$/data/banner.md" />
         <option value="$PROJECT_DIR$/content/banner/_index.md" />
         <option value="$PROJECT_DIR$/archetypes/default.md" />
@@ -155,6 +113,9 @@
         <option value="$PROJECT_DIR$/themes/ync/src/sass/app.scss" />
         <option value="$PROJECT_DIR$/themes/ync/layouts/partials/projects.html" />
         <option value="$PROJECT_DIR$/themes/ync/layouts/partials/what-we-do.html" />
+        <option value="$PROJECT_DIR$/config.toml" />
+        <option value="$PROJECT_DIR$/static/admin/index.html" />
+        <option value="$PROJECT_DIR$/content/post/_index.md" />
         <option value="$PROJECT_DIR$/static/admin/config.yml" />
       </list>
     </option>
@@ -190,39 +151,13 @@
             <path>
               <item name="yncdesign-hugo" type="b2602c69:ProjectViewProjectNode" />
               <item name="yncdesign-hugo" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yncdesign-hugo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yncdesign-hugo" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-              <item name="home" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yncdesign-hugo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yncdesign-hugo" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yncdesign-hugo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yncdesign-hugo" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-              <item name="ync" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yncdesign-hugo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yncdesign-hugo" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-              <item name="ync" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="yncdesign-hugo" type="b2602c69:ProjectViewProjectNode" />
               <item name="yncdesign-hugo" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-              <item name="ync" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -239,11 +174,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/content/works" />
       <recent name="$PROJECT_DIR$/content/about" />
       <recent name="$PROJECT_DIR$/themes/ync/layouts/_default" />
       <recent name="$PROJECT_DIR$/content" />
       <recent name="$PROJECT_DIR$/data/contact" />
-      <recent name="$PROJECT_DIR$/data/home" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/themes/ync/static/img" />
@@ -279,18 +214,18 @@
       <workItem from="1560227531169" duration="5819000" />
       <workItem from="1560238698385" duration="9982000" />
       <workItem from="1560313560282" duration="11675000" />
-      <workItem from="1560400613905" duration="3550000" />
+      <workItem from="1560400613905" duration="4459000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45801000" />
+    <option name="totallyTimeSpent" value="46710000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="4" y="23" width="1276" height="777" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21393842" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.115883306" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -315,17 +250,9 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/themes/ync-hugo/archetypes/default.md" />
     <entry file="file://$PROJECT_DIR$/themes/ync-hugo/layouts/partials/head.html" />
     <entry file="file://$PROJECT_DIR$/themes/ync-hugo/layouts/partials/favicon.html" />
     <entry file="file://$PROJECT_DIR$/themes/ync-hugo/package.json" />
-    <entry file="file://$PROJECT_DIR$/static/admin/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="11" column="8" lean-forward="true" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/themes/ync/layouts/_default/1single.html" />
     <entry file="file://$PROJECT_DIR$/themes/ync/layouts/_default/list.html" />
     <entry file="file://$PROJECT_DIR$/content/blog/migrate-from-jekyll.md" />
@@ -345,16 +272,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
           <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/content/post/_index.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="135">
-            <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-          </first_editor>
-          <second_editor />
         </state>
       </provider>
     </entry>
@@ -466,7 +383,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/content/works.json" />
-    <entry file="file://$PROJECT_DIR$/content/works.md">
+    <entry file="file://$PROJECT_DIR$/content/works/_index.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="108">
@@ -498,13 +415,6 @@
             <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
           </first_editor>
           <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config.toml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
@@ -581,16 +491,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/ync/layouts/partials/what-we-do.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="6" column="14" lean-forward="true" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
-          <folding>
-            <element signature="n#style#0;n#section#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/themes/ync/src/sass/app.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
@@ -598,12 +498,56 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/site/content/projects/ngo-distro.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="81">
+            <caret line="3" column="10" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/ync/layouts/partials/what-we-do.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+          <folding>
+            <element signature="n#style#0;n#section#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.toml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/admin/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" column="6" lean-forward="true" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/post/_index.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="27">
+            <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/static/admin/config.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="46" column="54" lean-forward="true" selection-start-line="46" selection-start-column="54" selection-end-line="46" selection-end-column="54" />
+        <state relative-caret-position="443">
+          <caret line="41" column="24" lean-forward="true" selection-start-line="41" selection-start-column="24" selection-end-line="41" selection-end-column="24" />
           <folding>
-            <element signature="e#593#1476#0" />
+            <element signature="e#588#1471#0" />
           </folding>
         </state>
       </provider>
