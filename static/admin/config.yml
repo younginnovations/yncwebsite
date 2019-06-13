@@ -34,7 +34,7 @@ collections: # A list of collections the CMS should be able to edit
     create: true # Allow users to create new documents in this collection
     fields:
       - {label: Title, name: title, widget: string}
-      - {label: Subtitle, name: subtitle, widget: string}
+      - {label: Subtitle, name: subtitle, widget: markdown}
       - {label: Image, name: image, widget: image}
       - {label: "Published date", name: published_date, widget: date}
       - {label: "Services Provided", name: services_provided, widget: select, multiple: true,
@@ -43,9 +43,9 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Case Study", name: case_study, widget: string}
       - {label: "Description", name: description, widget: list, fields: [
         {label: "Title", name: "text", widget: string},
-        {label: "Content", name: "content", widget: string}]}
+        {label: "Content", name: "content", widget: markdown}]}
       - {label: "Image List", name: image_list, widget: list, fields: [
-        {label: "Image", name: "image", widget: image}]}
+        {label: "Image", name: "image", widget: markdown}]}
 
   - name: "home-section"
     label: "Homepage"
@@ -55,7 +55,7 @@ collections: # A list of collections the CMS should be able to edit
         name: "banner"
         fields:
           - {label: Title, name: title, widget: string}
-          - {label: Subtitle, name: subtitle, widget: string}
+          - {label: Subtitle, name: subtitle, widget: markdown}
           - {label: Image, name: image, widget: image}
           - {label: CTA, name: cta, widget: string}
           - {label: URL, name: url, widget: string}
@@ -64,7 +64,7 @@ collections: # A list of collections the CMS should be able to edit
         name: "projects"
         fields:
           - {label: Title, name: title, widget: string}
-          - {label: Subtitle, name: subtitle, widget: string}
+          - {label: Subtitle, name: subtitle, widget: markdown}
           - {label: CTA, name: cta, widget: string}
           - {label: URL, name: url, widget: string}
       - file: "data/home/whatwedo.json"
@@ -72,7 +72,7 @@ collections: # A list of collections the CMS should be able to edit
         name: "what_we_do"
         fields:
           - {label: "Title", name: title, widget: string}
-          - {label: "Subtitle", name: subtitle, widget: string}
+          - {label: "Subtitle", name: subtitle, widget: markdown}
           - {label: "Features", name: feature, widget: list, fields: [
             {label: "Title", name: "text", widget: string},
             {label: "Icon", name: "icon", widget: image}]}
@@ -96,7 +96,7 @@ collections: # A list of collections the CMS should be able to edit
         name: "contact"
         fields:
           - {label: "Title", name: "title", widget: string}
-          - {label: "Subtitle", name: "subtitle", widget: string}
+          - {label: "Subtitle", name: "subtitle", widget: markdown}
           - {label: "Location", name: "location_text", widget: string}
           - {label: "Location Icon", name: "location_icon", widget: image}
           - {label: "Phone Number", name: "phone_number", widget: string}

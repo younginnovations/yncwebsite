@@ -2,8 +2,8 @@
 <section class="project-detail">
     <div class="project-detail-banner px-4 relative" style="background-color: #EDF4FC">
         <div class="container mx-auto">
-            <div class="py-16 flex justify-between flex-col" style="height: calc(100vh - 96px)">
-                <div>
+            <div class="w-1/2 py-16 flex justify-between flex-col" style="height: calc(100vh - 96px)">
+                <div class="max-w-xs">
                     <h1 class="text-black font-quicksand font-black text-5xl mb-4">{{.Title}}</h1>
                     <p>{{ .Params.subtitle}}</p>
                 </div>
@@ -81,5 +81,7 @@
         </div>
     </div>
 </section>
+
+{{ printf "%#v" .Params }}
 
 {{ end }}
