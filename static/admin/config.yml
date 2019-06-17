@@ -36,7 +36,7 @@ collections: # A list of collections the CMS should be able to edit
       - {label: Title, name: title, widget: string}
       - {label: Subtitle, name: subtitle, widget: markdown}
       - {label: Image, name: image, widget: image}
-      - {label: "Published date", name: published_date, widget: date}
+      - {label: "Published date", name: date, widget: date}
       - {label: "Services Provided", name: services_provided, widget: select, multiple: true,
          options: ["UI/UX Design", "Mobile App Design", "Graphic Design", "Illustration", "Brand Identity", "Videography", "Photography"], default: ["UI/UX Design"]}
       - {label: Website, name: website, widget: string}

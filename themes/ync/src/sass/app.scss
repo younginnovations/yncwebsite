@@ -1,3 +1,11 @@
+header {
+  nav ul li a {
+    &.active {
+      color: #811cf8;
+    }
+  }
+}
+
 .banner {
   height: 400px;
 

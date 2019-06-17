@@ -14,7 +14,7 @@
                                 <img  class="block object-cover shadow-2xl" src="{{.Params.Image}}" alt="{{.Title}}">
                             </a>
                         </div>
-                        <span class="inline-block mb-4">{{.Params.published_date}}</span>
+                        <span class="inline-block mb-4">{{ .Date.Format "January 2, 2006"}}</span>
                         <ul class="mb-4 services flex flex-wrap">
                             {{ range .Params.services_provided}}
                             <li>{{.}}</li>
