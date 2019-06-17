@@ -1,5 +1,23 @@
 <!DOCTYPE html>
 <html>
+<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -22,7 +40,7 @@
     <link rel="stylesheet" href="/css/tailwind.min.bdc15e0ab78239b8d01697a0a6bffc25392af14b5e24ef25f02331bf4c145993.css" integrity="sha256-vcFeCreCObjQFpegpr/8JTkq8UteJO8l8CMxv0wUWZM=" crossorigin="anonymous">
     
     
-    <link rel="stylesheet" href="/css/app.min.e1f3bab52d45864bed52c1a87495b716a78c2afd949d3b41760da775367ab573.css" integrity="sha256-4fO6tS1FhkvtUsGodJW3FqeMKv2UnTtBdg2ndTZ6tXM=" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/app.min.c7d992a35bc36e716bd0f4a97e9b5779d9b74c53dfd01dac590d2493ed59de98.css" integrity="sha256-x9mSo1vDbnFr0PSpfptXedm3TFPf0B2sWQ0kk&#43;1Z3pg=" crossorigin="anonymous">
     
     
 
@@ -32,37 +50,34 @@
 <body class="antialiased font-body text-base-color">
 
 
-<header class="py-6 px-4">
+
+<header class="absolute left-0 right-0 top-0 z-50 py-3 md:py-6">
     <div class="container mx-auto">
         <div class="flex flex-wrap justify-between items-center">
             
             <div>
-                
                 <a class="" href="/">
                     <img class="h-12" src="/img/logo.svg" alt=" Logo">
                 </a>
-                
             </div>
 
             
-            <nav>
+            <nav class="hidden md:block">
                 
-                    
 <ul class="flex flex-wrap items-center">
     
     <li><a class="hover:text-primary transition about" href="/about/">About</a></li>
     
-    <li><a class="hover:text-primary transition works" href="/works/">Works</a></li>
+    <li><a class="hover:text-primary transition projects" href="/projects/">Projects</a></li>
     
     <li><a class="hover:text-primary transition contact" href="/contact/">Contact</a></li>
     
     <li><a class="hover:text-primary transition hire-us" href="/hire-us/">Hire Us</a></li>
     
-    <li><a class="hover:text-primary transition download-profile" href="#/">Download Profile</a></li>
+    <li><a class="hover:text-primary transition download-profile" href="https://storage.googleapis.com/yipl-site/YNC/YandC-profile.pdf/">Download Profile</a></li>
     
 </ul>
 
-                
             </nav>
         </div>
     </div>
@@ -71,20 +86,29 @@
 
 
 
+<main>
+    
 
-<p>This is a content about</p>
+<section class="pt-32 pb-10">
+    <div class="container mx-auto">
+        <div>
+            <p>This is a content about</p>
+
+        </div>
+    </div>
+</section>
 
 
+</main>
 
-
-<footer class="py-20 px-4">
+<footer class="py-10 md:py-20">
     <div class="container mx-auto">
         <div class="flex flex-wrap -mx-4 -mb-10">
-            <div class="w-full lg:w-1/2 px-4">
+            <div class="w-full md:w-1/2 px-4 mb-10">
                 
                 <div>
                     <div>
-                        <h2 class="font-black font-bold font-quicksand text-4xl">Hire Us</h2>
+                        <h2 class="text-black font-bold font-quicksand text-4xl">Hire Us</h2>
                         <p class="mt-4 text-2xl">UI/UX Designing is the crucial part of the development of any web solution as it determines the user interaction with the developed solutions.</p>
                     </div>
 
@@ -115,28 +139,28 @@
                 </div>
                 
 
-                <nav class="mt-16">
+                <nav class="hidden md:mt-16">
                     
                     
 <ul class="flex flex-wrap items-center">
     
     <li><a class="hover:text-primary transition about" href="/about/">About</a></li>
     
-    <li><a class="hover:text-primary transition works" href="/works/">Works</a></li>
+    <li><a class="hover:text-primary transition projects" href="/projects/">Projects</a></li>
     
     <li><a class="hover:text-primary transition contact" href="/contact/">Contact</a></li>
     
     <li><a class="hover:text-primary transition hire-us" href="/hire-us/">Hire Us</a></li>
     
-    <li><a class="hover:text-primary transition download-profile" href="#/">Download Profile</a></li>
+    <li><a class="hover:text-primary transition download-profile" href="https://storage.googleapis.com/yipl-site/YNC/YandC-profile.pdf/">Download Profile</a></li>
     
 </ul>
 
                     
                 </nav>
             </div>
-            <div class="w-full lg:w-1/2 px-4">
-                <div class="contact-form-wrap p-10">
+            <div class="w-full md:w-1/2 px-4 mb-10">
+                <div class="contact-form-wrap p-5 lg:p-10">
     <div>
         <form name="contact" method="POST" data-netlify="true">
             <div class="form-group mb-6">
@@ -201,13 +225,13 @@
 
 
 
-<script type="text/javascript" src="/js/vendor.8c1934b767a65d10f1737be257e77a9d3a4ef05d3fdd71a093060b7f8edc0133.js" integrity="sha256-jBk0t2emXRDxc3viV&#43;d6nTpO8F0/3XGgkwYLf47cATM=" crossorigin="anonymous" defer></script>
+<script type="text/javascript" src="/js/vendor.23bdccfdf6dcb7a1c974fd99275998430510b25590b8b6577944c0474cdd5c1c.js" integrity="sha256-I73M/fbct6HJdP2ZJ1mYQwUQslWQuLZXeUTAR0zdXBw=" crossorigin="anonymous" defer></script>
 
 
 
 
 
-<script type="text/javascript" src="/js/app.11c5dcd320cfcb1fe95d14fa0dbb27faacef1e2805c24cfa39b30f4a943a6bc8.js" integrity="sha256-EcXc0yDPyx/pXRT6Dbsn&#43;qzvHigFwkz6ObMPSpQ6a8g=" crossorigin="anonymous" defer></script>
+<script type="text/javascript" src="/js/app.10931471a52e7154d801dd80d1542332c823976b6440a8ced6c8895f6cd8b423.js" integrity="sha256-EJMUcaUucVTYAd2A0VQjMsgjl2tkQKjO1siJX2zYtCM=" crossorigin="anonymous" defer></script>
 
 
 </body>
