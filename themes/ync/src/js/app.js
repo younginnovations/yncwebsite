@@ -1,3 +1,4 @@
+// Confetti moving bg
 const bg = document.querySelector('.confetti');
 const windowWidth = window.innerWidth / 5;
 const windowHeight = window.innerHeight / 5 ;
@@ -13,9 +14,8 @@ bg.addEventListener('mousemove', (e) => {
 //   $(".owl-carousel").owlCarousel();
 // });
 
-// const tilt = $('.js-tilt').tilt();
-
-$('a[href*="#hire-us"]').on('click', function(e) {
+// Smooth Scrolling
+$('a[href*="#"]').on('click', function(e) {
   e.preventDefault()
   
   $('html, body').animate(
@@ -26,3 +26,9 @@ $('a[href*="#hire-us"]').on('click', function(e) {
     'linear'
   )
 })
+
+// Download PDF
+var link = document.createElement('a.download-profile');
+link.href = url;
+link.download = 'https://storage.googleapis.com/yipl-site/YNC/YandC-profile.pdf';
+link.dispatchEvent(new MouseEvent('click'));
