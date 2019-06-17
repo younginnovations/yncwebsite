@@ -12,13 +12,8 @@
       "class": "projects"
     },
     {
-      "text": "Contact",
-      "link": "/contact",
-      "class": "contact"
-    },
-    {
       "text": "Hire Us",
-      "link": "/hire-us",
+      "link": "#hire-us",
       "class": "hire-us"
     },
     {
