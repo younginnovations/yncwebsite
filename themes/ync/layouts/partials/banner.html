@@ -3,16 +3,16 @@
     <div class="relative h-full">
         <div class="confetti absolute top-0 left-0 right-0 bottom-0 w-full h-full"></div>
         <div class="container mx-auto">
-            <div class="relative md:w-1/2 z-10">
+            <div class="relative md:w-1/2 z-10 lg:pt-20">
                 <h1 class="text-black font-bold font-quicksand leading-tight text-3xl lg:text-5xl xll:text-6xl mb-6">{{.title}}</h1>
-                <p>{{.subtitle}}</p>
+                <p class="text-2xl">{{.subtitle}}</p>
                 <div class="mt-6">
                     <a class="dash transition inline-block text-primary hover:text-secondary" href="{{.url }}">{{.cta}}</a>
                 </div>
             </div>
         </div>
-        <div class="hidden md:flex absolute left-0 right-0 top-0 bottom-0 items-end">
-            <img class="h-64 xll:h-96" src="{{.image}}" alt="{{.title}}">
+        <div class="hidden md:flex absolute right-0 top-0 bottom-0 items-center z-10">
+            <img class="md:h-64 lg:h-auto" src="{{.image}}" alt="{{.title}}">
         </div>
     </div>
 </section>

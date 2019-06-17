@@ -12,3 +12,17 @@ bg.addEventListener('mousemove', (e) => {
 // $(document).ready(function(){
 //   $(".owl-carousel").owlCarousel();
 // });
+
+// const tilt = $('.js-tilt').tilt();
+
+$('a[href*="#hire-us"]').on('click', function(e) {
+  e.preventDefault()
+  
+  $('html, body').animate(
+    {
+      scrollTop: $($(this).attr('href')).offset().top,
+    },
+    500,
+    'linear'
+  )
+})

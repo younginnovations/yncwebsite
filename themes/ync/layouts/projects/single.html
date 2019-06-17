@@ -1,19 +1,21 @@
 {{ define "main" }}
 <section class="project-detail">
-    <div class="project-detail-banner pt-32 pb-10 relative overflow-hidden" style="background-color: #EDF4FC;height: 380px">
-        <div class="container mx-auto h-full">
-            <div class="w-full h-full lg:w-1/2 flex justify-between flex-col md:pr-4 ">
-                <div class="md:max-w-sm lg:max-w-xs">
-                    <h1 class="text-black font-quicksand font-black text-3xl lg:text-5xl mb-4">{{.Title}}</h1>
-                    <p>{{ .Params.subtitle}}</p>
-                </div>
-                <div>
-                    <a class="hover:text-primary transition" href="/works"><- Back to Projects</a>
+    <div class="project-detail-banner pt-32 pb-10 relative overflow-hidden">
+        <div class="relative h-full">
+            <div class="container mx-auto h-full">
+                <div class="w-full h-full lg:max-w-4xl lg:pt-16 mx-auto flex justify-between flex-col md:pr-4 ">
+                    <div class="md:max-w-sm lg:max-w-xs">
+                        <h1 class="text-black font-quicksand font-black text-3xl lg:text-5xl mb-4">{{.Title}}</h1>
+                        <p>{{ .Params.subtitle}}</p>
+                    </div>
+                    <div>
+                        <a class="hover:text-primary transition" href="/works"><- Back to Projects</a>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="hidden md:block lg:project-detail-image w-1/2 h-64 xll:h-auto absolute right-0 bottom-0">
-            <img class="block object-cover" src="{{ .Params.image }}" alt="{{ .Title }}" />
+            <div class="hidden md:block project-detail-image w-1/2 h-64 lg:h-auto top-0 absolute right-0 bottom-0">
+                <img class="w-full h-full block" src="{{ .Params.image }}" alt="{{ .Title }}" />
+            </div>
         </div>
     </div>
     <div class="py-10 lg:py-16">

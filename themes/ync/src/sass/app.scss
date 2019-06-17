@@ -2,7 +2,7 @@
   height: 400px;
 
   @media only screen and (min-width: 768px) {
-    height: calc(100vh - 98px);
+    height: 100vh;
   }
 
   .confetti {
@@ -131,17 +131,21 @@ footer {
 }
 
 .project-detail-banner {
-  height: calc(100vh - 96px);
+  height: 300px;
+  background-color: #EDF4FC;
+
+  @media only screen and (min-width: 768px) {
+    height: calc(100vh - 50px);
+  }
 }
 
 
 
 .project-detail-image {
-  height: calc(100vh - 96px);
+  height: 110%;
 
   img {
-    height: 100%;
-    width: 100%;
+    object-fit: none;
     object-position: 0 0;
   }
 }
