@@ -1,5 +1,5 @@
 ---
-title: Bucsbin
+title: BUCSBIN
 subtitle: >-
   An inspired way of learning new competencies, developing, supporting &
   creating business and innovative solutions.
