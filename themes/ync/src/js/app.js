@@ -33,7 +33,7 @@ $(document).ready(function () {
   //Navigation active class
   $(function(){
     var path = location.pathname;
-    $('header nav a').each(function(){
+    $('header nav .menu-item').each(function(){
       if (this.href.includes(path.replace(/^\/+|\/+$/gm,''))) {
         $(this).addClass('active');
       }
