@@ -7,9 +7,9 @@
       "class": "about"
     },
     {
-      "text": "Works",
-      "link": "/works",
-      "class": "works"
+      "text": "Projects",
+      "link": "/projects",
+      "class": "projects"
     },
     {
       "text": "Contact",
