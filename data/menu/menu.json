@@ -4,17 +4,17 @@
     {
       "text": "About",
       "link": "/about",
-      "class": "about"
+      "class": "menu-item"
     },
     {
       "text": "Projects",
       "link": "/projects",
-      "class": "projects"
+      "class": "menu-item"
     },
     {
       "text": "Hire Us",
       "link": "#hire-us",
-      "class": "hire-us"
+      "class": "menu-item"
     },
     {
       "text": "Download Profile",
