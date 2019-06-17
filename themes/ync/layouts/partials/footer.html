@@ -1,7 +1,7 @@
-<footer class="py-20 px-4">
+<footer class="py-10 md:py-20">
     <div class="container mx-auto">
         <div class="flex flex-wrap -mx-4 -mb-10">
-            <div class="w-full lg:w-1/2 px-4">
+            <div class="w-full md:w-1/2 px-4 mb-10">
                 {{ with .Site.Data.contact.contact }}
                 <div>
                     <div>
@@ -36,13 +36,13 @@
                 </div>
                 {{ end }}
 
-                <nav class="mt-16">
+                <nav class="hidden md:mt-16">
                     {{ with $.Site.Data.menu.menu }}
                     {{ partial "menu.html" . }}
                     {{ end }}
                 </nav>
             </div>
-            <div class="w-full lg:w-1/2 px-4">
+            <div class="w-full md:w-1/2 px-4 mb-10">
                 {{ partial "contact" }}
             </div>
         </div>

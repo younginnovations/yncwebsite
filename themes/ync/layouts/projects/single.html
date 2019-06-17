@@ -1,22 +1,22 @@
 {{ define "main" }}
 <section class="project-detail">
-    <div class="project-detail-banner px-4 relative" style="background-color: #EDF4FC">
+    <div class="project-detail-banner pt-24 relative" style="background-color: #EDF4FC;height: 380px">
         <div class="container mx-auto">
-            <div class="w-1/2 py-16 flex justify-between flex-col" style="height: calc(100vh - 96px)">
-                <div class="max-w-xs">
-                    <h1 class="text-black font-quicksand font-black text-5xl mb-4">{{.Title}}</h1>
+            <div class="w-full lg:w-1/2 flex justify-between flex-col">
+                <div class="lg:max-w-xs">
+                    <h1 class="text-black font-quicksand font-black text-3xl lg:text-5xl mb-4">{{.Title}}</h1>
                     <p>{{ .Params.subtitle}}</p>
                 </div>
                 <div>
-                    <a class="hover:text-primary transition" href="/works">Back to Projects</a>
+                    <a class="hover:text-primary transition" href="/works"><- Back to Projects</a>
                 </div>
             </div>
         </div>
-        <div class="project-detail-image w-1/2 absolute right-0 bottom-0">
+        <div class="hidden lg:project-detail-image w-1/2 absolute right-0 bottom-0">
             <img class="block object-cover" src="{{ .Params.image }}" alt="{{ .Title }}" />
         </div>
     </div>
-    <div class="py-16 px-4">
+    <div class="py-10 lg:py-16">
         <div class="container mx-auto">
             <div class="max-w-4xl mx-auto">
                 <div class="flex flex-wrap -mx-4">
@@ -49,7 +49,7 @@
                             <div class="mb-10">
                                 <h4 class="text-black font-bold font-quicksand mb-4">Website</h4>
                                 <span>
-                            <a class="inline-block text-secondary hover:text-primary transition"
+                            <a class="break-all inline-block hover:text-secondary text-primary transition"
                                target="_blank" href="{{.Params.website}}">
                                 {{.Params.website}}</a>
                         </span>
@@ -57,7 +57,7 @@
                             <div>
                                 <h4 class="text-black font-bold font-quicksand mb-4">Case Study</h4>
                                 <span>
-                                    <a class="inline-block text-secondary hover:text-primary transition"  target="_blank"
+                                    <a class="break-all inline-block hover:text-secondary text-primary transition"  target="_blank"
                                        href="{{.Params.case_study}}">{{.Params.case_study}}</a>
                                 </span>
                             </div>
@@ -65,7 +65,7 @@
                     </div>
                 </div>
             </div>
-            <ul class="flex flex-wrap -mx-4">
+            <ul class="flex flex-wrap mt-10 lg:mt-10 -mx-4">
                 {{ range .Params.image_list}}
                 <li class="w-full md:w-1/4 px-4 ">
                     <img class="block h-full w-full object-cover" src="{{.image}}" alt="{{.Title}}">

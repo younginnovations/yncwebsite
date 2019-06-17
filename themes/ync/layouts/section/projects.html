@@ -1,16 +1,18 @@
 {{ define "main" }}
 
-<section class="py-10">
+<section class="pt-24 pb-10">
     <div class="container mx-auto">
         <div>
             <h1 class="text-4xl font-bold text-black font-quicksand mb-12">Y&C Works</h1>
         </div>
-        <div class="flex flex-wrap -mx-4">
+        <div class="flex flex-wrap -mx-4 -mb-16">
             {{ with .Site.GetPage "/projects" }}
                 {{ range .Pages }}
-                    <div class="inline-block w-1/2 px-4 mb-16">
+                    <div class="inline-block w-full lg:w-1/2 px-4 mb-16">
                         <div class="mb-8">
-                            <img  class="object-cover inline-block shadow-2xl" src="{{.Params.Image}}" alt="{{.Title}}">
+                            <a class="transition hover:text-primary" href="{{.RelPermalink}}" title="{{.Title}}">
+                                <img  class="object-cover inline-block shadow-2xl" src="{{.Params.Image}}" alt="{{.Title}}">
+                            </a>
                         </div>
                         <span class="inline-block mb-4">{{.Params.published_date}}</span>
                         <ul class="mb-4 services flex flex-wrap">
@@ -19,10 +21,10 @@
                             {{end}}
                         </ul>
                         <div class="text-2xl">
-                            <h2 class="font-bold">
+                            <h2 class="font-bold mb-2">
                                 <a class="transition hover:text-primary" href="{{.RelPermalink}}" title="{{.Title}}">{{.Title}}</a>
                             </h2>
-                            <span class="inline-block">{{.Params.subtitle}}</span>
+                            <span class="text-lg lg:text-base inline-block">{{.Params.subtitle}}</span>
                         </div>
                     </div>
                 {{ end }}

@@ -1,10 +1,18 @@
 .banner {
-  height: calc(100vh - 98px);
+  height: 400px;
+
+  @media only screen and (min-width: 768px) {
+    height: calc(100vh - 98px);
+  }
 
   .confetti {
     background: url("/img/ic_confetti.svg") no-repeat left center/cover;
     z-index: 1;
   }
+}
+
+.container {
+  padding: 0 1rem;
 }
 
 a {
@@ -66,7 +74,6 @@ nav {
 .section-projects {
   ul {
     img {
-      width: 215px;
       height: 100%;
       object-position: top;
       box-shadow: 1px 1px 5px 1px rgba(39, 39, 39, 0.5);
@@ -178,19 +185,28 @@ footer {
 
 .what-we-do {
   li {
-    border-right: 1px solid rgba(255,255,255,0.2);
+
     border-bottom: 1px solid rgba(255,255,255,0.2);
 
-    &:nth-child(4) {
-      border-right: 0;
+    @media only screen and (min-width: 992px){
+      border-right: 1px solid rgba(255,255,255,0.2);
+
+      &:nth-child(4) {
+        border-right: 0;
+      }
+
+      &:nth-child(n+5) {
+        border-bottom: 0;
+      }
+
+      &:last-child {
+        border-right: 0;
+      }
     }
+
+
 
     &:last-child {
-      border-bottom: 0;
-      border-right: 0;
-    }
-
-    &:nth-child(n+5) {
       border-bottom: 0;
     }
   }

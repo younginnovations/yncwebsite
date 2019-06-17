@@ -1,24 +1,24 @@
 
-<section class="section-projects py-24 px-4">
+<section class="section-projects py-6 lg:py-24">
     <div class="container mx-auto">
         <div class="flex flex-wrap -mx-4">
-            <div class="w-1/4 px-4">
+            <div class="w-full lg:w-1/4 px-4 mb-10 lg:mb-0">
                 {{ with .Site.Data.home.projects }}
                 <div>
-                    <h2 class="text-black font-bold font-quicksand leading-tight text-5xl xll:text-6xl">{{.title}}</h2>
+                    <h2 class="text-black font-bold font-quicksand leading-tight text-3xl lg:text-5xl xll:text-6xl">{{.title}}</h2>
                     <div class="mt-6">
-                        <a class="dash inline-block text-secondary" href="{{.url}}">{{.cta}}</a>
+                        <a class="dash transition inline-block text-primary hover:text-secondary" href="{{.url}}">{{.cta}}</a>
                     </div>
                 </div>
                 {{end}}
             </div>
-            <div class="w-3/4 px-4">
-                <ul class="flex -mx-4">
+            <div class="w-full lg:w-3/4 px-4">
+                <ul class="flex flex-wrap -mx-4 -mb-10 lg:-mb-0">
                     {{ with .Site.GetPage "/projects" }}
                         {{ range .Pages }}
-                            <li class="px-4">
-                                <a href="{{.RelPermalink}}" class="inline-block">
-                                    <img  class="object-cover inline-block rounded" src="{{.Params.Image}}" alt="">
+                            <li class="w-full md:w-1/3 px-4 mb-10 lg:mb-0">
+                                <a href="{{.RelPermalink}}" class="block">
+                                    <img  class="w-full object-cover inline-block rounded" src="{{.Params.Image}}" alt="">
                                 </a>
                             </li>
                         {{ end }}

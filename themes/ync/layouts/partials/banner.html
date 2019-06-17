@@ -1,16 +1,16 @@
 {{ with .Site.Data.home.herobanner }}
-<section class="relative banner pt-12 xll:pt-16">
+<section class="relative banner pt-24">
     <div class="confetti absolute top-0 left-0 right-0 bottom-0 w-full h-full"></div>
     <div class="container mx-auto">
-        <div class="relative w-1/2 z-10">
-            <h1 class="text-black font-bold font-quicksand leading-tight text-5xl xll:text-6xl mb-6">{{.title}}</h1>
+        <div class="relative md:w-1/2 z-10">
+            <h1 class="text-black font-bold font-quicksand leading-tight text-3xl lg:text-5xl xll:text-6xl mb-6">{{.title}}</h1>
             <p>{{.subtitle}}</p>
             <div class="mt-6">
-                <a class="dash inline-block text-secondary" href="{{.url }}">{{.cta}}</a>
+                <a class="dash transition inline-block text-primary hover:text-secondary" href="{{.url }}">{{.cta}}</a>
             </div>
         </div>
     </div>
-    <div class="absolute left-0 right-0 top-0 bottom-0 flex items-end">
+    <div class="hidden md:absolute left-0 right-0 top-0 bottom-0 flex items-end">
         <img class="h-64 xll:h-96" src="{{.image}}" alt="{{.title}}">
     </div>
 </section>
