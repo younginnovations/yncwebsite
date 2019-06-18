@@ -1,4 +1,4 @@
-<footer class="hire-us py-10 md:py-20">
+<footer class="hire-us py-10 md:py-20 lg:py-24">
     <div class="container mx-auto">
         <div class="flex flex-wrap -mx-4 -mb-10">
             <div id="hire-us" class="w-full md:w-1/2 px-4 mb-10">
@@ -6,25 +6,25 @@
                 <div>
                     <div>
                         <h2 class="text-black font-bold font-quicksand text-4xl">{{.title}}</h2>
-                        <p class="mt-4 text-2xl">{{.subtitle}}</p>
+                        <p class="mt-4 lg:mt-10 text-2xl">{{.subtitle}}</p>
                     </div>
 
                     <address class="mt-10 text-black not-italic">
                         <ul class="m-0 p-0">
-                            <li class="mb-4 flex flex-wrap items-center">
+                            <li class="mb-4 lg:mb-6 flex flex-wrap items-center">
                                 <span class="inline-block mr-4"><img class="inline-block w-6" src="{{.location_icon}}" alt="{{.text}}"></span>
                                 <span>{{.location_text}}</span>
                             </li>
 
                             <ul>
-                                <li class="mb-4 flex flex-wrap items-center">
+                                <li class="mb-4 lg:mb-6  flex flex-wrap items-center">
                                     <span class="inline-block mr-4"><img class="inline-block w-6" src="{{.phone_icon}}" alt=""></span>
                                     <span>
                                         <a class="transition hover:text-primary" href="tel:{{.phone_number}}">
                                             {{.phone_number}}</a>
                                     </span>
                                 </li>
-                                <li class="mb-4 flex flex-wrap items-center">
+                                <li class="flex flex-wrap items-center">
                                     <span class="inline-block mr-4"><img class="inline-block w-6" src="{{.email_icon}}" alt=""></span>
                                     <span>
                                         <a class="transition hover:text-primary" href="mailto:{{.email}}">{{.email}}</a>

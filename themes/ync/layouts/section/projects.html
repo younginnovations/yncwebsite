@@ -1,6 +1,6 @@
 {{ define "main" }}
 
-<section class="pt-32 pb-10">
+<section class="pt-32 lg:pt-40 pb-10 lg:pb-20">
     <div class="container mx-auto">
         <div>
             <h1 class="text-4xl font-bold text-black font-quicksand mb-12">Y&C Works</h1>
@@ -14,13 +14,12 @@
                                 <img  class="block object-cover shadow-2xl" src="{{.Params.Image}}" alt="{{.Title}}">
                             </a>
                         </div>
-                        <span class="inline-block mb-4">{{ .Date.Format "January 2, 2006"}}</span>
-                        <ul class="mb-4 services flex flex-wrap">
+                        <ul class="services flex flex-wrap">
                             {{ range .Params.services_provided}}
                             <li>{{.}}</li>
                             {{end}}
                         </ul>
-                        <div class="text-2xl">
+                        <div class="mt-4 text-2xl">
                             <h2 class="font-bold mb-2">
                                 <a class="transition hover:text-primary" href="{{.RelPermalink}}" title="{{.Title}}">{{.Title}}</a>
                             </h2>

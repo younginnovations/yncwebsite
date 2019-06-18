@@ -20,9 +20,6 @@ module.exports = {
       primary: '#7E1BF4',
       secondary: '#F67534'
     },
-    colors: {
-    
-    },
     borderWidth: {
       default: '1px',
       '0': '0',

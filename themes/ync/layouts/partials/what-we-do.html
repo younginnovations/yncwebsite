@@ -1,5 +1,5 @@
 {{ with .Site.Data.home.whatwedo }}
-<section class="what-we-do py-12 xll:py-24 text-white" style="background: linear-gradient(135deg, #811CF8 0%, #3863D5 100%);">
+<section class="what-we-do py-12 lg:py-24 text-white" style="background: linear-gradient(135deg, #811CF8 0%, #3863D5 100%);">
     <div class="container mx-auto">
         <div class="max-w-2xl mx-auto text-center mb-10 lg:mb-16">
             <h2 class="capitalize font-bold font-quicksand text-3xl md:text-4xl mb-4">{{.title}}</h2>
@@ -12,7 +12,7 @@
                     <div class="py-10 px-4 flex flex-wrap items-center justify-center text-center">
                         <div>
                             <div class="mb-4">
-                                <img class="inline-block mx-auto h-6 lg:h-10" src="{{.icon}}" alt="{{.text}}">
+                                <img class="inline-block mx-auto w-16 h-10 object-contain lg:h-10" src="{{.icon}}" alt="{{.text}}">
                             </div>
                             <div>
                                 <h3 class="font-bold font-quicksand text-lg capitalize">{{.text}}</h3>
