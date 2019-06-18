@@ -1,12 +1,12 @@
 
-<section class="section-projects overflow-hidden relative pb-12 lg:pb-24 lg:-mt-16 z-10" style="height: 380px">
+<section class="section-projects overflow-hidden relative pt-12 pb-12 lg:pt-0 lg:pb-24 lg:-mt-16 z-10">
     <div class="container mx-auto">
         <div class="flex flex-wrap items-center -mx-4">
-            <div class="w-full lg:w-1/4 px-4 mb-10 lg:mb-0 lg:pt-24">
+            <div class="w-full lg:w-1/4 px-4 lg:pt-24">
                 {{ with .Site.Data.home.projects }}
-                <div class="md:flex items-center flex-wrap justify-between lg:block">
+                <div class="flex items-center flex-wrap justify-between lg:block">
                     <h2 class="text-black font-bold font-quicksand leading-tight text-3xl lg:text-4xl">{{.title}}</h2>
-                    <div class="mt-6 md:mt-0 lg:mt-8">
+                    <div class="lg:mt-0 lg:mt-8">
                         <a class="dash transition inline-block text-primary hover:text-secondary" href="{{.url}}">{{.cta}}</a>
                     </div>
                 </div>
@@ -14,7 +14,7 @@
             </div>
         </div>
     </div>
-    <div class="absolute right-0 lg:w-3/4" style="top: -40px">
+    <div class="owl-carousel-wrap w-full lg:absolute right-0 lg:w-3/4">
         <ul class="owl-carousel">
             {{ with .Site.GetPage "/projects" }}
             {{ range .Pages }}

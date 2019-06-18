@@ -1,6 +1,6 @@
 <div class="absolute top-0 left-0 right-0" style="z-index: 100">
     <div class="bg-orange-600 text-center py-2">
-        <p class="text-sm text-white">The site is under maintenance !!</p>
+        <p class="font-bold text-sm text-white">The site is under maintenance !!</p>
     </div>
 </div>
 
@@ -8,7 +8,7 @@
 {{ with $.Site.Data.menu.menu }}
 <header class="absolute left-0 right-0 top-0 z-50 py-3 md:py-6 lg:py-10">
     <div class="container mx-auto">
-        <div class="flex flex-wrap justify-between items-center">
+        <div class="flex flex-wrap justify-center md:justify-between items-center">
             <!-- Brand Logo -->
             <div>
                 <a class="" href="/">
@@ -23,5 +23,26 @@
         </div>
     </div>
 </header>
-{{ end }}
 <!-- Header End -->
+
+<!--Mobile Navigation-->
+<div class="navigation-wrapper md:hidden">
+    <div>
+        <div class="header">
+            <div class="burger-container">
+                <div id="burger">
+                    <div class="bar topBar"></div>
+                    <div class="bar btmBar"></div>
+                </div>
+            </div>
+            <div class="icon icon-apple"></div>
+            <ul class="menu">
+                <li class="menu-item"><a href=/about>About</a></li>
+                <li class="menu-item"><a href="/projects">Projects</a></li>
+                <li class="menu-item"><a class="download-profile" href="https://storage.googleapis.com/yipl-site/YNC/YandC-profile.pdf">Download Profile</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+{{ end }}

@@ -1,16 +1,31 @@
 // Confetti moving bg
-const bg = document.querySelector('.confetti');
-const windowWidth = window.innerWidth / 5;
-const windowHeight = window.innerHeight / 5;
+// const bg = document.querySelector('.confetti');
+// const windowWidth = window.innerWidth / 5;
+// const windowHeight = window.innerHeight / 5;
+//
+// if (bg) {
+//   bg.addEventListener('mousemove', (e) => {
+//     const mouseX = e.clientX / windowWidth;
+//     const mouseY = e.clientY / windowHeight;
+//
+//     bg.style.transform = `translate3d(-${mouseX}%, -${mouseY}%, 0)`;
+//   });
+// }
 
-if (bg) {
-  bg.addEventListener('mousemove', (e) => {
-    const mouseX = e.clientX / windowWidth;
-    const mouseY = e.clientY / windowHeight;
-    
-    bg.style.transform = `translate3d(-${mouseX}%, -${mouseY}%, 0)`;
-  });
-}
+import Macy from "macy";
+
+var macyInstance = Macy({
+  // See below for all available options.
+  container: '#macy-container',
+  trueOrder: false,
+  waitForImages: false,
+  margin: 80,
+  columns: 2,
+  breakAt: {
+    940: 2,
+    400: 1
+  }
+});
 
 $(document).ready(function () {
   // Smooth Scrolling
@@ -26,13 +41,26 @@ $(document).ready(function () {
     );
   });
   
+  //Projects Owl Carousel
   $('.owl-carousel').owlCarousel({
     items: 3,
     loop: true,
     autoplay: true,
     autoplayTimeout: 3000,
     autoplayHoverPause: true,
-    lazyLoad:true,
+    lazyLoad: true,
+    responsiveClass: true,
+    responsive: {
+      0: {
+        items: 1,
+      },
+      480: {
+        items: 2,
+      },
+      768: {
+        items: 3,
+      }
+    }
   });
   
   // Download PDF
@@ -51,4 +79,15 @@ $(document).ready(function () {
       }
     });
   });
+  
+  //Responsive Menu
+  (function(){
+    var burger = document.querySelector('.burger-container'),
+      header = document.querySelector('.header');
+    
+    burger.onclick = function() {
+      header.classList.toggle('menu-opened');
+    }
+  }());
+  
 });

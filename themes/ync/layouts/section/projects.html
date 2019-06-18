@@ -1,14 +1,14 @@
 {{ define "main" }}
 
-<section class="pt-32 lg:pt-40 pb-10 lg:pb-20">
+<section class="pt-32 lg:pt-40 pb-10">
     <div class="container mx-auto">
         <div>
             <h1 class="text-4xl font-bold text-black font-quicksand mb-12">Y&C Works</h1>
         </div>
-        <div class="flex flex-wrap -mx-4 -mb-16">
+        <div id="macy-container">
             {{ with .Site.GetPage "/projects" }}
                 {{ range .Pages }}
-                    <div class="w-full lg:w-1/2 px-4 mb-16">
+                    <div class="">
                         <div class="mb-8">
                             <a class="block transition hover:text-primary" href="{{.RelPermalink}}" title="{{.Title}}">
                                 <img  class="block object-cover shadow-2xl" src="{{.Params.Image}}" alt="{{.Title}}">
