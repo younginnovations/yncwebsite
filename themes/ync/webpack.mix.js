@@ -1,10 +1,10 @@
-const mix = require("laravel-mix")
-const path = require("path")
-const tailwindCss = require("tailwindcss")
+const mix = require('laravel-mix');
+const path = require('path');
+const tailwindCss = require('tailwindcss');
 
-mix.setPublicPath(path.normalize("assets"))
-mix.setResourceRoot(path.normalize("src"))
-mix.setResourceRoot("./../")
+mix.setPublicPath(path.normalize('assets'));
+mix.setResourceRoot(path.normalize('src'));
+mix.setResourceRoot('./../');
 
 if (mix.inProduction()) {
   mix.options({
@@ -15,43 +15,46 @@ if (mix.inProduction()) {
         },
       },
     },
-  })
+  });
 } else {
-  mix.webpackConfig({ devtool: "inline-source-map" }).sourceMaps()
+  mix.webpackConfig({ devtool: 'inline-source-map' }).sourceMaps();
 }
 
 function resolve(dir) {
-  return path.join(__dirname, dir)
+  return path.join(__dirname, dir);
 }
 
 mix.webpackConfig({
   resolve: {
     alias: {
-      "@": resolve("src/js"),
+      '@': resolve('src/js'),
     },
   },
   
   output: {
-    publicPath: path.normalize("/"),
-    chunkFilename: "[name].js",
+    publicPath: path.normalize('/'),
+    chunkFilename: '[name].js',
   },
   
   watchOptions: {
     ignored: /node_modules/,
   },
-})
+});
 
-mix.js("src/js/app.js", "js/app.js").version()
-mix.js("src/js/owl-carousel/owl.carousel.js", "js/vendor.js").version()
+mix.js('src/js/app.js', 'js/app.js').version();
 
-// mix.extract([])
+mix.extract([
+  'jquery',
+  'owl.carousel',
+  'macy'
+]);
 
-// mix.autoload({
-//     jquery: ["$", "window.jQuery"],
-// })
+mix.autoload({
+  jquery: ['$', 'jQuery', 'window.jQuery'],
+});
 
-mix.postCss("src/sass/tailwind.css", "css/tailwind.css", [
-  tailwindCss("src/js/tailwind.config.js"),
-]).sass("src/sass/app.scss", "css/app.css").version()
+mix.postCss('src/sass/tailwind.css', 'css/tailwind.css', [
+  tailwindCss('src/js/tailwind.config.js'),
+]).sass('src/sass/app.scss', 'css/app.css').version();
 
 

@@ -14,14 +14,17 @@
 
 {{ partial "footer" . }}
 
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-<!--<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/tilt.js/1.2.1/tilt.jquery.min.js"></script>-->
-
 <!-- Scripts -->
-{{ $vendor_scripts := resources.Get "js/vendor.js" | fingerprint }}
-{{ with $vendor_scripts }}
+{{ $scripts := resources.Get "js/manifest.js" | fingerprint }}
+{{ with $scripts }}
 <script type="text/javascript" src="{{ .Permalink | relURL }}" integrity="{{ .Data.Integrity }}" crossorigin="anonymous" defer></script>
-{{ $.Scratch.Set "$vendor_scripts" . }}
+{{ $.Scratch.Set "$scripts" . }}
+{{ end }}
+
+{{ $scripts := resources.Get "js/vendor.js" | fingerprint }}
+{{ with $scripts }}
+<script type="text/javascript" src="{{ .Permalink | relURL }}" integrity="{{ .Data.Integrity }}" crossorigin="anonymous" defer></script>
+{{ $.Scratch.Set "$scripts" . }}
 {{ end }}
 
 {{ $scripts := resources.Get "js/app.js" | fingerprint }}

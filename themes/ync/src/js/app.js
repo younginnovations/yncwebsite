@@ -12,22 +12,14 @@
 //   });
 // }
 
+window.jQuery = require('jquery')
+
+import 'owl.carousel';
+
 import Macy from "macy";
 
-var macyInstance = Macy({
-  // See below for all available options.
-  container: '#macy-container',
-  trueOrder: false,
-  waitForImages: false,
-  margin: 80,
-  columns: 2,
-  breakAt: {
-    940: 2,
-    400: 1
-  }
-});
-
 $(document).ready(function () {
+  
   // Smooth Scrolling
   $('a[href*="#"]').on('click', function (e) {
     e.preventDefault();
@@ -82,7 +74,7 @@ $(document).ready(function () {
   
   //Responsive Menu
   (function(){
-    var burger = document.querySelector('.burger-container'),
+    let burger = document.querySelector('.burger-container'),
       header = document.querySelector('.header');
     
     burger.onclick = function() {
@@ -90,4 +82,17 @@ $(document).ready(function () {
     }
   }());
   
+  Macy({
+    // See below for all available options.
+    container: '#macy-container',
+    mobileFirst: true,
+    trueOrder: false,
+    waitForImages: false,
+    margin: 80,
+    columns: 2,
+    breakAt: {
+      768: 2,
+      320: 1
+    }
+  });
 });
