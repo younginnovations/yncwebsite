@@ -29,6 +29,10 @@
     {
       "text": "Photography",
       "icon": "/img/ic_photography.svg"
+    },
+    {
+      "text": "Motion Graphics",
+      "icon": "/img/ic_motion-graphics.svg"
     }
   ]
 }
