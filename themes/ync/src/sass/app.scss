@@ -1,3 +1,5 @@
+@import "owl-carousel/owl.carousel.min.css";
+
 header {
   nav ul li a {
     &.active {
@@ -82,8 +84,8 @@ nav {
 .section-projects {
   ul {
     img {
-      height: 100%;
-      object-position: top;
+      height: 240px;
+      object-position: 0 0;
       box-shadow: 1px 1px 5px 1px rgba(39, 39, 39, 0.5);
       transition: 0.32s ease-in-out;
     }
@@ -93,7 +95,7 @@ nav {
       transition: 0.32s ease-in-out;
 
       &:hover {
-          transform: scale(1.1);
+          transform: scale(1.05);
           img {
             box-shadow: 0 25px 50px -12px rgba(0,0,0,.25);
           }
@@ -154,7 +156,9 @@ footer {
 //  }
 //}
 
-
+.owl-stage-outer {
+  padding: 80px 0;
+}
 
 .project-detail-image {
   height: 110%;

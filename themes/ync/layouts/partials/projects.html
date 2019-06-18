@@ -1,30 +1,30 @@
 
-<section class="section-projects py-12 lg:py-24">
+<section class="section-projects overflow-hidden relative pb-12 lg:pb-24 lg:-mt-16 z-10" style="height: 380px">
     <div class="container mx-auto">
-        <div class="flex flex-wrap -mx-4">
-            <div class="w-full lg:w-1/4 px-4 mb-10 lg:mb-0">
+        <div class="flex flex-wrap items-center -mx-4">
+            <div class="w-full lg:w-1/4 px-4 mb-10 lg:mb-0 lg:pt-24">
                 {{ with .Site.Data.home.projects }}
-                <div class="md:flex items-center flex-wrap justify-between xll:block">
-                    <h2 class="text-black font-bold font-quicksand leading-tight text-3xl lg:text-5xl xll:text-6xl">{{.title}}</h2>
-                    <div class="mt-6 md:mt-0 lg:mt-6">
+                <div class="md:flex items-center flex-wrap justify-between lg:block">
+                    <h2 class="text-black font-bold font-quicksand leading-tight text-3xl lg:text-4xl">{{.title}}</h2>
+                    <div class="mt-6 md:mt-0 lg:mt-8">
                         <a class="dash transition inline-block text-primary hover:text-secondary" href="{{.url}}">{{.cta}}</a>
                     </div>
                 </div>
                 {{end}}
             </div>
-            <div class="w-full lg:w-3/4 px-4">
-                <ul class="flex flex-wrap -mx-4 -mb-10 lg:-mb-0">
-                    {{ with .Site.GetPage "/projects" }}
-                        {{ range .Pages }}
-                            <li class="w-full md:w-1/3 px-4 mb-10 lg:mb-0">
-                                <a href="{{.RelPermalink}}" class="block">
-                                    <img  class="w-full object-cover inline-block rounded" src="{{.Params.Image}}" alt="">
-                                </a>
-                            </li>
-                        {{ end }}
-                    {{ end }}
-                </ul>
-            </div>
         </div>
+    </div>
+    <div class="absolute right-0 lg:w-3/4" style="top: -40px">
+        <ul class="owl-carousel">
+            {{ with .Site.GetPage "/projects" }}
+            {{ range .Pages }}
+            <li class="px-2">
+                <a href="{{.RelPermalink}}" class="block">
+                    <img  class="w-full object-cover inline-block rounded" src="{{.Params.Image}}" alt="">
+                </a>
+            </li>
+            {{ end }}
+            {{ end }}
+        </ul>
     </div>
 </section>

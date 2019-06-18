@@ -53,3 +53,5 @@ mix.js("src/js/owl-carousel/owl.carousel.js", "js/vendor.js").version()
 mix.postCss("src/sass/tailwind.css", "css/tailwind.css", [
   tailwindCss("src/js/tailwind.config.js"),
 ]).sass("src/sass/app.scss", "css/app.css").version()
+
+

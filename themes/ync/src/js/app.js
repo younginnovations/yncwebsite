@@ -1,19 +1,19 @@
 // Confetti moving bg
-// const bg = document.querySelector('.confetti');
-// const windowWidth = window.innerWidth / 5;
-// const windowHeight = window.innerHeight / 5 ;
-//
-// bg.addEventListener('mousemove', (e) => {
-//   const mouseX = e.clientX / windowWidth;
-//   const mouseY = e.clientY / windowHeight;
-//
-//   bg.style.transform = `translate3d(-${mouseX}%, -${mouseY}%, 0)`;
-// });
+const bg = document.querySelector('.confetti');
+const windowWidth = window.innerWidth / 5;
+const windowHeight = window.innerHeight / 5;
+
+bg.addEventListener('mousemove', (e) => {
+  const mouseX = e.clientX / windowWidth;
+  const mouseY = e.clientY / windowHeight;
+  
+  bg.style.transform = `translate3d(-${mouseX}%, -${mouseY}%, 0)`;
+});
 
 $(document).ready(function () {
   // Smooth Scrolling
-  $('a[href*="#"]').on('click', function(e) {
-    e.preventDefault()
+  $('a[href*="#"]').on('click', function (e) {
+    e.preventDefault();
     
     $('html, body').animate(
       {
@@ -21,8 +21,17 @@ $(document).ready(function () {
       },
       500,
       'linear'
-    )
-  })
+    );
+  });
+  
+  $('.owl-carousel').owlCarousel({
+    items: 3,
+    loop: true,
+    autoplay: true,
+    autoplayTimeout: 3000,
+    autoplayHoverPause: true,
+    lazyLoad:true,
+  });
   
   // Download PDF
   var link = document.createElement('a.download-profile');
@@ -31,12 +40,12 @@ $(document).ready(function () {
   link.dispatchEvent(new MouseEvent('click'));
   
   //Navigation active class
-  $(function(){
+  $(function () {
     var path = location.pathname;
-    $('header nav .menu-item').each(function(){
-      if (this.href.includes(path.replace(/^\/+|\/+$/gm,''))) {
+    $('header nav .menu-item').each(function () {
+      if (this.href.includes(path.replace(/^\/+|\/+$/gm, ''))) {
         $(this).addClass('active');
       }
-    })
-  })
+    });
+  });
 });
