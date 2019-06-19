@@ -2,7 +2,7 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/hugo-theme-minow" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/themes/hugo-theme-minow" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/hugo-theme-minow" vcs="" />
+    <mapping directory="$PROJECT_DIR$/themes/hugo-theme-minow" vcs="" />
   </component>
 </project>
