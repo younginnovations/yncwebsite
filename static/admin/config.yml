@@ -37,14 +37,14 @@ collections: # A list of collections the CMS should be able to edit
       - {label: Subtitle, name: subtitle, widget: markdown}
       - {label: Image, name: image, widget: image}
       - {label: "Services Provided", name: services_provided, widget: select, multiple: true,
-         options: ["UI/UX Design", "Mobile App Design", "Graphic Design", "Illustration", "Brand Identity", "Videography", "Photography"], default: ["UI/UX Design"]}
-      - {label: Website, name: website, widget: string}
-      - {label: "Case Study", name: case_study, widget: string}
+         options: ["UI/UX Design", "Mobile App Design", "Graphic Design", "Illustration", "Brand Identity", "Videography", "Photography", "Motion Graphics"], default: ["UI/UX Design"]}
+      - {label: Website, name: website, widget: string, required: false}
+      - {label: "Case Study", name: case_study, widget: string, required: false}
       - {label: "Description", name: block, widget: list, fields: [
         {label: "Title", name: "text", widget: string},
         {label: "Content", name: "content", widget: markdown}]}
       - {label: "Image List", name: image_list, widget: list, fields: [
-        {label: "Image", name: "image", widget: markdown}]}
+        {label: "Image", name: "image", widget: image}]}
 
   - name: "home-section"
     label: "Homepage"

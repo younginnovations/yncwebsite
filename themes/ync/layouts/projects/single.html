@@ -26,10 +26,10 @@
                         <div>
                             <ul>
                                 {{ range .Params.block}}
-                                    <li class="mb-16">
-                                        <h3 class="text-black font-bold font-quicksand text-3xl mb-8">{{.text}}</h3>
-                                        <p class="lg:text-lg">{{.content}}</p>
-                                    </li>
+                                <li class="mb-16">
+                                    <h3 class="text-black font-bold font-quicksand text-3xl mb-8">{{.text}}</h3>
+                                    <p class="lg:text-lg">{{.content}}</p>
+                                </li>
                                 {{end}}
                             </ul>
                         </div>
@@ -55,7 +55,7 @@
                             <div>
                                 <h4 class="text-black font-bold font-quicksand mb-4">Case Study</h4>
                                 <span>
-                                    <a class="break-all inline-block hover:text-secondary text-primary transition"  target="_blank"
+                                    <a class="break-all inline-block hover:text-secondary text-primary transition" target="_blank"
                                        href="{{.Params.case_study}}">{{.Params.case_study}}</a>
                                 </span>
                             </div>
