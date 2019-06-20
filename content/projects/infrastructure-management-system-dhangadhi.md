@@ -9,17 +9,17 @@ services_provided:
 website: 'https://ims.susasan.org/'
 block:
   - content: >-
-      Palak and Bibek reached out to us to design their wedding invitation card.
-      They wanted their card to be as special as their wedding and something
-      minimal & different from the traditional Nepali-Indian wedding cards.
+      The mayor of Dhangadhi wanted to get an overview of projects running in
+      his constituency. Most of the municipalities in Nepal still rely on
+      traditional methods of using physical files to document records of
+      infrastructure projects. This hindered efficiency and delayed any action
+      to be taken where needed.
     text: Challenge/ Problem
   - content: >-
-      We worked together with Bibek and Palak discussing on how the card should
-      look like and what information would go in each page of the card. We
-      started with an initial interview with them understanding about their
-      daily life, work they do, their interests/ hobbies, how they met and fell
-      for each other, who their family members are and so on. Getting to know
-      them closer helped us to bring out character in the invitation card.
+      We helped design a dashboard that helped the officials/ engineers at the
+      municipality to visualize the current status of projects related to
+      infrastructure. In addition to that, we also designed an app that allowed
+      anyone to provide feedback and/ or monitor any running projects.
     text: Our Approach
 image_list:
   - image: /img/ims-1-case-study.jpg
