@@ -1,12 +1,11 @@
 ---
 title: NGO Distro
 subtitle: Where Can You Find Unique Myspace Layouts Nowadays
-image: /img/final-landing-page-1.jpg
-published_date: 2019-06-12T06:17:52.572Z
+image: /img/ngo-distro-banner.png
 services_provided:
   - Illustration
   - Brand Identity
-  - Videography
+  - Graphic Design
 website: 'http://ngodistro.com'
 case_study: 'https://www.behance.net/gallery/74844109/NGO-Distro-Case-Study'
 block:
@@ -22,14 +21,16 @@ block:
       The idea started with playing around the letters N, G and O. Fiddling
       around this idea gave birth to a mark that looked like a fingerprint. This
       also matched with our mission of building a tool that would help NGOs to
-      create a website with simple taps of their fingertips.   For the landing
-      page, we wanted to look different than other CMSs out there. So we chose
-      to go with a bit of  retro-look.
+      create a website with simple taps of their fingertips. 
+
+
+      For the landing page, we wanted to look different than other CMSs out
+      there. So we chose to go with a bit of  retro-look.
     text: Our Approach
 image_list:
-  - image: /img/acrylic-art-artistic-1083618.jpg
-  - image: /img/adult-backpack-denim-936023.jpg
-  - image: /img/analysis-analytics-charts-669610.jpg
-  - image: /img/blond-hair-coffee-contemporary-1210531.jpg
+  - image: /img/ngo-distro-case-study-1.jpg
+  - image: /img/ngo-distro-case-study-2.jpg
+  - image: /img/ngo-distro-case-study-3.jpg
+  - image: /img/ngo-distro-case-study-4.jpg
 ---
 
