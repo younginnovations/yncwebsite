@@ -1,0 +1,32 @@
+.cursor-effect {
+  --color-text: #f62d03;
+
+  &,
+  a {
+    cursor: none;
+  }
+
+  .circle-cursor {
+    position: fixed;
+    left: 0;
+    top: 0;
+    pointer-events: none;
+    border-radius: 50%;
+
+    &--outer {
+      width: 30px;
+      height: 30px;
+      border: 3px solid var(--color-text);
+      z-index: 12000;
+      opacity: 0.5;
+    }
+    &--inner {
+      width: 5px;
+      height: 5px;
+      left: -2.5px;
+      top: -2.5px;
+      z-index: 11000;
+      background: var(--color-text);
+    }
+  }
+}

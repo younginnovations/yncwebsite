@@ -1,20 +1,11 @@
-// Confetti moving bg
-// const bg = document.querySelector('.confetti');
-// const windowWidth = window.innerWidth / 5;
-// const windowHeight = window.innerHeight / 5;
-//
-// if (bg) {
-//   bg.addEventListener('mousemove', (e) => {
-//     const mouseX = e.clientX / windowWidth;
-//     const mouseY = e.clientY / windowHeight;
-//
-//     bg.style.transform = `translate3d(-${mouseX}%, -${mouseY}%, 0)`;
-//   });
-// }
-
 window.jQuery = require('jquery')
 
 import 'owl.carousel';
+import CursorEffect from "../js/cursor-effect/cursor";
+
+if (document.querySelector(".cursor-effect")) {
+  const cursorEffect = new CursorEffect();
+}
 
 import Macy from "macy";
 
