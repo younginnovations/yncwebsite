@@ -9,16 +9,22 @@ module.exports = {
       xl: '1240px',
       xll: '1400px',
     },
+    colors: {
+      black: '#000000',
+      white: '#fff',
+      primary: 'var(--primary)',
+      secondary: 'var(--secondary)',
+      'base-color': 'var(--baseColor)',
+      red: colors.red,
+      yellow: colors.yellow,
+      green: colors.green,
+      blue: colors.blue,
+      indigo: colors.indigo,
+      purple: colors.purple,
+    },
     fontFamily: {
       quicksand: ['Quicksand', 'sans-serif'],
       body: ['Lato', 'sans-serif'],
-    },
-    textColor: {
-      'base-color': '#4A4A4A',
-      black: '#000000',
-      white: '#fff',
-      primary: '#7E1BF4',
-      secondary: '#F67534'
     },
     borderWidth: {
       default: '1px',
@@ -27,9 +33,6 @@ module.exports = {
       '4': '4px',
     },
     extend: {
-      colors: {
-        cyan: '#9cdbff',
-      },
       spacing: {
         '96': '24rem',
         '128': '32rem',
