@@ -18,6 +18,10 @@ block:
       similarities with their current workflow and at the same time that made
       use of technology that made their life more efficient and more effective.
     text: Our Approach
+tags:
+  - text: tags1
+  - text: tags2
+  - text: tags3
 image_list:
   - image: /img/acamis-case-study.jpg
 ---
