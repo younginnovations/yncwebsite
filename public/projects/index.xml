@@ -11,6 +11,15 @@
     
     
     <item>
+      <title>ACAMIS</title>
+      <link>https://yncdesign.netlify.com/projects/acamis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://yncdesign.netlify.com/projects/acamis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>BUCSBIN</title>
       <link>https://yncdesign.netlify.com/projects/bucsbin/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -20,11 +29,38 @@
     </item>
     
     <item>
+      <title>Bibek &amp; Palak wedding invitation card</title>
+      <link>https://yncdesign.netlify.com/projects/bibek-palak-wedding-invitation-card/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://yncdesign.netlify.com/projects/bibek-palak-wedding-invitation-card/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Infrastructure Management System - Dhangadhi</title>
+      <link>https://yncdesign.netlify.com/projects/infrastructure-management-system-dhangadhi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://yncdesign.netlify.com/projects/infrastructure-management-system-dhangadhi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>NGO Distro</title>
       <link>https://yncdesign.netlify.com/projects/ngo-distro/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://yncdesign.netlify.com/projects/ngo-distro/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Resource Projects</title>
+      <link>https://yncdesign.netlify.com/projects/resource-projects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://yncdesign.netlify.com/projects/resource-projects/</guid>
       <description></description>
     </item>
     

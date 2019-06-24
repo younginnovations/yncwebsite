@@ -13,7 +13,6 @@
 <link rel="icon" type="image/png" sizes="32x32" href="https://yncdesign.netlify.com/img/favicons/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="96x96" href="https://yncdesign.netlify.com/img/favicons/favicon-96x96.png">
 <link rel="icon" type="image/png" sizes="16x16" href="https://yncdesign.netlify.com/img/favicons/favicon-16x16.png">
-<link rel="manifest" href="https://yncdesign.netlify.com/img/favicons/manifest.json">
 <meta name="msapplication-TileColor" content="#ffffff">
 <meta name="msapplication-TileImage" content="https://yncdesign.netlify.com/img/favicons/ms-icon-144x144.png">
 <meta name="theme-color" content="#ffffff">
@@ -38,23 +37,30 @@
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700,900|Quicksand:400,500,700&display=swap" rel="stylesheet">
 
     <!-- Main Stylesheet --> 
-    <link rel="stylesheet" href="/css/tailwind.min.28fa521e6ce3ae417e86909199ae3111792506a6b53c8b7540a8c3f6e497d4b0.css" integrity="sha256-KPpSHmzjrkF&#43;hpCRma4xEXklBqa1PIt1QKjD9uSX1LA=" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/tailwind.min.3f7e8178addeb46e6b64d97bc55dfaee003ee0ba3e73edade02f137f8cc9880c.css" integrity="sha256-P36BeK3etG5rZNl7xV367gA&#43;4Lo&#43;c&#43;2t4C8Tf4zJiAw=" crossorigin="anonymous">
     
     
-    <link rel="stylesheet" href="/css/app.min.7861db233c193345e5c2d93d5e64eb4210951c5217e80dfe4d9c0513e9d73946.css" integrity="sha256-eGHbIzwZM0Xlwtk9XmTrQhCVHFIX6A3&#43;TZwFE&#43;nXOUY=" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/app.min.107f6bcb534535110a96e756705b871ca770618788e6eb4d0f2e1df3522fde32.css" integrity="sha256-EH9ry1NFNREKludWcFuHHKdwYYeI5utNDy4d81Iv3jI=" crossorigin="anonymous">
     
     
 
 </head>
 
 
-<body class="antialiased font-body text-base-color">
+<body class="cursor-effect antialiased font-body text-base-color">
+<div class="circle-cursor circle-cursor--inner"></div>
+<div class="circle-cursor circle-cursor--outer"></div>
+
+    
+        
+    
 
 
 
-<header class="absolute left-0 right-0 top-0 z-50 py-3 md:py-6">
+
+<header class="absolute left-0 right-0 top-0 z-50 py-3 md:py-6 lg:py-10">
     <div class="container mx-auto">
-        <div class="flex flex-wrap justify-between items-center">
+        <div class="flex flex-wrap justify-center md:justify-between items-center">
             
             <div>
                 <a class="" href="/">
@@ -67,9 +73,9 @@
                 
 <ul class="flex flex-wrap items-center">
     
-        <li><a class="hover:text-primary transition about" href="/about">About</a></li>
+        <li><a class="hover:text-primary transition menu-item" href="/about">About</a></li>
     
-        <li><a class="hover:text-primary transition projects" href="/projects">Projects</a></li>
+        <li><a class="hover:text-primary transition menu-item" href="/projects">Projects</a></li>
     
         <li><a class="hover:text-primary transition hire-us" href="#hire-us">Hire Us</a></li>
     
@@ -84,26 +90,67 @@
 
 
 
+<div class="navigation-wrapper md:hidden">
+    <div>
+        <div class="header">
+            <div class="burger-container">
+                <div id="burger">
+                    <div class="bar topBar"></div>
+                    <div class="bar btmBar"></div>
+                </div>
+            </div>
+            <div class="icon icon-apple"></div>
+            <ul class="menu">
+                <li class="menu-item"><a href=/about>About</a></li>
+                <li class="menu-item"><a href="/projects">Projects</a></li>
+                <li class="menu-item"><a class="download-profile" href="https://storage.googleapis.com/yipl-site/YNC/YandC-profile.pdf">Download Profile</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+
+
 
 <main>
     
 
-<section class="pt-32 pb-10">
+<section class="pt-32 lg:pt-40 pb-10">
     <div class="container mx-auto">
         <div>
             <h1 class="text-4xl font-bold text-black font-quicksand mb-12">Y&C Works</h1>
         </div>
-        <div class="flex flex-wrap -mx-4 -mb-16">
+        <div id="macy-container">
             
                 
-                    <div class="w-full lg:w-1/2 px-4 mb-16">
+                    <div class="">
+                        <div class="mb-8">
+                            <a class="block transition hover:text-primary" href="/projects/acamis/" title="ACAMIS">
+                                <img  class="block object-cover shadow-2xl" src="/img/acamis-banner.png" alt="ACAMIS">
+                            </a>
+                        </div>
+                        <ul class="services flex flex-wrap">
+                            
+                            <li>UI/UX Design</li>
+                            
+                            <li>Graphic Design</li>
+                            
+                        </ul>
+                        <div class="mt-4 text-2xl">
+                            <h2 class="font-bold mb-2">
+                                <a class="transition hover:text-primary" href="/projects/acamis/" title="ACAMIS">ACAMIS</a>
+                            </h2>
+                            <span class="text-lg lg:text-base inline-block">Academy of Culinary Arts Management Information System</span>
+                        </div>
+                    </div>
+                
+                    <div class="">
                         <div class="mb-8">
                             <a class="block transition hover:text-primary" href="/projects/bucsbin/" title="BUCSBIN">
                                 <img  class="block object-cover shadow-2xl" src="/img/screen-shot-2019-06-13-at-5.11.12-pm.png" alt="BUCSBIN">
                             </a>
                         </div>
-                        <span class="inline-block mb-4">0001-01-01 00:00:00 &#43;0000 UTC</span>
-                        <ul class="mb-4 services flex flex-wrap">
+                        <ul class="services flex flex-wrap">
                             
                             <li>UI/UX Design</li>
                             
@@ -114,7 +161,7 @@
                             <li>Photography</li>
                             
                         </ul>
-                        <div class="text-2xl">
+                        <div class="mt-4 text-2xl">
                             <h2 class="font-bold mb-2">
                                 <a class="transition hover:text-primary" href="/projects/bucsbin/" title="BUCSBIN">BUCSBIN</a>
                             </h2>
@@ -122,23 +169,68 @@
                         </div>
                     </div>
                 
-                    <div class="w-full lg:w-1/2 px-4 mb-16">
+                    <div class="">
                         <div class="mb-8">
-                            <a class="block transition hover:text-primary" href="/projects/ngo-distro/" title="NGO Distro">
-                                <img  class="block object-cover shadow-2xl" src="/img/final-landing-page-1.jpg" alt="NGO Distro">
+                            <a class="block transition hover:text-primary" href="/projects/bibek-palak-wedding-invitation-card/" title="Bibek &amp; Palak wedding invitation card">
+                                <img  class="block object-cover shadow-2xl" src="/img/bibek-palak.png" alt="Bibek &amp; Palak wedding invitation card">
                             </a>
                         </div>
-                        <span class="inline-block mb-4">0001-01-01 00:00:00 &#43;0000 UTC</span>
-                        <ul class="mb-4 services flex flex-wrap">
+                        <ul class="services flex flex-wrap">
+                            
+                            <li>UI/UX Design</li>
+                            
+                            <li>Graphic Design</li>
+                            
+                            <li>Photography</li>
+                            
+                        </ul>
+                        <div class="mt-4 text-2xl">
+                            <h2 class="font-bold mb-2">
+                                <a class="transition hover:text-primary" href="/projects/bibek-palak-wedding-invitation-card/" title="Bibek &amp; Palak wedding invitation card">Bibek &amp; Palak wedding invitation card</a>
+                            </h2>
+                            <span class="text-lg lg:text-base inline-block">Wedding invitation card</span>
+                        </div>
+                    </div>
+                
+                    <div class="">
+                        <div class="mb-8">
+                            <a class="block transition hover:text-primary" href="/projects/infrastructure-management-system-dhangadhi/" title="Infrastructure Management System - Dhangadhi">
+                                <img  class="block object-cover shadow-2xl" src="/img/ims.png" alt="Infrastructure Management System - Dhangadhi">
+                            </a>
+                        </div>
+                        <ul class="services flex flex-wrap">
+                            
+                            <li>UI/UX Design</li>
+                            
+                            <li>Graphic Design</li>
+                            
+                            <li>Photography</li>
+                            
+                        </ul>
+                        <div class="mt-4 text-2xl">
+                            <h2 class="font-bold mb-2">
+                                <a class="transition hover:text-primary" href="/projects/infrastructure-management-system-dhangadhi/" title="Infrastructure Management System - Dhangadhi">Infrastructure Management System - Dhangadhi</a>
+                            </h2>
+                            <span class="text-lg lg:text-base inline-block">Infrastructure Management System</span>
+                        </div>
+                    </div>
+                
+                    <div class="">
+                        <div class="mb-8">
+                            <a class="block transition hover:text-primary" href="/projects/ngo-distro/" title="NGO Distro">
+                                <img  class="block object-cover shadow-2xl" src="/img/ngo-distro-banner.png" alt="NGO Distro">
+                            </a>
+                        </div>
+                        <ul class="services flex flex-wrap">
                             
                             <li>Illustration</li>
                             
                             <li>Brand Identity</li>
                             
-                            <li>Videography</li>
+                            <li>Graphic Design</li>
                             
                         </ul>
-                        <div class="text-2xl">
+                        <div class="mt-4 text-2xl">
                             <h2 class="font-bold mb-2">
                                 <a class="transition hover:text-primary" href="/projects/ngo-distro/" title="NGO Distro">NGO Distro</a>
                             </h2>
@@ -146,14 +238,34 @@
                         </div>
                     </div>
                 
-                    <div class="w-full lg:w-1/2 px-4 mb-16">
+                    <div class="">
+                        <div class="mb-8">
+                            <a class="block transition hover:text-primary" href="/projects/resource-projects/" title="Resource Projects">
+                                <img  class="block object-cover shadow-2xl" src="/img/resource-projects-banner.png" alt="Resource Projects">
+                            </a>
+                        </div>
+                        <ul class="services flex flex-wrap">
+                            
+                            <li>UI/UX Design</li>
+                            
+                            <li>Brand Identity</li>
+                            
+                        </ul>
+                        <div class="mt-4 text-2xl">
+                            <h2 class="font-bold mb-2">
+                                <a class="transition hover:text-primary" href="/projects/resource-projects/" title="Resource Projects">Resource Projects</a>
+                            </h2>
+                            <span class="text-lg lg:text-base inline-block">Open source data on oil, gas and mining payments. Explore payments made by companies for extracting oil, gas and mining resources around the world</span>
+                        </div>
+                    </div>
+                
+                    <div class="">
                         <div class="mb-8">
                             <a class="block transition hover:text-primary" href="/projects/smart-urban-technology-challenge/" title="Smart Urban Technology Challenge">
                                 <img  class="block object-cover shadow-2xl" src="/img/SUTC.jpg" alt="Smart Urban Technology Challenge">
                             </a>
                         </div>
-                        <span class="inline-block mb-4">0001-01-01 00:00:00 &#43;0000 UTC</span>
-                        <ul class="mb-4 services flex flex-wrap">
+                        <ul class="services flex flex-wrap">
                             
                             <li>UI/UX Design</li>
                             
@@ -166,7 +278,7 @@
                             <li>Graphic Design</li>
                             
                         </ul>
-                        <div class="text-2xl">
+                        <div class="mt-4 text-2xl">
                             <h2 class="font-bold mb-2">
                                 <a class="transition hover:text-primary" href="/projects/smart-urban-technology-challenge/" title="Smart Urban Technology Challenge">Smart Urban Technology Challenge</a>
                             </h2>
@@ -182,33 +294,33 @@
 
 </main>
 
-<footer class="hire-us py-10 md:py-20">
+<footer class="hire-us py-10 md:py-20 lg:py-24">
     <div class="container mx-auto">
         <div class="flex flex-wrap -mx-4 -mb-10">
             <div id="hire-us" class="w-full md:w-1/2 px-4 mb-10">
                 
                 <div>
                     <div>
-                        <h2 class="text-black font-bold font-quicksand text-4xl">Hire Us</h2>
-                        <p class="mt-4 text-2xl">UI/UX Designing is the crucial part of the development of any web solution as it determines the user interaction with the developed solutions.</p>
+                        <h2 class="text-black font-bold font-quicksand text-2xl md:text-4xl">Hire Us</h2>
+                        <p class="mt-4 lg:mt-10 md:text-2xl">UI/UX Designing is the crucial part of the development of any web solution as it determines the user interaction with the developed solutions.</p>
                     </div>
 
                     <address class="mt-10 text-black not-italic">
                         <ul class="m-0 p-0">
-                            <li class="mb-4 flex flex-wrap items-center">
+                            <li class="mb-4 lg:mb-6 flex flex-wrap items-center">
                                 <span class="inline-block mr-4"><img class="inline-block w-6" src="/img/ic_location.svg" alt=""></span>
                                 <span>Kumaripati, Lalitpur</span>
                             </li>
 
                             <ul>
-                                <li class="mb-4 flex flex-wrap items-center">
+                                <li class="mb-4 lg:mb-6  flex flex-wrap items-center">
                                     <span class="inline-block mr-4"><img class="inline-block w-6" src="/img/ic_call.svg" alt=""></span>
                                     <span>
                                         <a class="transition hover:text-primary" href="tel:&#43;977-1-5008737">
                                             &#43;977-1-5008737</a>
                                     </span>
                                 </li>
-                                <li class="mb-4 flex flex-wrap items-center">
+                                <li class="flex flex-wrap items-center">
                                     <span class="inline-block mr-4"><img class="inline-block w-6" src="/img/ic_message.svg" alt=""></span>
                                     <span>
                                         <a class="transition hover:text-primary" href="mailto:info@yipl.com.np">info@yipl.com.np</a>
@@ -225,9 +337,9 @@
                     
 <ul class="flex flex-wrap items-center">
     
-        <li><a class="hover:text-primary transition about" href="/about">About</a></li>
+        <li><a class="hover:text-primary transition menu-item" href="/about">About</a></li>
     
-        <li><a class="hover:text-primary transition projects" href="/projects">Projects</a></li>
+        <li><a class="hover:text-primary transition menu-item" href="/projects">Projects</a></li>
     
         <li><a class="hover:text-primary transition hire-us" href="#hire-us">Hire Us</a></li>
     
@@ -265,7 +377,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="w-full md:w-1/2 px-4 mb-6">
+                <div class="w-full md:w-1/2 px-4">
                     <div>
                         <label class="font-bold font-quicksand text-sm uppercase">Contact number</label>
                         <div class="mt-3">
@@ -299,19 +411,22 @@
 </footer>
 
 
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+
+
+<script type="text/javascript" src="/js/manifest.2952f2d15dac448c400f2ccb5898a1c634b6008c6b66c3a57bc17b9e9d669992.js" integrity="sha256-KVLy0V2sRIxADyzLWJihxjS2AIxrZsOle8F7np1mmZI=" crossorigin="anonymous" defer></script>
 
 
 
 
 
-<script type="text/javascript" src="/js/vendor.319d1f73ecaed700fe1d2ca6e2f64defb0f305cfc98778234c8f99b1a7e7f867.js" integrity="sha256-MZ0fc&#43;yu1wD&#43;HSym4vZN77DzBc/Jh3gjTI&#43;Zsafn&#43;Gc=" crossorigin="anonymous" defer></script>
+<script type="text/javascript" src="/js/vendor.1e304ced529919a6a3a8a45fad36f64f8dbf5ef053915f7350f958c811317582.js" integrity="sha256-HjBM7VKZGaajqKRfrTb2T42/XvBTkV9zUPlYyBExdYI=" crossorigin="anonymous" defer></script>
 
 
 
 
 
-<script type="text/javascript" src="/js/app.fb98d0257858b8de8bac1b69b5662310314f0175412edd055031acb8e39262c4.js" integrity="sha256-&#43;5jQJXhYuN6LrBtptWYjEDFPAXVBLt0FUDGsuOOSYsQ=" crossorigin="anonymous" defer></script>
+<script type="text/javascript" src="/js/app.1e8c4142299a1b72800c09c125caf3defc3e633e3ec0842e69ff914556fd8bf4.js" integrity="sha256-HoxBQimaG3KADAnBJcrz3vw&#43;Yz4&#43;wIQuaf&#43;RRVb9i/Q=" crossorigin="anonymous" defer></script>
 
 
 </body>
