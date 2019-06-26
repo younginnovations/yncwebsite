@@ -2,39 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3b49d0da-53f4-4999-a4ff-5adc9e1dec38" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/contact/contact.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/contact/contact.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/home/herobanner.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/home/herobanner.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/menu/menu.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/menu/menu.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/_gen/assets/css/css/app.css_d11fe7b62c27961c87ecd0f2490357b9.content" beforeDir="false" afterPath="$PROJECT_DIR$/resources/_gen/assets/css/css/app.css_d11fe7b62c27961c87ecd0f2490357b9.content" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/_gen/assets/css/css/app.css_d11fe7b62c27961c87ecd0f2490357b9.json" beforeDir="false" afterPath="$PROJECT_DIR$/resources/_gen/assets/css/css/app.css_d11fe7b62c27961c87ecd0f2490357b9.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/_gen/assets/css/css/tailwind.css_d11fe7b62c27961c87ecd0f2490357b9.content" beforeDir="false" afterPath="$PROJECT_DIR$/resources/_gen/assets/css/css/tailwind.css_d11fe7b62c27961c87ecd0f2490357b9.content" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/_gen/assets/css/css/tailwind.css_d11fe7b62c27961c87ecd0f2490357b9.json" beforeDir="false" afterPath="$PROJECT_DIR$/resources/_gen/assets/css/css/tailwind.css_d11fe7b62c27961c87ecd0f2490357b9.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/_gen/assets/js/js/app.js_8848f55d07695b7ff7188138f23d69e3.content" beforeDir="false" afterPath="$PROJECT_DIR$/resources/_gen/assets/js/js/app.js_8848f55d07695b7ff7188138f23d69e3.content" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/_gen/assets/js/js/app.js_8848f55d07695b7ff7188138f23d69e3.json" beforeDir="false" afterPath="$PROJECT_DIR$/resources/_gen/assets/js/js/app.js_8848f55d07695b7ff7188138f23d69e3.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/_gen/assets/js/js/manifest.js_8848f55d07695b7ff7188138f23d69e3.content" beforeDir="false" afterPath="$PROJECT_DIR$/resources/_gen/assets/js/js/manifest.js_8848f55d07695b7ff7188138f23d69e3.content" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/_gen/assets/js/js/manifest.js_8848f55d07695b7ff7188138f23d69e3.json" beforeDir="false" afterPath="$PROJECT_DIR$/resources/_gen/assets/js/js/manifest.js_8848f55d07695b7ff7188138f23d69e3.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/_gen/assets/js/js/vendor.js_8848f55d07695b7ff7188138f23d69e3.content" beforeDir="false" afterPath="$PROJECT_DIR$/resources/_gen/assets/js/js/vendor.js_8848f55d07695b7ff7188138f23d69e3.content" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/_gen/assets/js/js/vendor.js_8848f55d07695b7ff7188138f23d69e3.json" beforeDir="false" afterPath="$PROJECT_DIR$/resources/_gen/assets/js/js/vendor.js_8848f55d07695b7ff7188138f23d69e3.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/static/admin/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/ync/assets/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/themes/ync/assets/css/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/ync/assets/css/tailwind.css" beforeDir="false" afterPath="$PROJECT_DIR$/themes/ync/assets/css/tailwind.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/ync/assets/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/themes/ync/assets/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/ync/assets/js/manifest.js" beforeDir="false" afterPath="$PROJECT_DIR$/themes/ync/assets/js/manifest.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/ync/assets/js/vendor.js" beforeDir="false" afterPath="$PROJECT_DIR$/themes/ync/assets/js/vendor.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/ync/assets/mix-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/themes/ync/assets/mix-manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/ync/layouts/partials/banner.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/ync/layouts/partials/banner.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/ync/layouts/partials/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/ync/layouts/partials/footer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/ync/layouts/partials/menu.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/ync/layouts/partials/menu.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/ync/layouts/partials/projects.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/ync/layouts/partials/projects.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/ync/layouts/partials/what-we-do.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/ync/layouts/partials/what-we-do.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/ync/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/themes/ync/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/ync/src/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/themes/ync/src/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/ync/src/js/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/themes/ync/src/js/tailwind.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/ync/src/sass/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/themes/ync/src/sass/app.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/ync/src/sass/tailwind.css" beforeDir="false" afterPath="$PROJECT_DIR$/themes/ync/src/sass/tailwind.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/ync/webpack.mix.js" beforeDir="false" afterPath="$PROJECT_DIR$/themes/ync/webpack.mix.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/ync/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/themes/ync/yarn.lock" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -43,44 +11,23 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="vertical" split-proportion="0.47361478">
-      <split-first>
-        <leaf>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/static/admin/config.yml">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="307">
-                  <caret line="53" column="35" selection-start-line="53" selection-start-column="25" selection-end-line="53" selection-end-column="35" />
-                  <folding>
-                    <element signature="e#588#1471#0" />
-                    <element signature="e#3731#4177#0" />
-                    <element signature="e#4180#4882#0" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/themes/ync/layouts/projects/single.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="81">
-                  <caret line="3" column="37" lean-forward="true" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="37" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/static/admin/config.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="31" column="35" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
+              <folding>
+                <element signature="e#588#1471#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>bg-</find>
-      <find>ul {</find>
       <find>flex flex-wrap justify-between items-center</find>
       <find>nav</find>
       <find>hover</find>
@@ -109,6 +56,8 @@
       <find>1240</find>
       <find>12</find>
       <find>macy</find>
+      <find>con</find>
+      <find>tags</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -199,13 +148,18 @@
             <path>
               <item name="yncdesign-hugo" type="b2602c69:ProjectViewProjectNode" />
               <item name="yncdesign-hugo" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="content" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yncdesign-hugo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yncdesign-hugo" type="462c0819:PsiDirectoryNode" />
+              <item name="content" type="462c0819:PsiDirectoryNode" />
+              <item name="projects" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="yncdesign-hugo" type="b2602c69:ProjectViewProjectNode" />
               <item name="yncdesign-hugo" type="462c0819:PsiDirectoryNode" />
               <item name="data" type="462c0819:PsiDirectoryNode" />
-              <item name="contact" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -273,18 +227,18 @@
       <workItem from="1561271873128" duration="52000" />
       <workItem from="1561271980008" duration="613000" />
       <workItem from="1561363983895" duration="4574000" />
-      <workItem from="1561449135468" duration="5854000" />
+      <workItem from="1561449135468" duration="6353000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="120233000" />
+    <option name="totallyTimeSpent" value="120732000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.10823909" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14458804" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -502,16 +456,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/content/projects/acamis.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="297">
-            <caret line="11" column="38" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/themes/ync/layouts/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
@@ -655,19 +599,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/themes/ync/layouts/projects/single.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="3" column="37" lean-forward="true" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="37" />
+        <state relative-caret-position="189">
+          <caret line="19" column="10" lean-forward="true" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/projects/acamis.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="270">
+            <caret line="10" column="15" lean-forward="true" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/static/admin/config.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="53" column="35" selection-start-line="53" selection-start-column="25" selection-end-line="53" selection-end-column="35" />
+        <state relative-caret-position="425">
+          <caret line="31" column="35" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
           <folding>
             <element signature="e#588#1471#0" />
-            <element signature="e#3731#4177#0" />
-            <element signature="e#4180#4882#0" />
           </folding>
         </state>
       </provider>
