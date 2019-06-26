@@ -1,7 +1,9 @@
 window.jQuery = require('jquery')
 
-import 'owl.carousel';
 import CursorEffect from "../js/cursor-effect/cursor";
+
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // You can also use <link> for styles
 
 if (document.querySelector(".cursor-effect")) {
   const cursorEffect = new CursorEffect();
@@ -10,6 +12,7 @@ if (document.querySelector(".cursor-effect")) {
 import Macy from "macy";
 
 $(document).ready(function () {
+  AOS.init();
   
   // Smooth Scrolling
   $('a[href*="#"]').on('click', function (e) {
@@ -22,28 +25,6 @@ $(document).ready(function () {
       500,
       'linear'
     );
-  });
-  
-  //Projects Owl Carousel
-  $('.owl-carousel').owlCarousel({
-    items: 3,
-    loop: true,
-    autoplay: true,
-    autoplayTimeout: 3000,
-    autoplayHoverPause: true,
-    lazyLoad: true,
-    responsiveClass: true,
-    responsive: {
-      0: {
-        items: 1,
-      },
-      480: {
-        items: 2,
-      },
-      768: {
-        items: 3,
-      }
-    }
   });
   
   // Download PDF
@@ -66,7 +47,7 @@ $(document).ready(function () {
   //Responsive Menu
   (function(){
     let burger = document.querySelector('.burger-container'),
-      header = document.querySelector('.header');
+        header = document.querySelector('.header');
     
     burger.onclick = function() {
       header.classList.toggle('menu-opened');

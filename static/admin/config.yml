@@ -29,10 +29,12 @@ collections: # A list of collections the CMS should be able to edit
       {label: "Text", name: "text", widget: "text"}]}
 
   - name: "projects" # Used in routes, ie.: /admin/collections/:slug/edit
-    label: "Projects" # Used in the UI, ie.: "New Post"
+    label: "New Project" # Used in the UI, ie.: "New Post"
     folder: "content/projects" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     fields:
+      - {label: "Project Background", name: project_bg, widget: string}
+      - {label: "Project Color", name: project_color, widget: string}
       - {label: Title, name: title, widget: string}
       - {label: Subtitle, name: subtitle, widget: markdown}
       - {label: Image, name: image, widget: image}
@@ -43,8 +45,6 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Description", name: block, widget: list, fields: [
         {label: "Title", name: "text", widget: string},
         {label: "Content", name: "content", widget: markdown}]}
-      - {label: "Tags", name: tags, widget: list, fields: [
-        {label: "Title", name: "text", widget: string}]}
       - {label: "Image List", name: image_list, widget: list, fields: [
         {label: "Image", name: "image", widget: image}]}
 
@@ -57,9 +57,6 @@ collections: # A list of collections the CMS should be able to edit
         fields:
           - {label: Title, name: title, widget: string}
           - {label: Subtitle, name: subtitle, widget: markdown}
-          - {label: Image, name: image, widget: image}
-          - {label: CTA, name: cta, widget: string}
-          - {label: URL, name: url, widget: string}
       - file: "data/home/projects.json"
         label: "Projects"
         name: "projects"

@@ -25,8 +25,15 @@ header {
 }
 
 .banner {
+
   @media only screen and (min-width: 992px) {
     height: 100vh;
+  }
+
+  @media only screen and (min-width: 1240px) {
+    .hero-title {
+      font-size: 72px;
+    }
   }
 
   .confetti {
@@ -37,16 +44,6 @@ header {
 
 .container {
   padding: 0 1rem;
-}
-
-.section-projects {
-  @media only screen and (min-width: 992px) {
-    height: 380px;
-
-    .owl-carousel-wrap {
-      top: -40px
-    }
-  }
 }
 
 a {
@@ -86,6 +83,7 @@ a {
 nav {
   li {
     margin-right: 30px;
+
     &:last-child {
       margin-right: 0;
     }
@@ -95,7 +93,7 @@ nav {
     display: inline-block;
     border: 1px solid #811CF8;
     padding: 8px 16px;
-    border-radius: 4px;
+    border-radius: 30px;
     color: #811CF8;
 
     &:hover, &:focus {
@@ -107,23 +105,27 @@ nav {
 
 .section-projects {
   ul {
-    img {
-      height: 240px;
-      object-position: 0 0;
-      box-shadow: 1px 1px 5px 1px rgba(39, 39, 39, 0.5);
-      transition: 0.32s ease-in-out;
+    li {
+
+
+      @media only screen and (min-width: 768px) {
+        width: 50%;
+      }
+
+      @media only screen and (min-width: 992px) {
+        width: 66.66%;
+
+        &:nth-of-type(2),
+        &:nth-of-type(3) {
+          width: 33.33%;
+        }
+      }
     }
 
-    a {
-      height: 100%;
+    img {
+      height: 445px;
+      object-position: 0 0;
       transition: 0.32s ease-in-out;
-
-      &:hover {
-          transform: scale(1.05);
-          img {
-            box-shadow: 0 25px 50px -12px rgba(0,0,0,.25);
-          }
-      }
     }
   }
 }
@@ -143,6 +145,15 @@ footer {
     left: 0;
     right: 0;
   }
+
+  &.hire-us {
+    .title {
+      @media only screen and (min-width: 1240px) {
+        font-size: 72px;
+      }
+    }
+  }
+
   .download-profile {
     display: none;
   }
@@ -199,7 +210,7 @@ footer {
 .contact-form-wrap {
   border-radius: 4px;
   background-color: #FFFFFF;
-  box-shadow: 10px 15px 40px 0 rgba(0,0,0,0.2);
+  box-shadow: 10px 15px 40px 0 rgba(0, 0, 0, 0.2);
 
   label {
     color: #9b9b9b;
@@ -233,11 +244,17 @@ footer {
 }
 
 .what-we-do {
+  h2 {
+    @media only screen and (min-width: 1240px) {
+      font-size: 72px;
+    }
+  }
+
   li {
 
-    @media only screen and (min-width: 992px){
-      border-bottom: 1px solid rgba(255,255,255,0.2);
-      border-right: 1px solid rgba(255,255,255,0.2);
+    @media only screen and (min-width: 992px) {
+      border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+      border-right: 1px solid rgba(255, 255, 255, 0.2);
 
       &:nth-child(4) {
         border-right: 0;
@@ -307,15 +324,18 @@ $menuItems: 7;
           background: #f67534;
           transition: all 0.3s $cubic;
           transition-delay: 0s;
+
           &.topBar {
             transform: translateY(0px) rotate(0deg);
           }
+
           &.btmBar {
             transform: translateY(6px) rotate(0deg);
           }
         }
       }
     }
+
     .icon {
       display: inline-block;
       position: absolute;
@@ -327,6 +347,7 @@ $menuItems: 7;
       font-size: 22px;
       left: 50%;
       transform: translateX(-50%);
+
       &.icon-bag {
         right: 0;
         top: 0;
@@ -336,11 +357,13 @@ $menuItems: 7;
         transition-delay: 0.65s;
       }
     }
+
     ul.menu {
       position: relative;
       display: block;
       padding: 0px 48px 0;
       list-style: none;
+
       li.menu-item {
         border-bottom: 1px solid #333;
         margin-top: 5px;
@@ -352,6 +375,7 @@ $menuItems: 7;
             transition-delay: #{0.56 - ($i * 0.07)}s;
           }
         }
+
         a {
           display: block;
           position: relative;
@@ -364,27 +388,33 @@ $menuItems: 7;
         }
       }
     }
+
     &.menu-opened {
       height: 100%;
       width: 100%;
       background-color: #000;
       transition: all 0.3s ease-in, background 0.5s ease-in;
       transition-delay: 0.25s;
+
       .burger-container {
         transform: rotate(90deg);
+
         #burger {
           .bar {
             transition: all 0.4s $cubic;
             transition-delay: 0.2s;
+
             &.topBar {
               transform: translateY(4px) rotate(45deg);
             }
+
             &.btmBar {
               transform: translateY(3px) rotate(-45deg);
             }
           }
         }
       }
+
       ul.menu {
         li.menu-item {
           transform: scale(1) translateY(0px);
@@ -396,6 +426,7 @@ $menuItems: 7;
           }
         }
       }
+
       .icon {
         &.icon-bag {
           transform: translateX(75px);
@@ -404,28 +435,34 @@ $menuItems: 7;
       }
     }
   }
+
   .content {
     padding: 67px 4% 0;
     text-align: justify;
     overflow: scroll;
     max-height: 100%;
-    &::-webkit-scrollbar  {
+
+    &::-webkit-scrollbar {
       display: none;
     }
+
     h2 {
       margin-bottom: 0px;
       letter-spacing: 1px;
     }
+
     img {
       width: 95%;
       position: relative;
       display: block;
       margin: 75px auto 75px;
+
       &:nth-of-type(2) {
         margin: 75px auto;
       }
     }
   }
+
   @media(max-width: 600px) {
     width: 100%;
     .header {
@@ -433,3 +470,4 @@ $menuItems: 7;
     }
   }
 }
+

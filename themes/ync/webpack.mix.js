@@ -45,8 +45,8 @@ mix.js('src/js/app.js', 'js/app.js').version();
 
 mix.extract([
   'jquery',
-  'owl.carousel',
-  'macy'
+  'macy',
+  'aos'
 ]);
 
 mix.autoload({
