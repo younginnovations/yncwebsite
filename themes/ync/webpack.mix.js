@@ -46,7 +46,8 @@ mix.js('src/js/app.js', 'js/app.js').version();
 mix.extract([
   'jquery',
   'macy',
-  'aos'
+  'aos',
+  'rellax'
 ]);
 
 mix.autoload({

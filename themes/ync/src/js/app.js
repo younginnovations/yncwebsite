@@ -3,6 +3,7 @@ window.jQuery = require('jquery')
 import CursorEffect from "../js/cursor-effect/cursor";
 
 import AOS from 'aos';
+import Rellax from 'rellax'
 import 'aos/dist/aos.css'; // You can also use <link> for styles
 
 if (document.querySelector(".cursor-effect")) {
@@ -12,6 +13,16 @@ if (document.querySelector(".cursor-effect")) {
 import Macy from "macy";
 
 $(document).ready(function () {
+  // Also can pass in optional settings block
+  let rellax = new Rellax('.rellax', {
+    speed: -2,
+    center: true,
+    wrapper: null,
+    round: true,
+    vertical: true,
+    horizontal: false
+  });
+  
   AOS.init();
   
   // Smooth Scrolling
