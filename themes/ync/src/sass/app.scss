@@ -27,7 +27,7 @@ header {
 .banner {
 
   @media only screen and (min-width: 992px) {
-    height: 100vh;
+    height: calc(100vh - 300px);
   }
 
   @media only screen and (min-width: 1240px) {
@@ -39,6 +39,54 @@ header {
   .confetti {
     background: url("/img/ic_confetti.svg") no-repeat left center/cover;
     z-index: 1;
+  }
+}
+
+.view-btn {
+  position: absolute;
+  z-index: 10;
+  top: -84px;
+  right: 16px;
+
+  a {
+    padding-right: 60px;
+  }
+
+  &:hover {
+    .line {
+      transform: translateX(-100px);
+      width: 110px;
+      transition: all 0.25s ease-in-out;
+      right: -40px;
+    }
+    .line:after {
+      opacity: 0;
+      transition: all 0.25s ease-in-out;
+    }
+  }
+
+  .line {
+    display: inline-block;
+    height: 2px;
+    width: 44px;
+    background: #811CF8;
+    position: absolute;
+    right: 0;
+    transition: all 0.25s ease-in-out;
+
+    &:after {
+      content: '';
+      display: inline-block;
+      width: 15px;
+      height: 15px;
+      background: currentColor;
+      border-radius: 50%;
+      border: 1px solid currentColor;
+      position: absolute;
+      right: 0;
+      top: -7px;
+      transition: all 0.25s linear;
+    }
   }
 }
 
@@ -103,10 +151,21 @@ nav {
   }
 }
 
-.section-projects {
+.project-grid {
   .img-list {
     @media only screen and (min-width: 768px) {
       width: 50%;
+    }
+
+    &.project-list {
+      @media only screen and (min-width: 992px) {
+        width: 33.33%;
+
+        &:nth-of-type(2),
+        &:nth-of-type(3) {
+          width: 33.33%;
+        }
+      }
     }
 
     @media only screen and (min-width: 992px) {
@@ -159,13 +218,9 @@ nav {
       .title-wrap {
         color: #fff;
         position: relative;
-        display: flex;
         height: 100%;
         z-index: 6;
-        justify-content: start;
-        align-items: center;
         font-family: 'Quicksand', sans-serif;
-        padding: 20px 50px;
       }
 
       h2 {
@@ -176,8 +231,15 @@ nav {
 
       a {
         font-size: 18px;
-        text-decoration: underline;
-        display: inline-block;
+        text-decoration: none;
+        padding: 20px 50px;
+
+        > span {
+          display: flex;
+          height: 100%;
+          align-items: center;
+          flex-wrap: wrap;
+        }
       }
     }
 

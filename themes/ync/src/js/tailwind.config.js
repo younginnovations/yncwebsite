@@ -15,7 +15,6 @@ module.exports = {
       primary: 'var(--primary)',
       secondary: 'var(--secondary)',
       'base-color': 'var(--baseColor)',
-      'menu-link-base-color': 'var(--menulinkBaseColor)',
       red: colors.red,
       yellow: colors.yellow,
       green: colors.green,

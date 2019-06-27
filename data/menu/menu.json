@@ -2,24 +2,9 @@
   "logo": "/img/yandc-logo.png",
   "menu": [
     {
-      "text": "Home",
-      "link": "/",
-      "class": "menu-item"
-    },
-    {
-      "text": "Projects",
+      "text": "View Projects",
       "link": "/projects",
-      "class": "menu-item"
-    },
-    {
-      "text": "Hire Us",
-      "link": "#hire-us",
-      "class": "hire-us"
-    },
-    {
-      "text": "Our Profile",
-      "link": "https://storage.googleapis.com/yipl-site/YNC/YandC-profile.pdf",
-      "class": "download-profile"
+      "class": "projects"
     }
   ]
 }

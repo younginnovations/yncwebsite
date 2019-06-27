@@ -3,7 +3,7 @@ project_bg: '#f23c4e'
 project_color: '#fff'
 title: ACAMIS
 subtitle: Academy of Culinary Arts Management Information System
-image: /img/acamis-banner.png
+image: /img/acamis-banner.jpg
 services_provided:
   - UI/UX Design
   - Graphic Design

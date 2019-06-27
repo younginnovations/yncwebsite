@@ -1,7 +1,7 @@
 ---
 title: Infrastructure Management System - Dhangadhi
 subtitle: Infrastructure Management System
-image: /img/ims.png
+image: /img/ims-banner.jpg
 services_provided:
   - UI/UX Design
   - Graphic Design

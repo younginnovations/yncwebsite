@@ -1,14 +1,23 @@
 {{ with .Site.Data.home.herobanner }}
-<section class="relative banner pt-32 md:pt-0">
-    <div class="relative md:h-full">
-        <div class="rellax confetti absolute top-0 left-0 right-0 bottom-0 w-full h-full" data-rellax-speed="10"></div>
-        <div class="container md:flex flex-wrap h-full items-center mx-auto">
-            <div class="relative flex-1 md:max-w-5xl md:mx-auto z-10 lg:pt-20">
+<section class="banner">
+    <div class="relative md:h-full z-10">
+        <div class="hidden confetti absolute top-0 left-0 right-0 bottom-0 w-full h-full"></div>
+        <div class="container relative md:flex flex-wrap h-full items-center mx-auto">
+            <div class="relative flex-1 md:max-w-5xl md:mx-auto z-10">
                 <div class="lg:w-2/3">
                     <h1 class="rellax hero-title uppercase text-black font-bold font-quicksand leading-tight text-3xl lg:text-6xl mb-6 lg:mb-10"
-                        data-rellax-speed="3">
+                        data-rellax-speed="1">
                         {{.title}}</h1>
-                    <p class="rellax md:text-xl opacity-75" data-rellax-speed="2">{{.subtitle}}</p>
+                    <p class="rellax md:text-xl opacity-75" data-rellax-speed="-1">{{.subtitle}}</p>
+                </div>
+            </div>
+            <div class="view-btn">
+                <div>
+                    <a class="hover:text-primary transition uppercase
+                    text-sm text-primary flex items-center" href="/projects" title="Project list">
+                        View projects
+                        <span class="line"></span>
+                    </a>
                 </div>
             </div>
         </div>

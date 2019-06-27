@@ -10,7 +10,7 @@ if (document.querySelector(".cursor-effect")) {
   const cursorEffect = new CursorEffect();
 }
 
-import Macy from "macy";
+// import Macy from "macy";
 
 $(document).ready(function () {
   // Also can pass in optional settings block
@@ -65,17 +65,17 @@ $(document).ready(function () {
     }
   }());
   
-  Macy({
-    // See below for all available options.
-    container: '#macy-container',
-    mobileFirst: true,
-    trueOrder: false,
-    waitForImages: false,
-    margin: 80,
-    columns: 2,
-    breakAt: {
-      768: 2,
-      320: 1
-    }
-  });
+  // Macy({
+  //   // See below for all available options.
+  //   container: '#macy-container',
+  //   mobileFirst: true,
+  //   trueOrder: false,
+  //   waitForImages: false,
+  //   margin: 80,
+  //   columns: 2,
+  //   breakAt: {
+  //     768: 2,
+  //     320: 1
+  //   }
+  // });
 });

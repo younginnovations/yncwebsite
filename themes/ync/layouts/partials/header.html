@@ -6,7 +6,7 @@
 
 <!-- Header Start -->
 {{ with $.Site.Data.menu.menu }}
-<header class="absolute left-0 right-0 top-0 z-50 py-3 md:py-6 lg:py-10">
+<header class="py-3 px-4 md:py-6 lg:py-12">
     <div class="container mx-auto">
         <div class="flex flex-wrap justify-center md:justify-between items-center">
             <!-- Brand Logo -->
@@ -17,7 +17,7 @@
             </div>
 
             <!-- Nav links, forms, and other content for toggling -->
-            <nav class="hidden md:block">
+            <nav class="hidden">
                 {{ partial "menu.html" . }}
             </nav>
         </div>
