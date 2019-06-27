@@ -1,4 +1,6 @@
 ---
+project_bg: 'rgb(236, 196, 23)'
+project_color: 'rgb(14, 23, 36)'
 title: Infrastructure Management System - Dhangadhi
 subtitle: Infrastructure Management System
 image: /img/ims-banner.jpg
