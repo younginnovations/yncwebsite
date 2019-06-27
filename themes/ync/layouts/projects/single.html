@@ -1,17 +1,18 @@
 {{ define "main" }}
 <section class="project-detail"
          style="background-color: {{.Params.project_bg}}; color: {{.Params.project_color}}">
-    <div class="project-detail-banner pt-32 pb-10 relative overflow-hidden">
+    <div class="project-detail-banner px-4 pt-32 pb-10 relative overflow-hidden">
         <div class="relative h-full">
             <div class="container mx-auto h-full">
-                <div class="w-full h-full lg:max-w-4xl lg:pt-16 mx-auto flex justify-between flex-col md:pr-4 ">
-                    <div class="md:max-w-sm lg:max-w-xs">
-                        <h1 class="font-quicksand font-black text-3xl lg:text-5xl mb-4">{{.Title}}</h1>
+                <div class="w-full h-full lg:max-w-full lg:pt-16 mx-auto flex justify-between flex-col md:pr-4 ">
+                    <div class="md:max-w-sm">
+                        <h1 class="font-quicksand font-black text-3xl md:text-4xl xl:text-5xl mb-4">{{.Title}}</h1>
                         <p>{{ .Params.subtitle}}</p>
                     </div>
                     <div class="mt-10 md:mt-0">
                         <a class="relative back-icon text-primary
-                         hover:text-secondary transition" href="/projects" style="color: {{.Params.project_color}}">Back to Projects</a>
+                         hover:text-secondary transition" href="/projects"
+                           style="color: {{.Params.project_color}}">Back to Projects</a>
                     </div>
                 </div>
             </div>
@@ -22,7 +23,7 @@
     </div>
     <div class="pt-10 lg:pt-16">
         <div class="container mx-auto">
-            <div class="max-w-4xl mx-auto">
+            <div class="px-4 max-w-4xl lg:max-w-full mx-auto">
                 <div class="flex flex-wrap -mx-4">
                     <div class="w-full md:w-2/3 px-4">
                         <div>
@@ -37,7 +38,7 @@
                         </div>
                     </div>
                     <div class="w-full md:w-1/3 px-4">
-                        <div>
+                        <div class="-mb-10">
                             <div class="mb-10">
                                 <h4 class="font-bold font-quicksand mb-4">Services Provided</h4>
                                 <ul class="services flex flex-wrap">
@@ -52,16 +53,18 @@
                                 <h4 class="font-bold font-quicksand mb-4">Website</h4>
                                 <span>
                                     <a class="break-all inline-block hover:text-secondary text-primary transition"
+                                       style="color: {{.Params.project_color}}"
                                        target="_blank" href="{{.Params.website}}">{{.Params.website}}</a>
                                 </span>
                             </div>
                             {{ end }}
 
                             {{ if .Params.case_study }}
-                            <div>
+                            <div class="mb-10">
                                 <h4 class="font-bold font-quicksand mb-4">Case Study</h4>
                                 <span>
                                     <a class="break-all inline-block hover:text-secondary text-primary transition"
+                                       style="color: {{.Params.project_color}}"
                                        target="_blank" href="{{.Params.case_study}}">{{.Params.case_study}}</a>
                                 </span>
                             </div>

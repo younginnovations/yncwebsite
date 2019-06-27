@@ -45,8 +45,12 @@ header {
 .view-btn {
   position: absolute;
   z-index: 50;
-  top: 62px;
-  right: 16px;
+  top: -90px;
+  right: 0;
+
+  @media only screen and (min-width: 992px) {
+    top: 62px;
+  }
 
   a {
     padding-right: 60px;
@@ -88,10 +92,6 @@ header {
       transition: all 0.25s linear;
     }
   }
-}
-
-.container {
-  padding: 0 1rem;
 }
 
 a {
@@ -224,15 +224,25 @@ nav {
       }
 
       h2 {
-        font-size: 50px;
-        line-height: 63px;
+        font-size: 40px;
+        line-height: 50px;
         margin-bottom: 16px;
+
+        @media only screen and (min-width: 1240px) {
+          font-size: 50px;
+          line-height: 63px;
+        }
       }
 
       a {
-        font-size: 18px;
+        font-size: 14px;
         text-decoration: none;
-        padding: 20px 50px;
+        padding: 20px;
+
+        @media only screen and (min-width: 1240px) {
+          font-size: 18px;
+          padding: 20px 50px;
+        }
 
         > span {
           display: flex;
