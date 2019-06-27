@@ -1,4 +1,7 @@
 ---
+project_bg: '#3d4144'
+project_color: '#f2c57c'
+published_date: 2019-06-27T10:34:38.494Z
 title: NGO Distro
 subtitle: Where Can You Find Unique Myspace Layouts Nowadays
 image: /img/ngo-distro-banner.png
