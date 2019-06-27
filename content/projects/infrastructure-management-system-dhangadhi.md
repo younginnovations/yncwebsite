@@ -1,6 +1,6 @@
 ---
-project_bg: 'rgb(236, 196, 23)'
-project_color: 'rgb(14, 23, 36)'
+project_bg: '#ecc417'
+project_color: '#0f1f2f'
 published_date: 2019-06-27T10:34:14.515Z
 title: Infrastructure Management System - Dhangadhi
 subtitle: Infrastructure Management System
