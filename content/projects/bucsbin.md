@@ -1,10 +1,12 @@
 ---
+project_bg: '#66e460'
+project_color: '#333333'
+published_date: 2019-06-13T09:42:46.261Z
 title: BUCSBIN
 subtitle: >-
   An inspired way of learning new competencies, developing, supporting &
   creating business and innovative solutions.
 image: /img/bucsbin-banner.jpg
-published_date: 2019-06-13T09:42:46.261Z
 services_provided:
   - UI/UX Design
   - Videography
