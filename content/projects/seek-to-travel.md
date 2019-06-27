@@ -1,6 +1,7 @@
 ---
 project_bg: '#3f3f3f'
 project_color: '#ffffff'
+published_date: 2019-06-27T10:35:42.905Z
 title: Seek To Travel
 subtitle: >-
   We are a Technology Company based in Sydney, Australia. Our mission is to
