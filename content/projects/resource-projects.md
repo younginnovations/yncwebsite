@@ -1,4 +1,7 @@
 ---
+project_bg: '#492156'
+project_color: '#ffffff'
+published_date: 2019-06-27T10:32:05.029Z
 title: Resource Projects
 subtitle: >-
   Open source data on oil, gas and mining payments. Explore payments made by
