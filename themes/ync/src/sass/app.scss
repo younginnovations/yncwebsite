@@ -27,7 +27,7 @@ header {
 .banner {
 
   @media only screen and (min-width: 992px) {
-    height: calc(100vh - 300px);
+    height: 100vh;
   }
 
   @media only screen and (min-width: 1240px) {
@@ -44,8 +44,8 @@ header {
 
 .view-btn {
   position: absolute;
-  z-index: 10;
-  top: -84px;
+  z-index: 50;
+  top: 62px;
   right: 16px;
 
   a {
@@ -301,24 +301,8 @@ footer {
 }
 
 .project-detail-banner {
-  background-color: #EDF4FC;
-
   @media only screen and (min-width: 768px) {
-    height: calc(100vh - 50px);
-  }
-}
-
-//.masonry-with-columns {
-//  @media only screen and (min-width: 992px) {
-//    columns: 2 200px;
-//    column-gap: 5px;
-//  }
-//}
-
-.owl-stage-outer {
-  padding: 40px 0;
-  @media only screen and (min-width: 992px) {
-    padding: 80px 0;
+    height: calc(100vh - 144px);
   }
 }
 

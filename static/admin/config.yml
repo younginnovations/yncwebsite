@@ -35,6 +35,7 @@ collections: # A list of collections the CMS should be able to edit
     fields:
       - {label: "Project Background", name: project_bg, widget: string}
       - {label: "Project Color", name: project_color, widget: string}
+      - {label: "Published Date", name: published_date, widget: datetime}
       - {label: Title, name: title, widget: string}
       - {label: Subtitle, name: subtitle, widget: markdown}
       - {label: Image, name: image, widget: image}

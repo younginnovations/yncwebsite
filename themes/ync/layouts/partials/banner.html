@@ -1,5 +1,16 @@
 {{ with .Site.Data.home.herobanner }}
 <section class="banner">
+    <div class="relative container mx-auto">
+        <div class="view-btn">
+            <div>
+                <a class="hover:text-primary transition uppercase
+                    text-sm text-primary flex items-center" href="/projects" title="Project list">
+                    View projects
+                    <span class="line"></span>
+                </a>
+            </div>
+        </div>
+    </div>
     <div class="relative md:h-full z-10">
         <div class="hidden confetti absolute top-0 left-0 right-0 bottom-0 w-full h-full"></div>
         <div class="container relative md:flex flex-wrap h-full items-center mx-auto">
@@ -9,15 +20,6 @@
                         data-rellax-speed="1">
                         {{.title}}</h1>
                     <p class="rellax md:text-xl opacity-75" data-rellax-speed="-1">{{.subtitle}}</p>
-                </div>
-            </div>
-            <div class="view-btn">
-                <div>
-                    <a class="hover:text-primary transition uppercase
-                    text-sm text-primary flex items-center" href="/projects" title="Project list">
-                        View projects
-                        <span class="line"></span>
-                    </a>
                 </div>
             </div>
         </div>
