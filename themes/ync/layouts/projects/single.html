@@ -1,43 +1,53 @@
 {{ define "main" }}
-<section class="project-detail"
-         style="background-color: {{.Params.project_bg}}; color: {{.Params.project_color}}">
-    <div class="project-detail-banner px-4 pt-32 pb-10 relative overflow-hidden">
-        <div class="relative h-full">
-            <div class="container mx-auto h-full">
-                <div class="w-full h-full lg:max-w-full lg:pt-16 mx-auto flex justify-between flex-col md:pr-4 ">
-                    <div class="md:max-w-sm">
-                        <h1 class="font-quicksand font-black text-3xl md:text-4xl xl:text-5xl mb-4">{{.Title}}</h1>
-                        <p>{{ .Params.subtitle}}</p>
+<section class="project-detail">
+         <!--style="background-color: {{.Params.project_bg}}; color: {{.Params.project_color}}">-->
+    <div class="project-detail-banner px-4 pt-32 pb-10 relative">
+        <div class="relative">
+            <div class="container mx-auto">
+                <div class="lg:pt-10 md:pr-4 ">
+                    <div class="back-btn inline-block">
+                        <div>
+                            <a class="hover:text-primary transition uppercase
+                    text-sm text-primary flex items-center" href="/projects" title="Project list">
+                                Back to Projects
+                                <span class="line"></span>
+                            </a>
+                        </div>
                     </div>
-                    <div class="mt-10 md:mt-0">
-                        <a class="relative back-icon text-primary
-                         hover:text-secondary transition" href="/projects"
-                           style="color: {{.Params.project_color}}">Back to Projects</a>
+                    <div class="mt-12 text-black">
+                        <h1 class="title font-quicksand font-normal text-black">{{.Title}}</h1>
+                        <div class="max-w-md mt-8">
+                            <h2 class="font-quicksand text-2xl uppercase mb-5">{{.Params.block_title}}</h2>
+                            <p class="leading-relaxed text-black text-lg">
+                                {{.Params.block_description}}
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="hidden md:block project-detail-image w-1/2 h-64 lg:h-auto top-0 absolute right-0 bottom-0">
-                <img class="w-full h-full block" src="{{ .Params.image }}" alt="{{ .Title }}" />
-            </div>
         </div>
+    </div>
+    <div class="project-detail-image lg:h-auto">
+        <img class="w-full h-full block" src="{{ .Params.project_banner }}" alt="{{ .Title }}" />
     </div>
     <div class="pt-10 lg:pt-16">
         <div class="container mx-auto">
             <div class="px-4 max-w-4xl lg:max-w-full mx-auto">
                 <div class="flex flex-wrap -mx-4">
-                    <div class="w-full md:w-2/3 px-4">
+                    <div class="w-full md:w-1/6 px-4 mb-5">
                         <div>
-                            <ul>
-                                {{ range .Params.block}}
-                                <li class="mb-16">
-                                    <h3 class="font-bold font-quicksand text-3xl mb-8">{{.text}}</h3>
-                                    <p class="lg:text-lg">{{.content}}</p>
-                                </li>
-                                {{end}}
-                            </ul>
+                            <h2 class="font-quicksand font-normal text-black text-2xl uppercase">{{.Params.block_title_1}}</h2>
                         </div>
                     </div>
-                    <div class="w-full md:w-1/3 px-4">
+                    <div class="w-full md:w-3/6 px-4 mb-5">
+                        <div>
+                            <p class="lg:px-20 leading-relaxed text-lg text-black">
+                               {{.Params.block_description_1}}
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="w-full md:w-2/6 px-4">
                         <div class="-mb-10">
                             <div class="mb-10">
                                 <h4 class="font-bold font-quicksand mb-4">Services Provided</h4>
@@ -64,7 +74,6 @@
                                 <h4 class="font-bold font-quicksand mb-4">Case Study</h4>
                                 <span>
                                     <a class="break-all inline-block hover:text-secondary text-primary transition"
-                                       style="color: {{.Params.project_color}}"
                                        target="_blank" href="{{.Params.case_study}}">{{.Params.case_study}}</a>
                                 </span>
                             </div>

@@ -1,20 +1,20 @@
-<section class="rellax list-page relative px-4 py-12 lg:pb-24 z-10" data-rellax-speed="1">
+<section class="lg:-mt-32 list-page relative px-4 py-12 lg:pb-24 z-10">
     <div class="container mx-auto">
-        <div class="project-grid flex flex-wrap -mx-4 -mb-10">
+        <div class="project-grid flex flex-wrap -mx-4 -mb-8">
             {{ with .Site.GetPage "/projects" }}
-            {{ range $index, $element := (.Paginator 4).Pages }}
-            <div class="rellax img-list px-4 mb-10" data-rellax-speed="{{index (slice 1 2 2 1) $index}}">
+            {{ range sort (.Paginator 4).Pages ".Params.published_date" "desc"}}
+            <div class="img-list px-4 mb-8">
                 <figure>
                     <div>
-                        <img class="w-full object-cover inline-block" src="{{.Params.Image}}" alt="{{.Title}}">
+                        <img class="w-full object-cover inline-block" src="{{.Params.project_thumbnail}}" alt="{{.Title}}">
                     </div>
                     <figcaption>
                         <div class="blur"></div>
                         <div class="title-wrap">
-                            <a class="block h-full" href="{{.RelPermalink}}" title="{{.Title}}">
+                            <a class="block h-g" href="{{.RelPermalink}}" title="{{.Title}}">
                                 <span>
                                     <span>
-                                        <h2 class="w-full">{{.Title}}</h2>
+                                        <h2 class="w-g">{{.Title}}</h2>
                                         <span>View project</span>
                                     </span>
                                 </span>

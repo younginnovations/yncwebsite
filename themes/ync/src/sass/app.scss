@@ -9,21 +9,6 @@ header {
   }
 }
 
-.back-icon {
-  position: relative;
-  padding-left: 25px;
-
-  &:before {
-    content: '';
-    position: absolute;
-    top: 5px;
-    left: 0;
-    width: 14px;
-    height: 14px;
-    background: url("/img/ic_back-icon.svg") no-repeat;
-  }
-}
-
 .banner {
 
   @media only screen and (min-width: 992px) {
@@ -76,6 +61,7 @@ header {
     background: #811CF8;
     position: absolute;
     right: 0;
+    top: 11px;
     transition: all 0.25s ease-in-out;
 
     &:after {
@@ -88,6 +74,52 @@ header {
       border: 1px solid currentColor;
       position: absolute;
       right: 0;
+      top: -7px;
+      transition: all 0.25s linear;
+    }
+  }
+}
+
+.back-btn {
+  position: relative;
+
+  a {
+    padding-left: 60px;
+  }
+
+  &:hover {
+    .line {
+      transform: translateX(100px);
+      width: 110px;
+      transition: all 0.25s ease-in-out;
+      left: -40px;
+    }
+    .line:after {
+      opacity: 0;
+      transition: all 0.25s ease-in-out;
+    }
+  }
+
+  .line {
+    display: inline-block;
+    height: 2px;
+    width: 44px;
+    background: #811CF8;
+    position: absolute;
+    left: 0;
+    top: 11px;
+    transition: all 0.25s ease-in-out;
+
+    &:after {
+      content: '';
+      display: inline-block;
+      width: 15px;
+      height: 15px;
+      background: currentColor;
+      border-radius: 50%;
+      border: 1px solid currentColor;
+      position: absolute;
+      left: 0;
       top: -7px;
       transition: all 0.25s linear;
     }
@@ -238,6 +270,8 @@ nav {
         font-size: 14px;
         text-decoration: none;
         padding: 20px;
+        display: flex;
+        height: 100%;
 
         @media only screen and (min-width: 1240px) {
           font-size: 18px;
@@ -260,7 +294,6 @@ nav {
 
   img {
     height: 445px;
-    object-position: 0 0;
     transition: 0.32s ease-in-out;
   }
 }
@@ -311,8 +344,19 @@ footer {
 }
 
 .project-detail-banner {
+  h1 {
+    font-size: 36px;
+  }
   @media only screen and (min-width: 768px) {
-    height: calc(100vh - 144px);
+    h1 {
+      font-size: 50px;
+    }
+  }
+
+  @media only screen and (min-width: 992px) {
+    h1 {
+      font-size: 72px;
+    }
   }
 }
 
