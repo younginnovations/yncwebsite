@@ -3,7 +3,7 @@ project_bg: '#f23c4e'
 project_color: '#fff'
 published_date: 2019-06-27T10:30:48.267Z
 title: ACAMIS
-project_thumbnail: /img/acamis-thumbnail.png
+project_thumbnail: /img/acamis-banner.jpg
 block_title: Challenge/ Problem
 block_description: >-
   Academy of Culinary Arts is a hospitality college based in Nepal. They wanted
