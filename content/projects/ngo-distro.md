@@ -15,14 +15,15 @@ block_description: >-
 project_banner: /img/ngo-distro-banner.png
 block_title_1: Our Approach
 block_description_1: >-
-  The idea started with playing around the letters N, G and O. Fiddling around
-  this idea gave birth to a mark that looked like a fingerprint. This also
-  matched with our mission of building a tool that would help NGOs to create a
-  website with simple taps of their fingertips. 
+  We started with designing the logo playing around the letters N, G and O to
+  form a monogram. Fiddling around this idea gave birth to a mark that looked
+  like a fingerprint. This also matched with our mission of building a tool that
+  would help NGOs to create a website with simple taps of their fingertips. 
 
 
   For the landing page, we wanted to look different than other CMSs out there.
-  So we chose to go with a bit of  retro-look. Check out http://ngodistro.com
+  So we chose to go with a bit of  retro-look. Apart from landing page and the
+  logo, we've also designed several themes for the CMS.
 services_provided:
   - Illustration
   - Brand Identity
