@@ -23,6 +23,8 @@ services_provided:
   - Graphic Design
   - Photography
 website: 'https://ims.susasan.org/'
+case_study: >-
+  https://www.behance.net/gallery/69665633/Infrastructure-Management-System-Dhangadhi
 image_list:
   - image: /img/ims-1-case-study.jpg
   - image: /img/ims-2-case-study.jpg
