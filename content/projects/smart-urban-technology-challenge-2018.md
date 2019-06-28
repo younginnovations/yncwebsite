@@ -30,7 +30,6 @@ services_provided:
 website: 'https://kathmanduchallenge.org/'
 case_study: ''
 image_list:
-  - image: /img/sutc-banner.jpeg
   - image: /img/sutc-image-1.png
   - image: /img/sutc-image-2.png
   - image: /img/sutc-image-3.jpeg
