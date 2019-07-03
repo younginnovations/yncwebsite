@@ -4,9 +4,10 @@
             {{ with .Site.GetPage "/projects" }}
             {{ range sort (.Paginator 4).Pages ".Params.published_date" "asc"}}
             <div class="img-list px-4 mb-8">
-                <figure>
-                    <div>
-                        <img class="w-full object-cover inline-block" src="{{.Params.project_thumbnail}}" alt="{{.Title}}">
+                <figure class="overflow-hidden">
+                    <div class="effect is-animation relative">
+                        <img class="w-full object-cover inline-block"
+                             src="{{.Params.project_thumbnail}}" alt="{{.Title}}">
                     </div>
                     <figcaption>
                         <div class="blur"></div>

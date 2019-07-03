@@ -3,7 +3,7 @@ window.jQuery = require('jquery')
 import CursorEffect from "../js/cursor-effect/cursor";
 
 import AOS from 'aos';
-import Rellax from 'rellax'
+// import Rellax from 'rellax'
 import 'aos/dist/aos.css'; // You can also use <link> for styles
 
 if (document.querySelector(".cursor-effect")) {
@@ -14,14 +14,14 @@ if (document.querySelector(".cursor-effect")) {
 
 $(document).ready(function () {
   // Also can pass in optional settings block
-  let rellax = new Rellax('.rellax', {
-    speed: -2,
-    center: true,
-    wrapper: null,
-    round: true,
-    vertical: true,
-    horizontal: false
-  });
+  // let rellax = new Rellax('.rellax', {
+  //   speed: -2,
+  //   center: true,
+  //   wrapper: null,
+  //   round: true,
+  //   vertical: true,
+  //   horizontal: false
+  // });
   
   AOS.init();
   
@@ -79,3 +79,27 @@ $(document).ready(function () {
   //   }
   // });
 });
+
+let prevPosition = {};
+const imageElements = $(".effect")
+console.log(imageElements)
+
+$(window).scroll(function() {
+  // var scroll = $(window).scrollTop();
+  // console.log(scroll)
+  // if (scroll >= 100) {
+  //   $(".effect").addClass("is-animation");
+  // } else {
+  //   $(".effect").removeClass("is-animation");
+  // }
+  // imageElements.forEach(function(elem) {
+  //   console.log(elem)
+  // })
+  $.each(imageElements, function(index, elem) {
+    let position = $(elem).position().top
+    
+    console.log(position)
+    prevPosition[index] = $(elem).position().top
+  })
+
+}); //missing );
