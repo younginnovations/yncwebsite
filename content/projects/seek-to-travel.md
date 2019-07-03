@@ -21,6 +21,8 @@ block_description_1: >-
   the end, the compass one got approved. 
 
 
+
+
   For the web platform, we went with a minimal and luxury feel. A lot of spaces
   were used in the website’s design to create a feel of relaxation for the
   users.
