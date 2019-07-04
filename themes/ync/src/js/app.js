@@ -3,27 +3,36 @@ window.jQuery = require('jquery')
 import CursorEffect from "../js/cursor-effect/cursor";
 
 import AOS from 'aos';
-// import Rellax from 'rellax'
+import Rellax from 'rellax'
 import 'aos/dist/aos.css'; // You can also use <link> for styles
 
 if (document.querySelector(".cursor-effect")) {
   const cursorEffect = new CursorEffect();
 }
 
-// import Macy from "macy";
-
 $(document).ready(function () {
   // Also can pass in optional settings block
-  // let rellax = new Rellax('.rellax', {
-  //   speed: -2,
-  //   center: true,
-  //   wrapper: null,
-  //   round: true,
-  //   vertical: true,
-  //   horizontal: false
-  // });
+  let rellax = new Rellax('.rellax', {
+    speed: -2,
+    center: true,
+    wrapper: null,
+    round: true,
+    vertical: true,
+    horizontal: false
+  });
   
   AOS.init();
+  
+  //
+  $('.contact-btn a').on('click', function(){
+    $('.contact-section').parent().parents().css({"background-color": "rgba(129,28,248,0.2)", "transition": "all 0.25s"});
+    $('.contact-section').addClass('is-active');
+  });
+  
+  $('.close').on('click', function(){
+    $(this).parent().parent().parents().css({'background-color': 'transparent', "transition": "all 0.25s"});
+    $(this).parents().removeClass('is-active');
+  });
   
   // Smooth Scrolling
   $('a[href*="#"]').on('click', function (e) {
@@ -64,42 +73,18 @@ $(document).ready(function () {
       header.classList.toggle('menu-opened');
     }
   }());
-  
-  // Macy({
-  //   // See below for all available options.
-  //   container: '#macy-container',
-  //   mobileFirst: true,
-  //   trueOrder: false,
-  //   waitForImages: false,
-  //   margin: 80,
-  //   columns: 2,
-  //   breakAt: {
-  //     768: 2,
-  //     320: 1
-  //   }
-  // });
 });
 
-let prevPosition = {};
-const imageElements = $(".effect")
-console.log(imageElements)
-
 $(window).scroll(function() {
-  // var scroll = $(window).scrollTop();
-  // console.log(scroll)
-  // if (scroll >= 100) {
-  //   $(".effect").addClass("is-animation");
-  // } else {
-  //   $(".effect").removeClass("is-animation");
-  // }
-  // imageElements.forEach(function(elem) {
-  //   console.log(elem)
-  // })
-  $.each(imageElements, function(index, elem) {
-    let position = $(elem).position().top
-    
-    console.log(position)
-    prevPosition[index] = $(elem).position().top
-  })
+  var scroll = $(window).scrollTop();
+  
+  if (scroll >= 150) {
+    $(".animation").addClass("is-active");
+  } else {
+    $(".animation").removeClass("is-active");
+  }
+});
 
-}); //missing );
+if ($(window).width() > 768) {
+  $('body').removeClass('animation');
+}

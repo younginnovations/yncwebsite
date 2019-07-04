@@ -1,11 +1,11 @@
-<section class="lg:-mt-32 list-page relative px-4 py-12 lg:pb-24 z-10">
+<section class="xl:-mt-32 list-page relative px-4 py-12 lg:pb-24 z-10">
     <div class="container mx-auto">
         <div class="project-grid flex flex-wrap -mx-4 -mb-8">
             {{ with .Site.GetPage "/projects" }}
             {{ range sort (.Paginator 4).Pages ".Params.published_date" "asc"}}
             <div class="img-list px-4 mb-8">
                 <figure class="overflow-hidden">
-                    <div class="effect is-animation relative">
+                    <div class="effect relative">
                         <img class="w-full object-cover inline-block"
                              src="{{.Params.project_thumbnail}}" alt="{{.Title}}">
                     </div>
