@@ -25,13 +25,13 @@ $(document).ready(function () {
   
   //
   $('.contact-btn a').on('click', function(){
-    $('.contact-section').parent().parents().css({"background-color": "rgba(129,28,248,0.2)", "transition": "all 0.25s"});
+    $('.hire-us').css({"background-color": "rgba(129,28,248,0.2)", "transition": "all 0.25s"});
     $('.contact-section').addClass('is-active');
   });
   
   $('.close').on('click', function(){
-    $(this).parent().parent().parents().css({'background-color': 'transparent', "transition": "all 0.25s"});
-    $(this).parents().removeClass('is-active');
+    $('.hire-us').css({'background-color': 'transparent', "transition": "all 0.25s"});
+    $('.contact-section').removeClass('is-active');
   });
   
   // Smooth Scrolling

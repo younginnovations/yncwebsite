@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Creating Impact through design on YNC Design</title>
-    <link>https://yncdesign.netlify.com/banner/</link>
+    <link>https://design.yipl.com.np/banner/</link>
     <description>Recent content in Creating Impact through design on YNC Design</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="https://yncdesign.netlify.com/banner/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://design.yipl.com.np/banner/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>

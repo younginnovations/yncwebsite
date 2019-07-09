@@ -29,20 +29,24 @@ collections: # A list of collections the CMS should be able to edit
       {label: "Text", name: "text", widget: "text"}]}
 
   - name: "projects" # Used in routes, ie.: /admin/collections/:slug/edit
-    label: "Projects" # Used in the UI, ie.: "New Post"
+    label: "Project" # Used in the UI, ie.: "New Post"
     folder: "content/projects" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     fields:
+      - {label: "Project Background", name: project_bg, widget: string}
+      - {label: "Project Color", name: project_color, widget: string}
+      - {label: "Published Date", name: published_date, widget: datetime}
       - {label: Title, name: title, widget: string}
-      - {label: Subtitle, name: subtitle, widget: markdown}
-      - {label: Image, name: image, widget: image}
+      - {label: "Project Thumbnail", name: project_thumbnail, widget: image}
+      - {label: "Description Title", name: block_title, widget: string}
+      - {label: "Description", name: block_description, widget: markdown}
+      - {label: "Project Banner", name: project_banner, widget: image}
+      - {label: "Description Title", name: block_title_1, widget: string}
+      - {label: "Description", name: block_description_1, widget: markdown}
       - {label: "Services Provided", name: services_provided, widget: select, multiple: true,
          options: ["UI/UX Design", "Mobile App Design", "Graphic Design", "Illustration", "Brand Identity", "Videography", "Photography", "Motion Graphics"], default: ["UI/UX Design"]}
       - {label: Website, name: website, widget: string, required: false}
       - {label: "Case Study", name: case_study, widget: string, required: false}
-      - {label: "Description", name: block, widget: list, fields: [
-        {label: "Title", name: "text", widget: string},
-        {label: "Content", name: "content", widget: markdown}]}
       - {label: "Image List", name: image_list, widget: list, fields: [
         {label: "Image", name: "image", widget: image}]}
 
@@ -55,9 +59,6 @@ collections: # A list of collections the CMS should be able to edit
         fields:
           - {label: Title, name: title, widget: string}
           - {label: Subtitle, name: subtitle, widget: markdown}
-          - {label: Image, name: image, widget: image}
-          - {label: CTA, name: cta, widget: string}
-          - {label: URL, name: url, widget: string}
       - file: "data/home/projects.json"
         label: "Projects"
         name: "projects"

@@ -2,74 +2,74 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>YNC Design</title>
-    <link>https://yncdesign.netlify.com/</link>
+    <link>https://design.yipl.com.np/</link>
     <description>Recent content on YNC Design</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="https://yncdesign.netlify.com/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://design.yipl.com.np/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>ACAMIS</title>
-      <link>https://yncdesign.netlify.com/projects/acamis/</link>
+      <link>https://design.yipl.com.np/projects/acamis/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://yncdesign.netlify.com/projects/acamis/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>BUCSBIN</title>
-      <link>https://yncdesign.netlify.com/projects/bucsbin/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://yncdesign.netlify.com/projects/bucsbin/</guid>
+      <guid>https://design.yipl.com.np/projects/acamis/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Bibek &amp; Palak wedding invitation card</title>
-      <link>https://yncdesign.netlify.com/projects/bibek-palak-wedding-invitation-card/</link>
+      <link>https://design.yipl.com.np/projects/bibek-palak-wedding-invitation-card/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://yncdesign.netlify.com/projects/bibek-palak-wedding-invitation-card/</guid>
+      <guid>https://design.yipl.com.np/projects/bibek-palak-wedding-invitation-card/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Infrastructure Management System - Dhangadhi</title>
-      <link>https://yncdesign.netlify.com/projects/infrastructure-management-system-dhangadhi/</link>
+      <link>https://design.yipl.com.np/projects/infrastructure-management-system-dhangadhi/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://yncdesign.netlify.com/projects/infrastructure-management-system-dhangadhi/</guid>
+      <guid>https://design.yipl.com.np/projects/infrastructure-management-system-dhangadhi/</guid>
       <description></description>
     </item>
     
     <item>
       <title>NGO Distro</title>
-      <link>https://yncdesign.netlify.com/projects/ngo-distro/</link>
+      <link>https://design.yipl.com.np/projects/ngo-distro/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://yncdesign.netlify.com/projects/ngo-distro/</guid>
+      <guid>https://design.yipl.com.np/projects/ngo-distro/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Resource Projects</title>
-      <link>https://yncdesign.netlify.com/projects/resource-projects/</link>
+      <link>https://design.yipl.com.np/projects/resource-projects/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://yncdesign.netlify.com/projects/resource-projects/</guid>
+      <guid>https://design.yipl.com.np/projects/resource-projects/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Smart Urban Technology Challenge</title>
-      <link>https://yncdesign.netlify.com/projects/smart-urban-technology-challenge/</link>
+      <title>Seek To Travel</title>
+      <link>https://design.yipl.com.np/projects/seek-to-travel/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://yncdesign.netlify.com/projects/smart-urban-technology-challenge/</guid>
+      <guid>https://design.yipl.com.np/projects/seek-to-travel/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Smart Urban Technology Challenge 2018</title>
+      <link>https://design.yipl.com.np/projects/smart-urban-technology-challenge-2018/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://design.yipl.com.np/projects/smart-urban-technology-challenge-2018/</guid>
       <description></description>
     </item>
     
