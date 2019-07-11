@@ -6,27 +6,30 @@
         </div>
         <div class="project-grid flex flex-wrap -mx-4 -mb-8">
             {{ with .Site.GetPage "/projects" }}
-            {{ range sort .Pages ".Params.published_date" "desc" }}
-                <div class="project-list img-list w-full md:w-1/2 lg:w-1/3 px-4 mb-8">
-                <figure>
-                    <div>
-                        <img style="height: 400px;" class="w-full object-cover inline-block" src="{{.Params.project_thumbnail}}" alt="{{.Title}}">
-                    </div>
-                    <figcaption>
-                        <div class="blur"></div>
-                        <div class="title-wrap">
-                            <a class="block h-full" href="{{.RelPermalink}}" title="{{.Title}}">
-                                <span>
-                                    <span>
-                                        <h2 class="w-full">{{.Title}}</h2>
-                                        <span>View project</span>
-                                    </span>
-                                </span>
-                            </a>
+            {{ range $index, $element := sort .Pages ".Params.published_date" "desc" }}
+                <div data-aos="zoom-out-up" data-aos-once="true" data-aos-delay="{{mul $index 100}}"
+                     class="project-list img-list w-full md:w-1/2 lg:w-1/3
+            px-4 mb-8">
+                    <figure>
+                        <div>
+                            <img style="height: 400px;" class="w-full object-cover inline-block" src="{{$element.Params.project_thumbnail}}"
+                                 alt="{{$element.Title}}">
                         </div>
-                    </figcaption>
-                </figure>
-            </div>
+                        <figcaption>
+                            <div class="blur"></div>
+                            <div class="title-wrap">
+                                <a class="block h-full" href="{{$element.RelPermalink}}" title="{{$element.Title}}">
+                                    <span>
+                                        <span>
+                                            <h2 class="w-full">{{$element.Title}}</h2>
+                                            <span>View project</span>
+                                        </span>
+                                    </span>
+                                </a>
+                            </div>
+                        </figcaption>
+                    </figure>
+                </div>
             {{ end }}
             {{ end }}
         </div>
