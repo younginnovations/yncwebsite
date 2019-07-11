@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3b49d0da-53f4-4999-a4ff-5adc9e1dec38" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/themes/ync/layouts/partials/banner.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/ync/layouts/partials/banner.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/ync/src/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/themes/ync/src/js/app.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,12 +13,13 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/themes/ync/layouts/partials/banner.html">
+        <entry file="file://$PROJECT_DIR$/themes/ync/src/js/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="19" column="70" selection-start-line="19" selection-start-column="70" selection-end-line="19" selection-end-column="70" />
+            <state relative-caret-position="-1356">
+              <caret line="19" column="37" lean-forward="true" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
               <folding>
-                <element signature="n#div#0;n#div#0;n#section#0;n#!!top" />
+                <element signature="e#35#89#0" expanded="true" />
+                <element signature="e#636#752#0" />
               </folding>
             </state>
           </provider>
@@ -76,7 +77,6 @@
         <option value="$PROJECT_DIR$/themes/ync/layouts/section/about.html" />
         <option value="$PROJECT_DIR$/themes/ync/static/img/favicons/manifest.json" />
         <option value="$PROJECT_DIR$/themes/ync/static/img/favicons/browserconfig.xml" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/themes/ync/layouts/partials/favicon.html" />
         <option value="$PROJECT_DIR$/themes/ync/layouts/partials/head.html" />
         <option value="$PROJECT_DIR$/themes/ync/src/js/macy-masonry/macy.min.js" />
@@ -114,12 +114,13 @@
         <option value="$PROJECT_DIR$/themes/ync/layouts/_default/baseof.html" />
         <option value="$PROJECT_DIR$/themes/ync/layouts/partials/card-effect.html" />
         <option value="$PROJECT_DIR$/themes/ync/layouts/partials/projects.html" />
-        <option value="$PROJECT_DIR$/themes/ync/src/js/app.js" />
         <option value="$PROJECT_DIR$/themes/ync/layouts/section/projects.html" />
         <option value="$PROJECT_DIR$/themes/ync/layouts/partials/what-we-do.html" />
         <option value="$PROJECT_DIR$/themes/ync/src/sass/app.scss" />
         <option value="$PROJECT_DIR$/themes/ync/layouts/partials/header.html" />
         <option value="$PROJECT_DIR$/themes/ync/layouts/partials/banner.html" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/themes/ync/src/js/app.js" />
       </list>
     </option>
   </component>
@@ -142,6 +143,32 @@
             <path>
               <item name="yncdesign-hugo" type="b2602c69:ProjectViewProjectNode" />
               <item name="yncdesign-hugo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yncdesign-hugo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yncdesign-hugo" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yncdesign-hugo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yncdesign-hugo" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="ync" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yncdesign-hugo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yncdesign-hugo" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="ync" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yncdesign-hugo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yncdesign-hugo" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="ync" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -215,18 +242,18 @@
       <workItem from="1562129568671" duration="8004000" />
       <workItem from="1562227316051" duration="6314000" />
       <workItem from="1562254408668" duration="2912000" />
-      <workItem from="1562399733615" duration="11189000" />
+      <workItem from="1562399733615" duration="11414000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="181205000" />
+    <option name="totallyTimeSpent" value="181430000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.073505655" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14297253" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -507,12 +534,33 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/ync/static/img/final-landing-page-1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/themes/ync/layouts/partials/banner.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="19" column="70" selection-start-line="19" selection-start-column="70" selection-end-line="19" selection-end-column="70" />
+        <state relative-caret-position="324">
+          <caret line="20" column="39" lean-forward="true" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
           <folding>
             <element signature="n#div#0;n#div#0;n#section#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/ync/src/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1356">
+          <caret line="19" column="37" lean-forward="true" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
+          <folding>
+            <element signature="e#35#89#0" expanded="true" />
+            <element signature="e#636#752#0" />
           </folding>
         </state>
       </provider>
