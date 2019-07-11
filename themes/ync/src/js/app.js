@@ -4,11 +4,20 @@ import CursorEffect from "../js/cursor-effect/cursor";
 
 import AOS from 'aos';
 import Rellax from 'rellax'
+import simpleParallax from 'simple-parallax-js'
+
 import 'aos/dist/aos.css'; // You can also use <link> for styles
 
 if (document.querySelector(".cursor-effect")) {
   const cursorEffect = new CursorEffect();
 }
+
+var image = document.getElementsByClassName('effect-img');
+new simpleParallax(image, {
+  scale: 1.4,
+  delay: 1,
+  transition: 'cubic-bezier(0.215, 0.61, 0.355, 1)'
+});
 
 $(document).ready(function () {
   // Also can pass in optional settings block
