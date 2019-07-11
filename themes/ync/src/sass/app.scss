@@ -285,6 +285,7 @@ nav {
     }
 
     &.project-list {
+      opacity: 0;
       @media only screen and (min-width: 992px) {
         width: 33.33%;
 
@@ -384,6 +385,7 @@ nav {
 
     img {
       transition: all 0.25s ease-in-out;
+      object-position: 100%;
     }
   }
 

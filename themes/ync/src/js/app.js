@@ -8,14 +8,15 @@ import simpleParallax from 'simple-parallax-js'
 
 import 'aos/dist/aos.css'; // You can also use <link> for styles
 
-if (document.querySelector(".cursor-effect")) {
-  const cursorEffect = new CursorEffect();
-}
-
 $(document).ready(function () {
-  var image = document.getElementsByClassName('effect-img');
+  
+  if (document.querySelector(".cursor-effect")) {
+    const cursorEffect = new CursorEffect();
+  }
+  
+  let image = document.getElementsByClassName('effect-img');
   new simpleParallax(image, {
-    scale: 1.4,
+    scale: 1.3,
     delay: 1,
     transition: 'cubic-bezier(0.215, 0.61, 0.355, 1)'
   });

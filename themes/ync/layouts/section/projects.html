@@ -7,7 +7,7 @@
         <div class="project-grid flex flex-wrap -mx-4 -mb-8">
             {{ with .Site.GetPage "/projects" }}
             {{ range $index, $element := sort .Pages ".Params.published_date" "desc" }}
-                <div data-aos="zoom-out-up" data-aos-once="true" data-aos-delay="{{mul $index 100}}"
+                <div data-aos="fade-up" data-aos-once="true" data-aos-delay="{{mul $index 100}}"
                      class="project-list img-list w-full md:w-1/2 lg:w-1/3
             px-4 mb-8">
                     <figure>
