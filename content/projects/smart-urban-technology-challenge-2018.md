@@ -3,6 +3,7 @@ project_bg: '#6871FF'
 project_color: '#ffffff'
 published_date: 2019-06-28T10:18:58.348Z
 title: Smart Urban Technology Challenge 2018
+brief_description: Branding a city-wide tech-based competition celebrating entrepreneurial spirit
 project_thumbnail: /img/sutc-thumbnail.png
 block_title: Challenge/ Problem
 block_description: >-
