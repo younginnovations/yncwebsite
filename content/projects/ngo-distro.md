@@ -3,6 +3,7 @@ project_bg: '#3d4144'
 project_color: '#f2c57c'
 published_date: 2019-06-27T10:34:38.494Z
 title: NGO Distro
+brief_description: A simple website builder for NGOs and not-for-profits
 project_thumbnail: /img/ngo-distro-banner.png
 block_title: Challenge/ Problem
 block_description: >-
