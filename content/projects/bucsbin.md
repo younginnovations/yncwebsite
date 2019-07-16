@@ -3,6 +3,7 @@ project_bg: '#70BD3C'
 project_color: '#ffffff'
 published_date: 2019-07-11T05:59:56.571Z
 title: BUCSBIN
+brief_description: Branding a new way of learning and teaching
 project_thumbnail: /img/bucsbin-thumbnail.png
 block_title: Challenges/ Problem
 block_description: >-
