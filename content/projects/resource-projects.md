@@ -3,6 +3,7 @@ project_bg: '#492156'
 project_color: '#ffffff'
 published_date: 2019-06-28T10:32:05.029Z
 title: Resource Projects
+brief_description: 'Data analyses and visualization platform for oil, gas and mining payments'
 project_thumbnail: /img/resource-projects-banner.png
 block_title: Challenge/ Problems
 block_description: >-
