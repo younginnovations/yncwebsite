@@ -7,33 +7,31 @@
         <div class="project-grid flex flex-wrap -mx-4 -mb-8">
             {{ with .Site.GetPage "/projects" }}
             {{ range $index, $element := sort .Pages ".Params.published_date" "desc" }}
-                <div data-aos="fade-up" data-aos-once="true" data-aos-delay="{{mul $index 100}}"
-                     class="project-list img-list w-full md:w-1/2 lg:w-1/3
+            <div data-aos="fade-up" data-aos-once="true" data-aos-delay="{{mul $index 100}}"
+                 class="project-list img-list w-full md:w-1/2 lg:w-1/3
             px-4 mb-8">
-                    <figure>
-                        <div>
-                            <img style="height: 400px;" class="w-full object-cover inline-block" src="{{$element.Params.project_thumbnail}}"
-                                 alt="{{$element.Title}}">
+                <figure>
+                    <div>
+                        <img style="height: 400px;" class="w-full object-cover inline-block" src="{{$element.Params.project_thumbnail}}"
+                             alt="{{$element.Title}}">
+                    </div>
+                    <figcaption>
+                        <div class="blur"></div>
+                        <div class="title-wrap">
+                            <a class="block h-full" href="{{$element.RelPermalink}}" title="{{$element.Title}}">
+                                <span>
+                                    <span class="block w-full title">{{.Title}}</span>
+                                    <span class="block w-full -mt-3 text-sm">{{.Params.brief_description}}</span>
+                                    <span class="inline-block mt-10">View project <i class="not-italic text-lg">➞</i></span>
+                                </span>
+                            </a>
                         </div>
-                        <figcaption>
-                            <div class="blur"></div>
-                            <div class="title-wrap">
-                                <a class="block h-full" href="{{$element.RelPermalink}}" title="{{$element.Title}}">
-                                    <span>
-                                        <span>
-                                            <h2 class="w-full">{{$element.Title}}</h2>
-                                            <span>View project</span>
-                                        </span>
-                                    </span>
-                                </a>
-                            </div>
-                        </figcaption>
-                    </figure>
-                </div>
+                    </figcaption>
+                </figure>
+            </div>
             {{ end }}
             {{ end }}
         </div>
     </div>
 </section>
-
 {{ end }}

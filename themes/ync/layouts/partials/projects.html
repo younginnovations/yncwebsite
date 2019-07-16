@@ -2,7 +2,7 @@
     <div class="container mx-auto">
         <div class="project-grid flex flex-wrap -mx-4 -mb-8">
             {{ with .Site.GetPage "/projects" }}
-            {{ range sort (.Paginator 4).Pages ".Params.published_date" "asc"}}
+            {{ range sort (.Paginator 4).Pages ".Params.published_date" "desc"}}
             <div class="img-list px-4 mb-8">
                 <figure class="overflow-hidden">
                     <div class="effect relative">
@@ -12,12 +12,11 @@
                     <figcaption>
                         <div class="blur"></div>
                         <div class="title-wrap">
-                            <a class="block h-g" href="{{.RelPermalink}}" title="{{.Title}}">
+                            <a class="block h-full" href="{{.RelPermalink}}" title="{{.Title}}">
                                 <span>
-                                    <span>
-                                        <h2 class="w-g">{{.Title}}</h2>
-                                        <span>View project</span>
-                                    </span>
+                                    <span class="block w-full title">{{.Title}}</span>
+                                    <span class="block w-full -mt-3 text-sm">{{.Params.brief_description}}</span>
+                                    <span class="inline-block mt-10">View project <i class="not-italic text-lg">➞</i></span>
                                 </span>
                             </a>
                         </div>

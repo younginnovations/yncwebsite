@@ -351,7 +351,7 @@ nav {
         font-family: 'Quicksand', sans-serif;
       }
 
-      h2 {
+      .title {
         font-size: 40px;
         line-height: 50px;
         margin-bottom: 16px;
@@ -367,6 +367,7 @@ nav {
         text-decoration: none;
         padding: 20px;
         display: flex;
+        align-items: center;
         height: 100%;
 
         @media only screen and (min-width: 1240px) {
@@ -376,8 +377,6 @@ nav {
 
         > span {
           display: flex;
-          height: 100%;
-          align-items: center;
           flex-wrap: wrap;
         }
       }
@@ -750,7 +749,7 @@ $menuItems: 7;
     }
 
     h2 {
-      margin-bottom: 0px;
+      margin-bottom: 0;
       letter-spacing: 1px;
     }
 
