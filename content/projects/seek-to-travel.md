@@ -3,6 +3,9 @@ project_bg: '#3f3f3f'
 project_color: '#ffffff'
 published_date: 2019-06-27T10:35:42.905Z
 title: Seek To Travel
+brief_description: >-
+  Identity and web design for a platform connecting travelers with local travel
+  agents.
 project_thumbnail: /img/seek-to-travel-banner.jpg
 block_title: Challenge/ Problem
 block_description: >-
