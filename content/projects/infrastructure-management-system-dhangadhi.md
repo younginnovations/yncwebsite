@@ -3,6 +3,7 @@ project_bg: '#ecc417'
 project_color: '#0f1f2f'
 published_date: 2019-06-27T10:34:14.515Z
 title: Infrastructure Management System - Dhangadhi
+brief_description: Visualizing municipalities’ infrastructure projects
 project_thumbnail: /img/ims-banner.jpg
 block_title: Challenge/ Problem
 block_description: >-
