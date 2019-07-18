@@ -22,6 +22,7 @@ block_description_1: >-
   new wave of change.
 services_provided:
   - UI/UX Design
+  - Brand Identity
 website: 'https://bucsbin.org'
 case_study: 'https://www.behance.net/gallery/82597145/Bucsbin-Branding-Case-Study'
 image_list:
