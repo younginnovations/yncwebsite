@@ -21,6 +21,6 @@ services_provided:
   - UI/UX Design
   - Graphic Design
 image_list:
-  - image: /img/acamis-case-study.jpg
+  - image: /img/acamis-case-study.jpg  
 ---
 

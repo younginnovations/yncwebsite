@@ -50,6 +50,11 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Case Study", name: case_study, widget: string, required: false}
       - {label: "Image List", name: image_list, widget: list, fields: [
         {label: "Image", name: "image", widget: image}]}
+      - {label: "Description List", name: description_list, required: false, widget: list, fields: [
+        {label: "Description Title", name: inner_block_title, widget: string}
+        {label: "Description", name: inner_block_description, widget: markdown}
+        {label: "Image List", name: inner_image_list, widget: list, fields: [
+        {label: "Image", name: inner_image, widget: image}]}]}
 
   - name: "home-section"
     label: "Homepage"

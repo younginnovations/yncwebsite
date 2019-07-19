@@ -1,19 +1,26 @@
-window.jQuery = require('jquery')
-
-import CursorEffect from "../js/cursor-effect/cursor";
+window.jQuery = require('jquery');
 
 import AOS from 'aos';
-import Rellax from 'rellax'
-import simpleParallax from 'simple-parallax-js'
+import Rellax from 'rellax';
+import simpleParallax from 'simple-parallax-js';
+import CursorEffect from './cursor';
 
 import 'aos/dist/aos.css'; // You can also use <link> for styles
 
+if (document.querySelector('.cursor-effect')) {
+  const cursor = new CursorEffect();
+}
+
+$(window).on('load', function () {
+  $('body').addClass('overflow-hidden');
+  setTimeout(function () {
+    $('body').removeClass('overflow-hidden');
+  }, 4000);
+  $('.loader').delay(4000).fadeOut('slow');
+  $('#overlayer').delay(4000).fadeOut('slow');
+});
+
 $(document).ready(function () {
-  
-  if (document.querySelector(".cursor-effect")) {
-    const cursorEffect = new CursorEffect();
-  }
-  
   let image = document.getElementsByClassName('effect-img');
   new simpleParallax(image, {
     scale: 1.3,
@@ -34,13 +41,13 @@ $(document).ready(function () {
   AOS.init();
   
   //
-  $('.contact-btn a').on('click', function(){
-    $('.hire-us').css({"background-color": "rgba(129,28,248,0.2)", "transition": "all 0.25s"});
+  $('.contact-btn a').on('click', function () {
+    $('.hire-us').css({ 'background-color': 'rgba(129,28,248,0.2)', 'transition': 'all 0.25s' });
     $('.contact-section').addClass('is-active');
   });
   
-  $('.close').on('click', function(){
-    $('.hire-us').css({'background-color': 'transparent', "transition": "all 0.25s"});
+  $('.close').on('click', function () {
+    $('.hire-us').css({ 'background-color': 'transparent', 'transition': 'all 0.25s' });
     $('.contact-section').removeClass('is-active');
   });
   
@@ -75,23 +82,23 @@ $(document).ready(function () {
   });
   
   //Responsive Menu
-  (function(){
-    let burger = document.querySelector('.burger-container'),
-        header = document.querySelector('.header');
-    
-    burger.onclick = function() {
-      header.classList.toggle('menu-opened');
-    }
-  }());
+  // (function(){
+  //   let burger = document.querySelector('.burger-container'),
+  //       header = document.querySelector('.header');
+  //
+  //   burger.onclick = function() {
+  //     header.classList.toggle('menu-opened');
+  //   }
+  // }());
 });
 
-$(window).scroll(function() {
+$(window).scroll(function () {
   var scroll = $(window).scrollTop();
   
   if (scroll >= 150) {
-    $(".animation").addClass("is-active");
+    $('.animation').addClass('is-active');
   } else {
-    $(".animation").removeClass("is-active");
+    $('.animation').removeClass('is-active');
   }
 });
 

@@ -1,5 +1,5 @@
 <!doctype html>
-<html amp lang="en">
+<html lang="en">
 {{ partial "favicon.html" . }}
 
 {{ partial "head.html" . }}
@@ -10,6 +10,10 @@
 {{ partial "header" . }}
 
 <main>
+    <div id="overlayer"></div>
+    <div class="loader">
+        <h1 class="loader-header">Y&C</h1>
+    </div>
     {{ block "main" . }} {{end}}
 </main>
 
