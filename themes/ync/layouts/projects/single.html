@@ -89,5 +89,35 @@
             {{end}}
         </ul>
     </div>
+
+    {{ range .Params.description_list }}
+    <div class="pt-10 lg:pt-16">
+        <div class="container mx-auto">
+            <div class="px-4 max-w-4xl lg:max-w-full mx-auto">
+                <div class="flex flex-wrap -mx-4">
+                    <div class="w-full lg:w-1/6 px-4 mb-5">
+                        <div>
+                            <h2 class="font-quicksand font-normal text-black text-2xl uppercase">{{.inner_block_title}}</h2>
+                        </div>
+                    </div>
+                    <div class="w-full lg:w-3/6 px-4 mb-5">
+                        <div>
+                            <p class="lg:px-20 leading-relaxed text-lg text-black">
+                                {{.inner_block_description}}
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <ul class="flex flex-wrap mt-10 lg:mt-10">
+            {{ range .inner_image_list}}
+            <li class="w-full">
+                <img class="block h-full w-full object-cover" src="{{.inner_image}}" alt="{{.Title}}">
+            </li>
+            {{end}}
+        </ul>
+    </div>
+    {{ end }}
 </section>
 {{ end }}
