@@ -1,7 +1,7 @@
 ---
 project_bg: "#f23c4e"
 project_color: "#fff"
-published_date: 2019-06-27T10:30:48.267+00:00
+published_date: 2019-06-27T10:30:48+00:00
 title: ACAMIS Test
 brief_description: An easy to use interface for a school management platform
 project_thumbnail: "/img/acamis-banner.jpg"
